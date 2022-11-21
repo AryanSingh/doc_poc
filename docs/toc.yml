@@ -1,0 +1,332 @@
+- name: Welcome to SkyPoint Documentation
+  href: welcomedocs.md
+- name: Overview
+  href: overview.md
+- name: Release Notes
+  items:
+    - name: SkyPoint Releases
+      href: skypointreleases.md
+    - name: All Releases
+      href: AllReleases.md
+    - name: Release Versions
+      items:
+        - name: 4.3.0
+          href: v4.3.0.md
+        - name: 4.2.0
+          href: v4.2.0.md
+        - name: 4.1.0
+          href: v4.1.0.md
+        - name: 4.0.0
+          href: v4.0.0.md
+        - name: 3.0.0
+          href: v3.0.0.md
+        - name: 2.2.0
+          href: v2.2.0.md
+        - name: 2.1.0
+          href: v2.1.0.md
+        - name: 2.0.0
+          href: v2.0.0.md
+        - name: 1.0.0
+          href: v1.0.0.md
+        - name: Previous releases
+          href: whats-new-skypoint.md    
+- name: Getting Started 
+  items:
+    - name: Sign up
+      href: signup.md
+    - name: Log in
+      href: login.md
+- name: Dashboard
+  href: home.md
+- name: Dataflow
+  items:
+    - name: Overview
+      href: dataflows.md
+    - name: Imports
+      href: imports.md
+    - name: Exports
+      href: exports.md
+    - name: Types
+      href: types.md
+    - name: Connectors      
+      items:
+        - name: Overview
+          href: connectors.md
+        - name: Import Connectors
+          items:
+            - name: Overview
+              href: importconnectors.md
+            - name: AWS Cognito
+              href: awscognito.md
+            - name: Amazon Redshift
+              href: amazonredshift.md
+            - name: Amazon S3
+              href: amazonsthree.md
+            - name: Azure Blob Storage
+              href: azureblobstorage.md
+            - name: Azure Data Lake Storage Gen2
+              href: azuredatalakestoragegen2.md
+            - name: Boulevard
+              href: boulevard.md
+            - name: Campaign Monitor
+              href: campaignmonitor.md
+            - name: Dataverse
+              href: Dataflow-Import-Dataverse.md
+            - name: Dotdigital
+              href: dotdigital.md
+            - name: Dynamics 365
+              href: dynamics365.md
+            - name: Google Cloud Storage(S3 API)
+              href: googlecloudstorage.md
+            - name: KWI
+              href: kwi.md
+            - name: Klaviyo
+              href: klaviyo.md
+            - name: SFTP(Simple File Transfer Protocol)
+              href: sftp.md
+            - name: Salesforce
+              href: salesforce.md  
+            - name: Salesforce Marketing Cloud
+              href: salesforcemarketingcloud.md
+            - name: Shopify
+              href: ShopifyImport.md
+            - name: Square
+              href: square.md
+            - name: Stripe
+              href: stripe.md
+            - name: Zenoti
+              href: zenoti.md
+        - name: Export connectors
+          items:
+            - name: Overview
+              href: exportconnectors.md
+            - name: Amazon S3
+              href: amazons3export.md
+            - name: Azure Blob
+              href: azureblobexport.md
+            - name: Azure Data Lake Gen2
+              href: adlsgen2export.md
+            - name: Campaign Monitor
+              href: campaignmonitorexport.md
+            - name: Facebook Ads
+              href: facebookadsexport.md
+            - name: Google Ads
+              href: googleadsexport.md
+            - name: Klaviyo
+              href: klaviyoexport.md
+            - name: SendGrid
+              href: sendgridexport.md
+            - name: Power Platform Connector
+              items:
+                - name: Actions
+                  href: actions.md
+                - name: Triggers
+                  href: triggers.md
+                - name: Throttling Limits
+                  href: throttling.md
+        - name: Salesforce Marketing Cloud
+          href: sfmcexport.md
+        - name: SkyPoint Cloud Bot
+          href: skypointteamsbot.md
+- name: Lakehouse
+  items:
+    - name: Overview
+      href: lakehouse.md
+    - name: Databases
+      href: entities.md
+    - name: Relationships
+      href: relationships.md
+    - name: SQL Access
+      items:
+        - name: Getting started with Lakehouse SQL
+          href: lakehousesql.md
+        - name: Data Visualization
+          href: visualizing.md
+        - name: Data Integration with Lakehouse SQL
+          items:
+            - name: DBeaver
+              href: DBeaverIntegration.md
+            - name: Hightouch
+              href: HightouchIntegration.md
+- name: Vault
+  items:
+    - name: Overview
+      href: vault.md
+    - name: Create Datavault
+      href: createdatavault.md
+    - name: Create Tables
+      href: vault-entities.md
+    - name: Create Choices
+      href: vault-choices.md
+    - name: Create Relationships
+      href: vault-relationships.md
+    - name: Work with the Attributes
+      href: vault-attributes.md
+    - name: Create Keys
+      href: vault-keys.md
+    - name: Add Data
+      href: vault-data.md
+    - name: Compare SkyPoint Vault
+      href: compareskypointvault.md
+- name: Resolve
+  items:
+    - name: Stitch
+      items:
+        - name: Overview
+          href: stitch.md
+        - name: Map
+          href: map.md
+        - name: Match
+          items:
+            - name: Overview
+              href: match.md
+            - name: Rule Match
+              href: rulematch.md
+            - name: ML Match
+              href: mlmatch.md
+        - name: Merge
+          href: merge.md
+- name: Profile
+  items:
+    - name: Overview
+      href: profiles.md
+    - name: Customers
+      items:
+        - name: Viewing Customer Profiles
+          href: customerprofiles.md
+        - name: Split Indexer
+          href: splitindexer.md
+    - name: Enrichment
+      items:
+        - name: BigQuery
+          href: bigQuery_enrichment.md
+        - name: HERE Technologies
+          href: heretechnologies.md
+        - name: Secure File Transfer Protocol (SFTP)
+          href: sftp_enrichment.md
+    - name: Timelines
+      href: timelines.md
+- name: Predict
+  items:
+    - name: Built-In
+      items:
+        - name: Customer Churn Model
+          href: CustomerchurnOverview.md
+        - name: Transactional Churn Model
+          items:
+            - name: Overview
+              href: CustomerchurnTransactional.md
+            - name: Sample Guide For Transactional Churn Prediction(Using Rule Match)
+              href: sampleguiderulemethod.md
+            - name: Sample Guide For Transactional Churn Prediction(Using ML Match)
+              href: sampleguide.md
+        - name: Subscription Churn Model
+          items:
+            - name: Overview
+              href: CustomerchurnSubscription.md
+            - name: Sample Guide For Subscription Churn Prediction(Using Rule Match)
+              href: sampleguideforsubscriptionchurnrulemethod.md
+            - name: Sample Guide For Subscription Churn Prediction(Using ML Match)
+              href: sampleguideforsubscriptionchurn.md
+        - name: Customer Lifetime Value Model
+          items:
+            - name: Overview
+              href: clvmodel.md
+            - name: Create Customer Lifetime Value Model
+              href: clvprocesssteps.md
+            - name: Sample Guide For CLV Prediction(Using Rule Match)
+              href: sampleguideforclvrulemethod.md
+            - name: Sample Guide For CLV Prediction(Using ML Match)
+              href: sampleguideforclv.md
+        - name: Product Recommendation Model
+          items:
+            - name: Overview
+              href: productrecommendationmodel.md
+            - name: Create Product Recommendation Model
+              href: Productrecommendationprocess.md
+            - name: Sample Guide For Product Recommendation(Using Rule Match)
+              href: sampleguideforproductrecommendationrulemethod.md
+            - name: Sample Guide For Product Recommendation(Using ML Match)
+              href: sampleguideforproductrecommendation.md
+        - name: Customer Sentiment Analysis Model
+          items:
+            - name: Overview
+              href: CustomerSentimentOverview.md
+            - name: Create Customer Sentiment Analysis Model
+              href: CustomerSentimentanalysis.md
+    - name: Custom
+      items:
+        - name: Single Upload
+          href: singleupload.md
+        - name: Bulk Upload
+          href: bulkupload.md
+- name: Activate
+  items:
+    - name: Audiences
+      items:
+        - name: Overview
+          href: audiences.md
+        - name: Suggested
+          href: suggestedaudiences.md
+        - name: Insights
+          href: audienceinsights.md
+    - name: Metrics
+      href: metrics.md    
+- name: Empower
+  items:
+    - name: Overview
+      href: privacyoverview.md
+    - name: Privacy Center
+      href: privacycenter.md  
+    - name: DSR
+      href: datasubjectrequest.md
+    - name: Email Templates
+      href: privacytemplates.md
+    - name: Data Maps
+      href: datamaps.md  
+    - name: Reports
+      href: privacyreports.md
+- name: Automate
+  items:
+    - name: Overview
+      href: automate.md
+    - name: Power BI
+      href: skypointpowerbi.md
+- name: Help + Support
+  href: help+support.md
+- name: Settings
+  items:
+    - name: Overview
+      href: settings.md
+    - name: Platform
+      items:
+        - name: Status
+          href: notifications.md
+        - name: Logs
+          href: activity-stream.md
+        - name: Session
+          href: sessiondefaults.md
+        - name: Users
+          href: security.md
+        - name: Permissions
+          href: Permissions.md
+        - name: APIs
+          href: PlatformApi.md
+    - name: Schedule
+      href: schedule.md
+    - name: Billing Info
+      href: Billinginfo.md
+    - name: Instances
+      items:
+        - name: Instances
+          href: instance.md
+        - name: Tenant Defaults
+          href: tenant.md        
+- name: Application Development  
+  items:
+    - name: Developer Portal 
+      href: api.md
+    - name: API References
+      href: https://developer.skypointcloud.com/apis
+- name: Glossary
+  href: glossary.md

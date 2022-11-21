@@ -1,0 +1,34 @@
+# Bring your own storage (BYOS)
+
+SkyPoint platform offers over 200+ integrations and 100+ built-in data processing, data transformation and privacy compliance services that gives 
+you the option to store all your data in your own cloud storage, databases and related services. 
+
+We recommend BYOS for all production deployments. 
+
+You can use private endpoints for your BYOS services to allow SkyPoint services on a virtual network (VNet) to securely 
+access data over a Private Link. The private endpoint uses a separate IP address from the VNet address space for 
+each BYOS service. Network traffic between SkyPoint and the BYOS accounts traverses over the VNet and 
+a private link on the Microsoft backbone network, eliminating exposure from the public internet.
+
+You can also use IP network rules to allow access from specific SkyPoint (proxy or NAT) IP address ranges by creating IP network rules. 
+These rules grant access to specific SkyPoint services and blocks general internet traffic.
+
+## ADLS Gen 2 (Azure) 
+
+Use Private Link or IP network firewall. 
+
+## Cosmos DB (Azure) 
+
+Use Private Link or IP network firewall. 
+
+## Cognitive Search (Azure) 
+
+Use Private Link or IP network firewall. 
+
+## Key Vault (Azure) 
+
+Use a separate or dedicated key vault that contains only the secrets required for SkyPoint. Follow Microsoft best practices to use Key Vault for control access, backup, audit, and recovery options.
+
+## Maps (Azure) 
+
+Use Private Link or IP network firewall (optional)

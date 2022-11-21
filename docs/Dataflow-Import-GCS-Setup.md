@@ -1,0 +1,130 @@
+# Setting up Google Cloud Storage
+## Overview
+Specific actions can be performed on buckets or objects in Cloud Storage by principals. This is enabled by Permissions. The process of giving permissions to the principals includes granting of roles, comprising of one or more permissions bundled with them. 
+
+## Prerequisite
+You need the following resources to set up permissions for service account:
+
+- [Google Cloud Storage bucket](https://cloud.google.com/storage/docs/creating-buckets)
+- [Google Cloud account](https://cloud.google.com/apigee/docs/hybrid/v1.4/precog-gcpaccount#:~:text=To%20create%20a%20Google%20Cloud%20account%3A%201%20Open,and%20accept%20the%20Google%20Cloud%20terms%20presented.%20).
+
+## Download JSON to Set up Google Cloud Storage
+Follow the below steps to download the JSON file from Google Cloud Storage console:
+
+1. Log in to your [Google Cloud Storage console](https://developers.google.com/maps/premium/devconsole-access).
+2. Go to **IAM & Admin > Service Accounts**.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_ConsoleServiceacc.png?raw=true)
+
+---
+
+---
+
+>  :grey_exclamation: **Note:** You can find your buckets in Cloud Storage > Buckets. You can create new buckets by clicking on [Create](https://cloud.google.com/storage/docs/creating-buckets).
+
+---
+
+3. In the Service accounts page, click the **Vertical ellipses** under **Actions** column.
+
+The **Actions** menu appears.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_ConsoleServiceacccreated.png?raw=true)
+
+---
+
+4. Click **Manage keys**.
+5. Click **ADD KEY > Create new key**.
+
+The **Create private key** pop-up appears.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_ConsoleKeyJSON.png?raw=true)
+
+---
+
+6. Select **JSON**.
+7. Click **CREATE**.
+
+The **Service Account JSON** file gets created. 
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_Privatekeyoutput.png?raw=true)
+
+---
+
+---
+
+>  :grey_exclamation: **Note:** You will have to upload this JSON file by clicking on Choose File while configuring the Google Cloud Storage import connector on SkyPoint Cloud.
+
+---
+
+## To add Permissions for Service Accounts
+Follow the below steps to add permissions for your service accounts:
+
+1. Go to **IAM & Admin > Service Accounts**.
+2. Click **Permissions** tab.
+3. Click **GRANT ACCESS**.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_Grantaccess.png?raw=true)
+
+---
+
+4. In the **Grant access** page, click **ADD ANOTHER ROLE**.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_Addrole.png?raw=true)
+
+---
+
+5. Select a desired role to assign under **Cloud Storage** in the **Role** drop-down list.
+6. Click **Save**.
+
+### Create a custom Role
+In case, you need to create custom roles, follow the below steps:
+
+1. Go to **IAM & Admin > Roles**.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_Createrole.png?raw=true)
+
+---
+
+2. Click **CREATE ROLE**.
+
+---
+
+>  :grey_exclamation: **Note:** To edit an existing role, click the vertical ellipses under the Status column. This new role can be assigned in the Service Accounts.
+
+---
+
+3. Select **General Availability** in the **Role launch** stage drop-down list.
+4. Click **ADD PERMISSIONS** to create permission for the assigned role.
+5. Click **CREATE**.
+
+---
+
+![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Googlecloud_Roleedit.png?raw=true)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
