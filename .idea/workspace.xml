@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/AllReleases.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/skypointreleases.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v4.4.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/whats-new-skypoint.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-28-first-blog-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2019-05-29-long-blog-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-01-mdx-blog-post.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/2021-08-26-welcome/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/authors.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AllReleases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AllReleases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/a/source/repos/docusaurus-main",
+    "last_opened_file_path": "C:/Users/a/source/repos/restaurant",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -66,7 +62,13 @@
       <workItem from="1667972112184" duration="2362000" />
       <workItem from="1669058585531" duration="3462000" />
       <workItem from="1669182500861" duration="614000" />
-      <workItem from="1669357620842" duration="12550000" />
+      <workItem from="1669357620842" duration="13478000" />
+      <workItem from="1669576069001" duration="3936000" />
+      <workItem from="1669619003414" duration="2334000" />
+      <workItem from="1669626567591" duration="59000" />
+      <workItem from="1669661034873" duration="607000" />
+      <workItem from="1669800720456" duration="5140000" />
+      <workItem from="1669908005781" duration="20000" />
     </task>
     <servers />
   </component>

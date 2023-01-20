@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const readingTime = require('reading-time');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,9 +38,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
+          // routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
+          // beforeDefaultRemarkPlugins: [readingTime],
+          // remarkPlugins: [readingTime],
+          showLastUpdateAuthor: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

@@ -22,7 +22,7 @@ const sidebars = {
     {
       type: "doc",
       id: "intro",
-      label: "Welcome"
+      label: "Welcome to SkyPoint Documentation"
     },
     {
       type: "doc",
@@ -44,6 +44,57 @@ const sidebars = {
           type: "doc",
           id: "AllReleases",
           label: "All Releases"
+        },
+        {
+          type: "category",
+          label: "Relase Versions",
+          items: [
+            {
+              type: "doc",
+              id: "v4.4.0",
+              label: "4.4.0"
+            }, {
+              type: "doc",
+              id: "v4.3.0",
+              label: "4.3.0"
+            }, {
+              type: "doc",
+              id: "v4.2.0",
+              label: "4.2.0"
+            },{
+              type: "doc",
+              id: "v4.1.0",
+              label: "4.1.0"
+            },,{
+              type: "doc",
+              id: "v4.0.0",
+              label: "4.0.0"
+            },{
+              type: "doc",
+              id: "v3.0.0",
+              label: "3.0.0"
+            },{
+              type: "doc",
+              id: "v2.2.0",
+              label: "2.2.0"
+            },{
+              type: "doc",
+              id: "v2.1.0",
+              label: "2.1.0"
+            },{
+              type: "doc",
+              id: "v2.0.0",
+              label: "2.0.0"
+            },{
+              type: "doc",
+              id: "v1.0.0",
+              label: "1.0.0"
+            },{
+              type: "doc",
+              id: "whats-new-skypoint",
+              label: "Previous releases"
+            }
+          ]
         }
       ]
 
