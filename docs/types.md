@@ -15,7 +15,7 @@ Type management lets you classify and protect your data without hindering your p
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_Window.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_Window.png)  
 
 ---
 
@@ -25,7 +25,7 @@ The **Create type** dialog box appears.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_CreateNewType.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_CreateNewType.png)  
 
 ---
 
@@ -38,7 +38,7 @@ The **Create type** dialog box appears.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_Encryption.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_Encryption.png)  
 
 ---
 
@@ -55,7 +55,7 @@ Once the custom label is created, you can see the new custom type and all the se
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_Output.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_Output.png)  
 
 ---
 
@@ -81,7 +81,7 @@ Once the custom label is created, you can see the new custom type and all the se
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_Overview.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_Overview.png)  
 
 ---
 
@@ -89,7 +89,9 @@ Once the custom label is created, you can see the new custom type and all the se
 
 1. Go to **Dataflow** > **Types**.
 
-> :grey_exclamation: **Note**: Edit and delete functions are disabled for the **System** type sensitive labels. It allows deletion and editing for those custom labels that are not used in the **Map** process.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Edit and delete functions are disabled for the **System** type sensitive labels. It allows deletion and editing for those custom labels that are not used in the **Map** process.
 
 2. For a particular custom label type, select the horizontal ellipsis in the **Actions** column and do the following:
 
@@ -101,14 +103,16 @@ Once the custom label is created, you can see the new custom type and all the se
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TypeManagement_EditType.png?raw=true)  
+![Alt text](/doc_snippets/TypeManagement_EditType.png)  
 
 ---
 
 3. To modify sensitive information properties, change on the **Edit Type** page.
 4. Click **Update** to apply your changes.
 
-> :grey_exclamation: **Note**: If the new custom label is not configured or mapped, then you can edit and change the properties. However, if the new custom label has been used or mapped, it integrates with the upstream and downstream processes. You cannot modify it. You can update the **Display name** only.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> If the new custom label is not configured or mapped, then you can edit and change the properties. However, if the new custom label has been used or mapped, it integrates with the upstream and downstream processes. You cannot modify it. You can update the **Display name** only.
 
 - To remove the new custom label, go to the **Stitch** > **Map** and remove the semantic label type from the attribute. Click **Save** to apply your changes. Once the new custom label is unmapped, you can edit or remove it from **Dataflow** > **Types** > **Actions**.
 
@@ -119,13 +123,9 @@ You can mark your data as sensitive that would mask it to ensure its safety and 
 2. In the **Create type** form, Click **Yes** on **Sensitive** section after filling up the other sections.
 3. Click **Create**.
 
----
-:grey_exclamation: **Note:** Follow the procedure [mask sensitive data](https://skypointcdpdocs.z22.web.core.windows.net/docs/Permissions.html#to-mask-sensitive-data) steps in the **Permissions** section to activate the masking of sensitive data.
-
----
-
-
-
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Follow the procedure [mask sensitive data](https://skypointcdpdocs.z22.web.core.windows.net/docs/Permissions.html#to-mask-sensitive-data) steps in the **Permissions** section to activate the masking of sensitive data.
 
 ### See also
 

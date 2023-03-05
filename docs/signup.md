@@ -7,7 +7,9 @@ Welcome to SkyPoint Studio! Setting up a SkyPoint account is easy. Follow the si
 > [!Tip]
 > SkyPoint Studio offers a free 14-day trial. After a quick sign-up, you will get access to explore many of the applications. You can test the app with sample data and even try it out with your customer data.
 
-> :grey_exclamation: **Note**: If you have any questions, contact SkyPoint Support Team. A SkyPoint representative will help you meet any special requirements and ensure you are signing up for the most efficient and cost-effective solutions. Click [Contact Support](https://skypointcloud.com/customer-support/).
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>    
+> If you have any questions, contact SkyPoint Support Team. A SkyPoint representative will help you meet any special requirements and ensure you are signing up for the most efficient and cost-effective solutions. Click [Contact Support](https://skypointcloud.com/customer-support/).
 
 ## To sign up and create an account
 
@@ -15,15 +17,17 @@ Welcome to SkyPoint Studio! Setting up a SkyPoint account is easy. Follow the si
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignUp.png?raw=true)  
+![image](/doc_snippets/SignUp.png)  
 
 ---
 
-> :grey_exclamation: **Note**: You can click on the **Request Demo** button and provide information such as **First name**, **Last name**, **Company**, **Job title**, and **Work email** to get support from our senior Solution Architects.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>  
+> You can click on the **Request Demo** button and provide information such as **First name**, **Last name**, **Company**, **Job title**, and **Work email** to get support from our senior Solution Architects. 
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignUp_RequestDemo.png?raw=true)  
+![image](/doc_snippets/SignUp_RequestDemo.png)  
 
 ---
 
@@ -39,7 +43,7 @@ Welcome to SkyPoint Studio! Setting up a SkyPoint account is easy. Follow the si
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignUp_EnterDetails.png?raw=true)  
+![image](/doc_snippets/SignUp_EnterDetails.png)  
 
 ---
 
@@ -47,16 +51,17 @@ Welcome to SkyPoint Studio! Setting up a SkyPoint account is easy. Follow the si
 4. Enter your **Company Name** and **Job Title**.
 5. Enter **Password**.
 
-> :grey_exclamation: **Note**: It is important to set a strong password. The following points can help you to set a strong password:
-
-- Make the password at least eight characters long.
-- Use a combination of lower, and upper case letters, numbers, and other characters.
+> ![image](/doc_snippets/Note_icon.png)**Note**  
+>  
+> It is important to set a strong password. The following points can help you to set a strong password:
+> - Make the password at least eight characters long.
+> - Use a combination of lower, and upper case letters, numbers, and other characters.
 
 6. Click on the **Sign Up** button.  
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignUp_Verify.png?raw=true)  
+![image](/doc_snippets/SignUp_Verify.png)  
 
 ---
 
@@ -64,7 +69,7 @@ Welcome to SkyPoint Studio! Setting up a SkyPoint account is easy. Follow the si
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignUp_Confirmation.png?raw=true)  
+![image](/doc_snippets/SignUp_Confirmation.png)  
 
 ---
 

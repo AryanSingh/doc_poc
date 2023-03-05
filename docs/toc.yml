@@ -1,15 +1,33 @@
-- name: Welcome to SkyPoint Documentation
+- name: Welcome to SkyPoint documentation
   href: welcomedocs.md
 - name: Overview
   href: overview.md
-- name: Release Notes
+- name: Release notes
   items:
-    - name: SkyPoint Releases
+    - name: SkyPoint releases
       href: skypointreleases.md
-    - name: All Releases
+    - name: All releases
       href: AllReleases.md
-    - name: Release Versions
+    - name: Release versions
       items:
+        - name: 7.0.0
+          href: v7.0.0.md
+        - name: 6.3.0
+          href: v6.3.0.md
+        - name: 6.2.1
+          href: v6.2.1.md
+        - name: 6.2.0
+          href: v6.2.0.md
+        - name: 6.1.0
+          href: v6.1.0.md
+        - name: 6.0.0
+          href: v6.0.0.md
+        - name: 5.1.0
+          href: v5.1.0.md
+        - name: 5.0.0
+          href: v5.0.0.md
+        - name: 4.4.0
+          href: v4.4.0.md
         - name: 4.3.0
           href: v4.3.0.md
         - name: 4.2.0
@@ -30,7 +48,7 @@
           href: v1.0.0.md
         - name: Previous releases
           href: whats-new-skypoint.md    
-- name: Getting Started 
+- name: Get started 
   items:
     - name: Sign up
       href: signup.md
@@ -38,6 +56,8 @@
       href: login.md
 - name: Dashboard
   href: home.md
+- name: SkyPointGPT
+  href: SkyPointGPT.md
 - name: Dataflow
   items:
     - name: Overview
@@ -46,13 +66,19 @@
       href: imports.md
     - name: Exports
       href: exports.md
+    - name: Transformations
+      items:
+        - name: Overview
+          href: transformations.md
+        - name: Transformation with dbt Core
+          href: Transformations-dbtCore.md
     - name: Types
       href: types.md
     - name: Connectors      
       items:
         - name: Overview
           href: connectors.md
-        - name: Import Connectors
+        - name: Import connectors
           items:
             - name: Overview
               href: importconnectors.md
@@ -78,10 +104,14 @@
               href: dynamics365.md
             - name: Google Cloud Storage(S3 API)
               href: googlecloudstorage.md
+            - name: InforHMS
+              href: InforHMSimportconnector.md
             - name: KWI
               href: kwi.md
             - name: Klaviyo
               href: klaviyo.md
+            - name: PointClickCare
+              href: PCC.md
             - name: SFTP(Simple File Transfer Protocol)
               href: sftp.md
             - name: Salesforce
@@ -90,6 +120,8 @@
               href: salesforcemarketingcloud.md
             - name: Shopify
               href: ShopifyImport.md
+            - name: Snowflake
+              href: SnowflakeConnector.md
             - name: Square
               href: square.md
             - name: Stripe
@@ -132,6 +164,8 @@
   items:
     - name: Overview
       href: lakehouse.md
+    - name: Unity Catalog
+      href: UnityCatalog.md
     - name: Databases
       href: entities.md
     - name: Relationships
@@ -170,31 +204,31 @@
       href: compareskypointvault.md
 - name: Resolve
   items:
-    - name: Stitch
+    - name: Overview
+      href: stitch.md
+    - name: Map
+      href: map.md
+    - name: Unify
       items:
         - name: Overview
-          href: stitch.md
-        - name: Map
-          href: map.md
-        - name: Match
-          items:
-            - name: Overview
-              href: match.md
-            - name: Rule Match
-              href: rulematch.md
-            - name: ML Match
-              href: mlmatch.md
+          href: unify.md
+        - name: Add Master Data
+          href: AddMasterData.md
+        - name: Rule Match
+          href: rulematch.md
+        - name: ML Match
+          href: mlmatch.md
         - name: Merge
           href: merge.md
-- name: Profile
+- name: Master Data
   items:
     - name: Overview
       href: profiles.md
-    - name: Customers
+    - name: Profiles
       items:
-        - name: Viewing Customer Profiles
+        - name: Explore master data profiles
           href: customerprofiles.md
-        - name: Split Indexer
+        - name: Split indexer
           href: splitindexer.md
     - name: Enrichment
       items:
@@ -208,52 +242,66 @@
       href: timelines.md
 - name: Predict
   items:
+    - name: Overview
+      href: predict.md
     - name: Built-In
       items:
-        - name: Customer Churn Model
+        - name: Customer churn model
           href: CustomerchurnOverview.md
-        - name: Transactional Churn Model
+        - name: Transactional churn model
           items:
-            - name: Overview
+            - name: Configure transactional churn model
               href: CustomerchurnTransactional.md
-            - name: Sample Guide For Transactional Churn Prediction(Using Rule Match)
+            - name: Explore customer churn model
+              href: CustomerChurnModel-explore.md
+            - name: Sample guide for transactional churn prediction(using Rule match)
               href: sampleguiderulemethod.md
-            - name: Sample Guide For Transactional Churn Prediction(Using ML Match)
+            - name: Sample guide for transactional churn prediction(using ML match)
               href: sampleguide.md
-        - name: Subscription Churn Model
+        - name: Subscription churn model
           items:
-            - name: Overview
+            - name: Configure subscription churn model
               href: CustomerchurnSubscription.md
-            - name: Sample Guide For Subscription Churn Prediction(Using Rule Match)
+            - name: Sample guide for subscription churn prediction(using Rule match)
               href: sampleguideforsubscriptionchurnrulemethod.md
-            - name: Sample Guide For Subscription Churn Prediction(Using ML Match)
+            - name: Sample guide for subscription churn prediction(using ML match)
               href: sampleguideforsubscriptionchurn.md
-        - name: Customer Lifetime Value Model
+        - name: Customer Lifetime Value (CLV) model
           items:
             - name: Overview
               href: clvmodel.md
-            - name: Create Customer Lifetime Value Model
+            - name: Configure CLV model
               href: clvprocesssteps.md
-            - name: Sample Guide For CLV Prediction(Using Rule Match)
+            - name: Explore CLV model
+              href: CLVmodel-explore.md
+            - name: Sample guide for CLV prediction(using Rule match)
               href: sampleguideforclvrulemethod.md
-            - name: Sample Guide For CLV Prediction(Using ML Match)
+            - name: Sample guide for CLV prediction(using ML match)
               href: sampleguideforclv.md
-        - name: Product Recommendation Model
+        - name: Product recommendation model
           items:
             - name: Overview
               href: productrecommendationmodel.md
-            - name: Create Product Recommendation Model
+            - name: Configure product recommendation model
               href: Productrecommendationprocess.md
-            - name: Sample Guide For Product Recommendation(Using Rule Match)
+            - name: Explore product recommendation model
+              href: ProductRecommendationModel-explore.md
+            - name: Sample guide for product recommendation(using Rule match)
               href: sampleguideforproductrecommendationrulemethod.md
-            - name: Sample Guide For Product Recommendation(Using ML Match)
+            - name: Sample guide for product recommendation(using ML match)
               href: sampleguideforproductrecommendation.md
-        - name: Customer Sentiment Analysis Model
+        - name: Customer sentiment analysis model
           items:
-            - name: Overview
-              href: CustomerSentimentOverview.md
-            - name: Create Customer Sentiment Analysis Model
+            - name: Configure customer sentiment model
               href: CustomerSentimentanalysis.md
+            - name: Explore customer sentiment model
+              href: CustomerSentimentModel-explore.md
+        - name: RFM model
+          items:
+            - name: Configure RFM model
+              href: RFMmodel.md
+            - name: Explore RFM model
+              href: RFMmodel-explore.md
     - name: Custom
       items:
         - name: Single Upload
@@ -283,7 +331,9 @@
     - name: Email Templates
       href: privacytemplates.md
     - name: Data Maps
-      href: datamaps.md  
+      href: datamaps.md
+    - name: Data Processing Activities
+      href: Empower-DataProcessingActivity.md  
     - name: Reports
       href: privacyreports.md
 - name: Automate
@@ -324,9 +374,9 @@
           href: tenant.md        
 - name: Application Development  
   items:
-    - name: Developer Portal 
+    - name: Developer portal 
       href: api.md
-    - name: API References
-      href: https://developer.skypointcloud.com/apis
+    - name: API references
+      href: https://developer.skypointcloud.com/
 - name: Glossary
   href: glossary.md

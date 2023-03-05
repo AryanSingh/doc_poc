@@ -21,7 +21,7 @@ The **Custom models** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/CustomModel.png?raw=true)
+![Alt text](/doc_snippets/CustomModel.png)
 
 ---
 
@@ -33,7 +33,7 @@ The **Custom models** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/BulkCustomModelUpload.png?raw=true)
+![Alt text](/doc_snippets/BulkCustomModelUpload.png)
 
 ---
 
@@ -43,7 +43,9 @@ The **Custom models** window appears.
 5. Select the **Profile attributes** from the drop-down list.
 6. In the **Model attributes** box, enter the attributes to map the model column as per selected profile attributes.
 
-> :grey_exclamation: **Note**: Use at least three characters to define the Model attributes. The following example shows a mapping of the Model attributes with Profile attributes.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Use at least three characters to define the Model attributes. The following example shows a mapping of the Model attributes with Profile attributes.  
 
 ```Json
 [
@@ -94,15 +96,13 @@ The **Custom models** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/MapModelColumn.png?raw=true)  
+![Alt text](/doc_snippets/MapModelColumn.png)  
 
 ---
 
 7. If you want to add Model attributes and profile attributes, click **Add row**.
 8. Enter the web address of the API name of the custom object in the **URL** box. 
 9. Select the **Hypertext Transfer Protocol (HTTP)** method from the **URL Method** drop-down list.
-
----
 
 |Item|Description|
 | :- | :- |
@@ -111,12 +111,12 @@ The **Custom models** window appears.
 |PUT|Replaces all current data of the target resource with the uploaded content.|
 |DELETE|Removes the resource.|  
 
----
-
 10. In the **Rate Limit** box, enter a rate limit of an API request per second.
 11. In the **Allowed number of record per request** box, enter the number of record. 
 
-> :grey_exclamation: **Note**: The rate limit of an API works as a gatekeeper that processes the amount of incoming or outgoing data per second. This is the number of parallel requests created on an API. The rate limit ensures that the user does not exceed the maximum rate limit. For example, if an API processes 1000 records per second with a rate limit of 5, then this API can process 5000 requests per second. If request exceeds the rate limit, it generates an error message.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The rate limit of an API works as a gatekeeper that processes the amount of incoming or outgoing data per second. This is the number of parallel requests created on an API. The rate limit ensures that the user does not exceed the maximum rate limit. For example, if an API processes 1000 records per second with a rate limit of 5, then this API can process 5000 requests per second. If request exceeds the rate limit, it generates an error message.
 
 12. Click **Add Row** to enter API address in **Header**.
 13. Enter JSON code in the **Body** area to pass the data.
@@ -152,11 +152,10 @@ For example, a user's API can accept data in the JSON format as mentioned below:
 
 }
 ```
----
 
-> **Note:** This is just a sample request of the client's API. With this request, the object is one of the properties which is supposed to contain data for the Client's custom model. When you run the custom model, we will append the data from the SkyPoint data store in form of an array to this property and send it over to the configured custom model API. Here, the input parameter is **input.data**.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+>
+> This is just a sample request of the client's API. With this request, the object is one of the properties which is supposed to contain data for the Client's custom model. When you run the custom model, we will append the data from the SkyPoint data store in form of an array to this property and send it over to the configured custom model API. Here, the input parameter is **input.data**.
 
 **Output:**
 
@@ -230,7 +229,7 @@ Once you have saved the custom model, it will appear on the **Custom models** pa
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/BulkCustomModelsUploadOutput.png?raw=true)  
+![Alt text](/doc_snippets/BulkCustomModelsUploadOutput.png)  
 
 ---  
 

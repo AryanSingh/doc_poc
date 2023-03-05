@@ -5,7 +5,6 @@
 DBeaver is an open-source database tool for developers, analysts, and database administrators. It supports Databricks as well as other popular databases. You can use the SkyPoint Lakehouse SQL tool to run SQL commands and browse database objects in Databricks. Also, you can perform CRUD (Create, Read, Update, and Delete) operations using an SQL server.  
 Follow the below steps to integrate DBeaver with Lakehouse SQL:
 
-
 ## Step 1: Install DBeaver and Download Databricks JDBC Driver 
 
 Follow the below steps to install DBeaver and Download Databricks JDBC Driver: 
@@ -42,7 +41,7 @@ Use DBeaver to connect to the Lakehouse SQL endpoint to access the databases in 
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DBeaverConnection.png?raw=true)  
+![Alt text](/doc_snippets/DBeaverConnection.png)  
 
 ---
 
@@ -50,22 +49,28 @@ Use DBeaver to connect to the Lakehouse SQL endpoint to access the databases in 
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ConnectToDatabase.png?raw=true)  
+![Alt text](/doc_snippets/ConnectToDatabase.png)  
 
 ---
 
 3. Click the **Main** tab and enter credentials to connect. 
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DBeaverJDBC.png?raw=true)
+---
+
+![Alt text](/doc_snippets/DBeaverJDBC.png)
+
+---
 
 4. To find credentials such as JDBC URL and Personal access token, follow the below steps:
     1. Open SkyPoint Studio.
     1. In the left pane, go to **Lakehouse** > **SQL Access**.
     1. Click **Show fields** to copy your credentials to your clipboard. For more information, refer to [Getting started with SkyPoint Lakehouse SQL](https://skypointcdpdocs.z22.web.core.windows.net/docs/lakehousesql.html).
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SQLCredentials.png?raw=true)
+---
 
+![Alt text](/doc_snippets/SQLCredentials.png)
 
+---
 
 5. Enter **JDBC URL** and do the following:
 
@@ -86,12 +91,20 @@ Use DBeaver to access databases and database objects in your Lakehouse SQL works
 
 1. In the **Database Navigator** window, right-click **Azure Databricks**.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DBeaverConnect.png?raw=true)
+---
+
+![Alt text](/doc_snippets/DBeaverConnect.png)
+
+---
 
 2. If **Connect** is enabled, click it. (If **Connect** is disabled, you are already connected.)
 3. Expand **hive\_metastore**.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ReadDataInSQLEditor.png?raw=true)
+---
+
+![Alt text](/doc_snippets/ReadDataInSQLEditor.png)
+
+---
 
 4. Expand the database that you want to browse.
 5. Expand **Tables**.

@@ -15,7 +15,7 @@ In order to allow SkyPoint access to your Amazon Redshift account, you'll need:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/redshiftstep2.png?raw=true)
+![Alt text](/doc_snippets/redshiftstep2.png)
 
 ---
 
@@ -23,7 +23,7 @@ In order to allow SkyPoint access to your Amazon Redshift account, you'll need:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/redshiftstep3.png?raw=true)
+![Alt text](/doc_snippets/redshiftstep3.png)
 
 ---
 
@@ -42,21 +42,19 @@ Below is the list of IP required to be inside the inbound rules.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/redshiftstep4.png?raw=true)
+![Alt text](/doc_snippets/redshiftstep4.png)
 
 ---
 
 4. The hostname required for connecting to our platform can be found under the heading **endpoint** under connection details.
 
----
-
-:grey_exclamation: **Note** : The hostname is from the start of the endpoint till the .com.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The hostname is from the start of the endpoint till the .com.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/redshiftstep5.png?raw=true)
+![Alt text](/doc_snippets/redshiftstep5.png)
 
 ---
 
@@ -64,7 +62,7 @@ Below is the list of IP required to be inside the inbound rules.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/redshiftstep6.png?raw=true)
+![Alt text](/doc_snippets/redshiftstep6.png)
 
 ---
 
@@ -78,7 +76,7 @@ Below is the list of IP required to be inside the inbound rules.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/redshiftstep1.PNG?raw=true)
+![Alt text](/doc_snippets/redshiftstep1.PNG)
 
 ---
 

@@ -1,28 +1,20 @@
-# Data Processing Activities
+# Data processing activities
 
 ## Overview
 
-Data Processing Activities Application tracks data processing information in a central location, allowing you to locate, review, and delete relevant personal data in a timely manner. The Application is designed to assess the risk of data processing activities and improve security and data breach measures to safeguard sensitive data.
+Data protection and data management are key contributors to improving customer trust. Data processing activity tracks data processing information in a central location, allowing you to locate, review, and update relevant personal data. The application is designed to assess the risk of data processing activities and improve security and data breach measures to safeguard sensitive data.
 
-Consent for Data Processing refers to a process by which an organization obtains direct permission from users before processing their data. Using consent flags, end users can give their consent on some specific activities for tracking or data processing. SkyPoint Cloud helps you safely automate consent and preference management to get the most out of customer data.
+Consent for data processing refers to a process by which an organization obtains permission from users before processing their data. Using consent flags, end users can give their consent on some specific activities for tracking or data processing. SkyPoint Cloud helps you safely automate consent and preference management to get the most out of customer data.
 
-## Create Data Processing Activities
+## Create data processing activities
 
-1. In the left pane, go to **Empower** > **Data Processing Activities**.  
+1. In the left pane, go to **Empower** > **Data Processing Activities**.
 
----
+![Alt text](/doc_snippets/DataProcessingActivities.png)
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DataProcessingActivities.png?raw=true)  
+2. Click **Data Processing Activities** to create a new activity.
 
----
-
-2. Click **Data Processing Activities** to create a new Activity.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/AddDataProcessingActivity.png?raw=true)  
-
----
+![Alt text](/doc_snippets/AddDataProcessingActivity.png)
 
 3. Enter the **Title** of the data processing activity.
 4. Choose the **Required consent** from the drop-down list. 
@@ -30,13 +22,9 @@ Consent for Data Processing refers to a process by which an organization obtains
 6. Choose **Data classes**, **Data map phases**, **Consent flags**, and **Dataflows** from the drop-down list.
 7. Click **Create**.
 
-The Data processing activity appears on the page.  
+The Data processing activity appears on the page.
 
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DataProcessingActivitiesOutput.png?raw=true)  
-
----
+![Alt text](/doc_snippets/DataProcessingActivitiesOutput.png)
 
 8. If necessary, do the following under the **Action** column:
 
@@ -45,37 +33,29 @@ The Data processing activity appears on the page.
 |Modify the Data processing activity|Select **Edit** and modify the Data processing activity. Click **Submit** to apply your changes.|
 |Remove the Data processing activity|Select **Delete**.|
 
-## Add Consent flag
+## Add consent flag
 
-Follow the below steps to add a Consent flag:
+Follow the below steps to add a consent flag:
 
-1. Click **Consent Flags** to create a new Consent.  
+1. Click **Consent Flags** to create a new consent.
 
----
+![Alt text](/doc_snippets/ConsentFlag.png)
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/AddConsentFlag.png?raw=true)  
+2. Add the **Name** and **Description** of the consent flag.
 
----
+![Alt text](/doc_snippets/AddConsentFlag.png)
 
-2. Add the **Name** and **Description**.
 3. Click **Submit** to process your request.
 
-You can see the output in the Consent flags tab.  
+You can see the output in the Consent flags tab.
 
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ConsentFlagsOutput.png?raw=true)  
-
----
+![Alt text](/doc_snippets/ConsentFlagsOutput.png)
 
 4. If necessary, do the following under the **Action** column:
 
 |To|Do|
 | :- | :- |
-|Modify the Consent flag|Select **Edit** and modify the Data processing activity. Click **Submit** to apply your changes.|
-|Remove the Consent flag|Select **Delete**.|
-
-
-
+|Modify the consent flag|Select **Edit** and modify the Data processing activity. Click **Submit** to apply your changes.|
+|Remove the consent flag|Select **Delete**.|
 
 

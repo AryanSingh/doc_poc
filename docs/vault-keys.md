@@ -6,8 +6,7 @@ A primary key is already implemented in all SkyPoint Datavault records. These pr
 
 ## Prerequisite
 
-- You have created tables and attributes in the Datavault to create an alternate key. For the creation of a new key, a key must contain at least one attribute.
-
+You have created tables and attributes in the Datavault to create an alternate key. For the creation of a new key, a key must contain at least one attribute.
 
 ## To create a new key
 
@@ -15,14 +14,16 @@ A primary key is already implemented in all SkyPoint Datavault records. These pr
 2. Open **Datavault** and select **Table** where you want to add and view keys.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_Keys.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_Keys.png)
 
 ---
 
 3. In the **Keys** tab, click **New Keys**.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_AddNewKey.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_AddNewKey.png)
 
 ---
 
@@ -35,7 +36,8 @@ A primary key is already implemented in all SkyPoint Datavault records. These pr
 In the **Keys** tab, you can view the newly created alternate key.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_KeysOutput.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_KeysOutput.png)
 
 ---
 
@@ -45,7 +47,8 @@ In the **Keys** tab, you can view the newly created alternate key.
 2. Click the horizontal ellipsis in the **Actions** column of the key and do the following:  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_KeysEditDelete.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_KeysEditDelete.png)
 
 ---
 
@@ -55,7 +58,8 @@ In the **Keys** tab, you can view the newly created alternate key.
 |Delete the key|Select **Remove**.|  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_EditKey.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_EditKey.png)
 
 ---
 

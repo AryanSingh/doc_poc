@@ -18,24 +18,26 @@ Relationships allow you to build an efficient and scalable solution. It defines 
 2. Select the **Datavault** and open **Table** to create relationships.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsWindow.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsWindow.png)
 
 ---
 
 3. In the **Relationships** tab, click **New relationship**.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsCreateNew.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsCreateNew.png)
 
 ---
 
 4. Choose either the **Many-to-One**, **Many-to-Many**, or **One-to-Many** relationship option to create between two tables. In this example, a single account can have multiple contacts.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsOneToMany.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsOneToMany.png)
 
 ---
-
 
 5. In the right pane, select a **Related** table for the **Current** table.
 6. Enter the **Relationship name**.
@@ -45,7 +47,8 @@ Relationships allow you to build an efficient and scalable solution. It defines 
 The newly created relationship appears in the **Relationships** tab.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsOutput.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsOutput.png)
 
 ---
 
@@ -58,7 +61,8 @@ When you create a new lookup attribute you are creating a relationship between t
 The **New attributes** pop-up window appears.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsLookupAttributes.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsLookupAttributes.png)
 
 ---
 
@@ -74,7 +78,8 @@ The **New attributes** pop-up window appears.
 The new relationship created with the lookup attribute appears under the **Relationships** tab.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsLookupAttributesOutput.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsLookupAttributesOutput.png)
 
 ---
 
@@ -82,15 +87,15 @@ The new relationship created with the lookup attribute appears under the **Relat
 
 1. In the **Relationships** tab, choose the relationship you want to edit or delete.
 
----
-> :grey_exclamation: **Note**: If the Relationship is used by an attribute, you will not be able to delete it until that attribute is deleted. Deleting the relationship will remove the relationship table created. All data connecting tables with relationships will be lost.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> If the Relationship is used by an attribute, you will not be able to delete it until that attribute is deleted. Deleting the relationship will remove the relationship table created. All data connecting tables with relationships will be lost.
 
 2. Click the horizontal ellipsis in the **Actions** column of the relationship and do the following:  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsActions.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsActions.png)
 
 ---
 
@@ -100,7 +105,8 @@ The new relationship created with the lookup attribute appears under the **Relat
 |Delete the relationship|Select **Remove**.|  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_RelationshipsEdit.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_RelationshipsEdit.png)
 
 ---
 

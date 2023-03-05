@@ -6,17 +6,17 @@ Session timeout is used to determine how long a device may remain authenticated 
 
 When users authenticate, a session is established. Sessions can expire when users are inactive, when they close the browser or tab, or when their authentication token expires for other reasons. SkyPoint Studio allows the user to manage these timeouts inside the tenant through session settings.  
 
-> :grey_exclamation: **Note**: The user gets a warning on the screen through a pop-up that has a dynamic countdown to notify the user about the timeout.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The user gets a warning on the screen through a pop-up that has a dynamic countdown to notify the user about the timeout.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/TimeoutSession.PNG?raw=true)  
+![Alt text](/doc_snippets/TimeoutSession.PNG)  
 
 ---
 
-
-
-## **To set a session expiration and inactivity timeout**
+## To set a session expiration and inactivity timeout
 
 Follow the below steps to set a session expiration and inactivity timeout:
 
@@ -27,19 +27,19 @@ The **Session** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformSessionSettings.png?raw=true)  
+![Alt text](/doc_snippets/PlatformSessionSettings.png)  
 
 ---
-
 
 |Item|Description|
 | :- | :- |
 |Session expiration|Option to set duration of the maximum session.|
 |Inactivity timeout|Option to set duration of inactivity before timeout.|
 
-
 3. By default, toggle buttons are deactivated. Click on the toggle button to activate the **Session expiration** and **Inactivity timeout**.
 4. Enter a value in the **Session expiration** and **Inactivity timeout** field.
 5. Select **Save** to apply your changes.
 
-> :grey_exclamation: **Note**: The user gets a notification due to inactivity and informs to reconnect. For example, if the Inactivity timeout is more than 30 minutes, the user will see a countdown notification starting 5 minutes before the session is closed.
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> The user gets a notification due to inactivity and informs to reconnect. For example, if the Inactivity timeout is more than 30 minutes, the user will see a countdown notification starting 5 minutes before the session is closed.

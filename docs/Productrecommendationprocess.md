@@ -11,7 +11,7 @@ The **Predictions** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Predicthomepage.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Predicthomepage.png)
 
 ---
 
@@ -21,7 +21,7 @@ The **Product recommendation** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Prodrecommendationform.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Prodrecommendationform.png)
 
 ---
 
@@ -31,7 +31,7 @@ The **Model name** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Modelname.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Modelname.png)
 
 ---
 
@@ -41,17 +41,15 @@ Follow the below steps to name the product recommendation model:
 2. Type a name in the **Output table name** text area.
 3. Click **Save & Proceed**.
 
----
-
-> :grey_exclamation: **Note:** The Output table name is the name given to the model table. It will appear on the databases page after running the model. 
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> The Output table name is the name given to the model table. It will appear on the databases page after running the model. 
 
 The **Model preferences** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Modelpreferences.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Modelpreferences.png)
 
 ---
 
@@ -66,7 +64,7 @@ The **Required data** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Requireddatapage.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Requireddatapage.png)
 
 ---
 
@@ -78,7 +76,7 @@ The **Add Customer Data** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_customerdataform.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_customerdataform.png)
 
 ---
 
@@ -94,7 +92,7 @@ The table gets created.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Requireddatapageoutput.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Requireddatapageoutput.png)
 
 ---
 
@@ -113,7 +111,7 @@ The **Data update schedule** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Dataupdatepage.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Dataupdatepage.png)
 
 ---
 
@@ -132,7 +130,7 @@ The **Review and run** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Productrecommendation_Reviewrun.png?raw=true)
+![Alt text](/doc_snippets/Productrecommendation_Reviewrun.png)
 
 ---
 

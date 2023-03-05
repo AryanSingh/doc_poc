@@ -18,7 +18,7 @@ Follow the below steps to view permissions:
 
 ---
  
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformPermissions.png?raw=true)  
+![Alt text](/doc_snippets/PlatformPermissions.png)  
 
 ---
 

@@ -9,14 +9,13 @@ SkyPoint Lakehouse SQL allows open integrations with the modern data stack tool
 - Transform: Organize, clean, and transform your data using SkyPoint transformations and external tools like Dbt.
 - Insights: Find new insights with Power BI, Tableau, Looker, etc.
 
-
 ## Prerequisite
 
 - You have an Instance in the SkyPoint Studio. To create a new Instance, refer to [Creating an Instance](https://skypointcdpdocs.z22.web.core.windows.net/docs/instance.html). If you need help and support, click **Need help?** button in the right corner of the page. For more information regarding raising a new ticket, refer [Help+Support](https://skypointcdpdocs.z22.web.core.windows.net/docs/help%2Bsupport.html) section. If you are a new user and having issues regarding Signing up or Signing in, contact the [SkyPoint support team](https://skypointcloud.com/customer-support/).  
 
-
-> :grey_exclamation: **Note**: Lakehouse SQL is auto-provisioned during the instance creation. When the user creates an instance, data is synched with the Lakehouse SQL. This automation allows you to effectively scale your identity management system and reduces costs by avoiding human error associated with manual provisioning.
-
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Lakehouse SQL is auto-provisioned during the instance creation. When the user creates an instance, data is synched with the Lakehouse SQL. This automation allows you to effectively scale your identity management system and reduces costs by avoiding human error associated with manual provisioning.
 
 ## To enable Lakehouse SQL
 
@@ -28,7 +27,7 @@ The **SQL Access** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/LakehouseSQL_Enable.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_Enable.png)  
 
 ---
 
@@ -36,11 +35,13 @@ The **SQL Access** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/LakehouseSQL_Connection.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_Connection.png)  
 
 ---  
 
-> :grey_exclamation: **Note:** SkyPoint platform supports **Refresh Hive Metastore** to reflect database schema changes made directly to the Lakehouse Delta Lake. With the click of the **Refresh Hive Metastore** button, the metadata gets refreshed to reflect the changes in Lakehouse Databases like listing new tables, new attributes, or removal of tables.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> SkyPoint platform supports **Refresh Hive Metastore** to reflect database schema changes made directly to the Lakehouse Delta Lake. With the click of the **Refresh Hive Metastore** button, the metadata gets refreshed to reflect the changes in Lakehouse Databases like listing new tables, new attributes, or removal of tables.  
 
 5. If necessary, do the following:
 
@@ -67,7 +68,9 @@ The **SQL Access** window appears.
 
 ---
 
-> :grey_exclamation: **Note:** Refresh personal access token generates a personal access token for accessing the lakehouse tables. Clicking the **Refresh** icon, you can set the default expiry time to 90 days. An alert message starts displaying 7 days prior to access token expiration.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Refresh personal access token generates a personal access token for accessing the lakehouse tables. Clicking the **Refresh** icon, you can set the default expiry time to 90 days. An alert message starts displaying 7 days prior to access token expiration.
 
 
 > [!TIP]  
@@ -83,7 +86,9 @@ Also, you can integrate your Lakehouse SQL endpoints and Databricks with more MD
 
 - To get started with third-party tools for data integration, click the **More MDS tools** tile.  
   
-> :grey_exclamation: **Note:** Lakehouse SQL capability provides direct full SQL access to your instance-level Delta Lakehouse accessible to Instance Administrator and above roles. You can use any SQL ingestion, transformation, or visualization tools to interact bi-directionally with Lakehouse including Fivetran, Dbt, Power BI, Tableau, and Looker. Any external changes to the Lakehouse will be automatically synchronized using Delta Lake **Change Data Feed (CDF)** to update the SkyPoint metadata store.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Lakehouse SQL capability provides direct full SQL access to your instance-level Delta Lakehouse accessible to Instance Administrator and above roles. You can use any SQL ingestion, transformation, or visualization tools to interact bi-directionally with Lakehouse including Fivetran, Dbt, Power BI, Tableau, and Looker. Any external changes to the Lakehouse will be automatically synchronized using Delta Lake **Change Data Feed (CDF)** to update the SkyPoint metadata store.
 
 ### See also
 

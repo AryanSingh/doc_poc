@@ -7,7 +7,7 @@ SkyPoint Cloud comes with 200+ native connectors that collect and align data fro
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Connectors_Overview.png?raw=true)
+![Alt text](/doc_snippets/Connectors_Overview.png)
 
 ---
 

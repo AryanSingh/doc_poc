@@ -17,7 +17,7 @@ SkyPoint Vault is a data as a service feature that helps you isolate and store s
 
 ----
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Vault_Overview.png?raw=true)  
+![Alt text](/doc_snippets/Vault_Overview.png)  
 
 ---
 
@@ -32,7 +32,6 @@ Data within the vault is stored within a set of tables (entities).​ A table is
 SkyPoint provides Datavault API to build your application based on the data available on the platform and perform a specialized operation. The Datavault API provides a development experience that you can use across a wide variety of programming languages, platforms, and devices. For more information, see [getting started with the Datavault API](https://developer.skypointcloud.com/api-details#api=data-vault-api-v1&operation=get-datavault-instances-instanceid-id). It includes information about parameters, operations, HTTP requests, and responses.
 
 ### Terminology with similar meaning
-
 
 |Term|Similar meaning|
 | :--- | :--- |

@@ -18,7 +18,7 @@ The **Custom models** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/CustomModel.png?raw=true)  
+![Alt text](/doc_snippets/CustomModel.png)  
 
 ---
 
@@ -26,7 +26,7 @@ The **Custom models** window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SingleCustomModelsUpload.png?raw=true)  
+![Alt text](/doc_snippets/SingleCustomModelsUpload.png)  
 
 ---  
 
@@ -50,8 +50,9 @@ The **Custom models** window appears.
 8.	Enter JSON code in the **Body** area to pass the data.
 9.	Enter the score path to map web service output.
 
-
-> :grey_exclamation: **Note**: When you run the custom model, the platform makes an HTTP call to the service with the required parameters and retrieves the output. You also need to specify the path of the score property in your JSON response. The notation is very similar to the JavaScript notation of parsing properties.  
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+>
+> When you run the custom model, the platform makes an HTTP call to the service with the required parameters and retrieves the output. You also need to specify the path of the score property in your JSON response. The notation is very similar to the JavaScript notation of parsing properties.  
 
 - An Array is an ordered list of values. For Array, square brackets should be used. The Array properties indices start from 0 and are accessible with the '[]' operator.
 - An object is a collection of key values. For object, curly brackets should be used. Key always be enclosed in double quotes. The Object type properties are accessible with a "." operator.  
@@ -96,7 +97,7 @@ Once you have saved the custom model, it will appear on the **Custom models** pa
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SingleCustomModelsUploadOutput.png?raw=true)  
+![Alt text](/doc_snippets/SingleCustomModelsUploadOutput.png)  
 
 ---  
 

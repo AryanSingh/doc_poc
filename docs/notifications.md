@@ -12,7 +12,7 @@ The **Platform Settings** page appears. By default, the **Status** tab opens.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformStatus.png?raw=true)  
+![Alt text](/doc_snippets/PlatformStatus.png)  
 
 ---
 
@@ -22,7 +22,9 @@ The **Platform Settings** page appears. By default, the **Status** tab opens.
 |Status|Indicates whether the execution is completed.|
 |Last updated|Displays the most recent run and when it was last updated.|
 
-> :grey_exclamation: **Note**: You can refresh all tasks and processes to updates from your data sources. It is good practice to review status regularly to ensure completeness of your active tasks and processes. Click the **Refresh All** button to refresh all tasks and processes.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> You can refresh all tasks and processes to updates from your data sources. It is good practice to review status regularly to ensure completeness of your active tasks and processes. Click the **Refresh All** button to refresh all tasks and processes.
 
 2. To view the details of the several runs, click the task name. 
 3. To view more details about the progress, click on the status of the process.
@@ -31,12 +33,13 @@ The **Progress details** pane appears.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformStatusDetail.png?raw=true)  
+![Alt text](/doc_snippets/PlatformStatusDetail.png)  
 
 ---
 
-> :grey_exclamation: **Note**: The **Progress details** pane includes the status of the task, platform notifications, and background processes. There are 5 types of status. These are **New**, **In-Progress**, **Completed**, **Failed**, and **Canceled**. 
-
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The **Progress details** pane includes the status of the task, platform notifications, and background processes. There are 5 types of status. These are **New**, **In-Progress**, **Completed**, **Failed**, and **Canceled**. 
 
 |Status type|Description|
 | :- | :- |

@@ -12,6 +12,7 @@ The Match process helps to get unique clusters for matching as well as non-match
 The identity resolution match identifiers across disparate datasets and touchpoints to a single profile. This helps build a cohesive, longitudinal view of a consumer, enabling brands to deliver relevant messaging throughout the customer journey. 
 
 ### To perform the Match process
+
 You can perform the Match process in two ways:
 
 - [Rule Match](rulematch.md)

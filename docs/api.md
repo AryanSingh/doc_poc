@@ -3,7 +3,7 @@
 SkyPoint is an API-First platform, it provides APIs to build your own applications based on your data in SkyPoint.
 
 > [!IMPORTANT]
-> Details of these APIs are listed on the [SkyPoint APIs reference](https://skypointprodapim.developer.azure-api.net/). They include additional information about operations, parameters, and responses.
+> Details of these APIs are listed on the [SkyPoint APIs reference](https://developer.skypointcloud.com/). They include additional information about operations, parameters, and responses.
 
 This article describes how to access the SkyPoint APIs, create an Azure App Registration (if needed), and get started with the available client libraries.
 
@@ -11,7 +11,7 @@ This article describes how to access the SkyPoint APIs, create an Azure App Regi
 
 Before you can start using the API, you need to do the following:
 
-Sign up for SkyPoint account and follow the instructions on the [SkyPoint Developer Portal](https://skypointprodapim.developer.azure-api.net/)
+Sign up for SkyPoint account and follow the instructions on the [SkyPoint Developer Portal](https://developer.skypointcloud.com/)
 
 ## SkyPoint client libraries in C#, Python and NodeJS
 

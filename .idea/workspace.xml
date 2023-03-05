@@ -2,15 +2,1111 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/v4.4.0.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/whats-new-skypoint.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Activate-Metrics-Profileattribute.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AddMasterData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CLVmodel-explore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CustomerChurnModel-explore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CustomerSentimentModel-explore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/CustomerchurnOverview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-Import-AzureBlobSetUp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-Import-Dataverse.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-Import-MongoDB.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-Import-OpenTable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-Import-SQLServer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Dataflow-import-Tapin2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/InforHMS-Setupguide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/InforHMSimportconnector.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/PCC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ProductRecommendationModel-explore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/RFMmodel-explore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/RFMmodel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SkyPointGPT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/SnowflakeConnector.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Square_SetUp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/UnityCatalog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/amazonsthree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/azureblobstorage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/azuredatalakestoragegen1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/azuredatalakestoragegen2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/boulevard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/campaignmonitor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/exports.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/googlecloudstorage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/imports.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/predict.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/salesforce.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/salesforcemarketingcloud.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/security.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sftp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/splitindexer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/transformations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unify.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v5.0.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v5.1.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v6.0.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v6.1.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v6.2.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v6.2.1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v6.3.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/v7.0.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/welcomedocs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/zenoti.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_ADLSConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Accesskeys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Advancesettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Azurehomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Configurationtabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Createstorageaccount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Setdataflowdisplayname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ADLSGen2_enablenamespace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/API-TryIt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_ChooseConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_EntityDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_Privacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWSCognito_SetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWScognito_Accesskey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWScognito_Region.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWScognito_Regionselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AWScognito_UserpoolID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ActivityStream.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddACHDebitBankAccount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddBusinessMetric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddConsentFlag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddDSR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddDataProcessingActivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddDestination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddExceptions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddMasterData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddNewBusinessMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddNewDestination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddProfileAttribute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddProfileMetric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AddSource.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Add_Dataflows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AmazonS3_Export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AttrributesToBeExported.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Audiences_Citypage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Audiences_FromSQL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Audiences_Newaudienceform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Audiences_Previewdatapopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Audiences_StatusMembers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AutomatePowerBISetUP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_Advancedsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_Configuration1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_Configuration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_DataflowOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_Setdataflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlob_tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlobsetup_Storageaccount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlobsetup_Storageaccountkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlobsetup_Storageaccountname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureBlobstorage_Export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/AzureDataLakeGen2_Export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Azure_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_AttributeMapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Entity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Entity_Attribute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_RequiredData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Review.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BigQuery_SetUpConnection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BillingInfoPaymentMethods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BillingInfoSetDefaultPaymentMethod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BillingInfoTransactionHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BillingInfoUpdateBillingInfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BillingInformationBillingInfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Billing_Baseplan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Billing_Cancelplan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Billing_Contactus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Billing_Homepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Billing_Promocode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_Configurationrtabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_Dataflowoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_Setdataflowconfigure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Boulevard_configure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BulkCustomModelUpload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BulkCustomModelsUploadOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BulkUploadBodyInputOutputParameter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BulkUploadNewWorkflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BulkUploadOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/BusinessMetricsOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV-MostInfluentialFactors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV-QuickAudience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV-ValueOfCustomers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLVModelPerformance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLVPerformanceMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Addcustomerdataform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Additionaldata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Additionaldataoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_CLVform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_DataSchedulepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Modelname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Modelpreferencespage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Predictionshomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Requireddataoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Requireddatapage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_Reviewandrunpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLV_additionaldataform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CLVmodelViewPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CampaignMonitor_export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_ConnecttoCampaignmonitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_Importoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_Setdataflowconfigure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Campaign_Tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Cardinality_ManyToOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Cardinality_OneToOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ChooseKWIConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ChooseSquareConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Choose_GCS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Choose_connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectDatabricks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectToDatabase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectToKWI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectToKlaviyo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectToShopify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConnectToSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Connectors_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConsentFlag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ConsentFlagsOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CopyInstance.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Create connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CreateAudienceUsingSQL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CreateInstance.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CreateMasterData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CreateTenant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CreateWorkspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomModel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelLikelihoodToChurn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelModelPerformance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelMostInfluentialFactors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelPerformanceMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelQuickAudience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurnModelViewPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Addcustomerdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Addrequireddata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Customeractivitiescreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Customeractivitiescustomerdataform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Modelname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Modelpreferences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Predictionmodelhomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_ReviewandRunhomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Subscriptionhistorycreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalAddCustomerData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalAdditionaldata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalAdditionaldatacreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalAddrequireddata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalCreatedPurchaselog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalForm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalModelname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalModelpreferences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_TransactionalReviewandRunhomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_Updateschedulehomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerChurn_UpdateschedulehomepageTransactional.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerProfileAudienceRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerProfileFilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerProfileSaveAudience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerSentimentGGold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerSentimentOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomerSentimentsOverYear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customer_Customerdetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customer_Customerprofiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customer_Customizelocation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Addattributeslist_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Addattributestabnew.PNG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Clearfilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Customerdetailsnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_CustomersHomePage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Customerssortby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Customerssortby_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Customizenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_FIlteringprofilenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Filterprofileslist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Filterprofileslist_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Homepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Indexingprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Profilescreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Profileshomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_RefreshACS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Searchcustomerprofilenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Showfilternew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Showfilterprofilesnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customers_Sortbylistnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Customerdataform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Customersentimentform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Dataupdatespage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Dataupdatespage.png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Modelname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Predicthomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Requireddataoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Requireddatapage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Customersentiment_Reviewandrun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/CustomizeFilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DBeaverConnect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DBeaverConnection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DBeaverJDBC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DSR_Complete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DSR_Download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DSR_PrivacyCenterWebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dasboard_Audiencepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DashboardFluentUI.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Audience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Businessmetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_DSRpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Dataflowindex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Enrichment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Enrichmentpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Homepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Metricspage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_OpenDSRs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Profilepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Profilesfilter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Scheduler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dashboard_Schedulerpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataMap-PII.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataProcessingActivities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataProcessingActivitiesOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataToInsights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Data_Loaded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Database_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Databases_Groupbefore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Databases_Groupsorted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowAdvancedSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowEntityDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowPrivacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataflowRunHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataflow_Connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataflow_window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_Chooseconnectorpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_Importoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_Setdataflowconfigure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_Tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dataverse_connecttodataverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DeduplicatePreference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DeleteUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DeleteUsersConfirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DestinationCatalog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DetailsStatus.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Details_added.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Differentiator_AudienceInsights.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Domains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_ChooseConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_DisplayName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_EntityDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Dotdigital_Privacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DuplicatedRecords.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DuplicatedRecordsDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/EHR_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/EmailTemplates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Enrichment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entities_BronzeSilverGold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entities_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entity_Attributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entity_BigQuery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entity_Data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Entity_download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportGallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportOption.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportSchedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportSelectEntities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportSetUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Export_History.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ExportsOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Exports_Metadata1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Exports_Metadata2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Facebook Ads Manager_export 2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Facebook Ads Manager_export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/FailedPartiallyCompletedDSR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/File_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/File_loaded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/FilterProfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/FluentUIDashboard.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/FullWithPersistentId.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/GCP_Manage_Details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Generic Protocol_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/GoogleAdsManager_export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Addrole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Advancedsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Configurationpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_ConsoleKeyJSON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_ConsoleServiceacc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_ConsoleServiceacccreated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Createrole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Grantaccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Importoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Privatekeyoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Roleedit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Setdataflowconfigure1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Googlecloud_Tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Connect_New.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Connect_new (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_DataMapping1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Datamapping_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_EnrichConnection_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Enrichment_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Myenrichments_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_NameYourEnrichment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Profiledropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Requireddata_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Runpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HERETechnologies_Setup_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/HealthcarePayers_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_Needhelp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_NeedhelpOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_NewSupportRequest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_ViewDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help%2BSupport_Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_Needhelp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_NeedhelpOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_NewSupportRequest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_ViewDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Help+Support_Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ImportConnectors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Configurationpage1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Configurationpage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Dataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Dataflowoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Selectconfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InforHMS_Tableoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InstanceHistory.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/InstanceOptions.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Actionlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Createexistinginstancesbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Createinstanceform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Createinstancescreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_InstancesHomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Instancesdropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_ResetMDSPpopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Instances_Settingshomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/JSON_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KWI_DataPrivacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KWI_EntityDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KWI_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KWI_SetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Key Creation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Key_creation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KlaviyoChooseConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KlaviyoDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KlaviyoOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KlaviyoSetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/KlaviyoTableDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_Export.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_Exportgallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_Exporthistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_Exportlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_PrivateAPIkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Klaviyo_PrivateAPIkeyScope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Lakehouse-SQL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_AzureDatabricks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_Azurelist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_ConnectToPowerBI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_ConnectToTableau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_Connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_Databricksform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_Enable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_Getdatascreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_PowerBIgetstarted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_ShowFields.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_TableauSignIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_ViewPowerBI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LakehouseSQL_ViewTableau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Lakehouse_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/LoginDashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MDS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MDS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MLMatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MLMatchSilver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MLMatchresult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MapModelColumn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MapSilverRecord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MapWindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Map_SelectTables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MasterDataGold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MasterDataPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MatchSilver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MergeOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MergeRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MergeRunHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MergeWindow..png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MergeWindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Mertics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MetricsDateTime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MetricsNPS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Metrics_AddVariable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ModernDataStackPlatform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Configuration1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Configuration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Dataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MongoDB_Tableoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/MostRecent.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Multitenant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NPS_Metricsedit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NPS_Newmetricform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NameDestination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NameWorkspace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NewRelationship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NewVault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/NoSQL_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Note_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Configuration1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Configuration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Dataflowoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Setdataflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OpenTable_Tableoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/OverallCustomerSentiment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Overlap_AudienceInsights.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_ChooseConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_Configuraion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_SetDataflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_SetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PCC_TableDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PIIMap_Updateattribute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Permissions.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlanSetup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformActivityStream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformApis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformInvitedUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformPermissions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformSessionSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformStatus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformStatusDetail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformTenantActivityStream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformUsers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PlatformUsersUnlink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Platform_Permissionspage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Platform_Platformsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Platform_Selectroles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PowerBILogIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PowerBI_GetData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PowerBI_Navigator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PowerBI_SignIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PowerBIdesktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PredictCustomAddNewSingleUpload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PredictCustomModelRunHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PredictCustomModels.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PredictOverview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Predictions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Previewdatapopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-AboutUs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-AddNew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-DataPractices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-PreferenceManagement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-PrivacyPolicy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-PrivacySettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenter-Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/PrivacyCenterWebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacy_Advancedsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacy_Privacycenterform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacy_SavingData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacy_SavingMetadata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacy_organisationalsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacycenter_Advancedsettingspopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacycenter_Updateinaccuracies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Privacycenter_clickAdvancesettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProcessDSR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationHighConfidence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationModelPerformance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationMostSuggestedProducts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationPerformanceMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationQuickAudience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProductRecommendationViewPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Dataupdatepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Modelname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Modelpreferences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Predicthomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Prodrecommendationform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Requireddatapage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Requireddatapageoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_Reviewrun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Productrecommendation_customerdataform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Products.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAddTimeline6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileAttribute_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileMetricOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileSelectionSFTP.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileTimeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileTimelinesRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfileTimelinesRunHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Addtablelist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Metricdefinition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Metricsoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_NewMetricform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_NewMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Newvariableform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Profileattribute_Variable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ProfilesHomePage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_AddPurchaseHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_ConfigureBucketSize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_DefaultConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_GetStarted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_ModelName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_PurchaseHistory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_QuickAudience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_Review.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_ViewPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RFM_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ReadDataInSQLEditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Real%20time%20status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Real_time_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Realtimestatus_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Relationships_window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ReportsOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ResetCDP.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ResetPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ReviewDSR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchAddRule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchOrder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchRecordDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchSetorder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RuleMatchWindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/RunMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_DataMapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Enrich.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Entity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Entity_Attributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Profile_Customers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_RequiredData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_SFTPoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_SetUpConnections.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_Tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_advancedsettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_connecttoSFTP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SFTP_dataflowname1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQLCredentials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Configuration1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Configuration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Dataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SQL_Tableoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Daily.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Daysofthemonth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Every.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Homepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Monthly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Schedule_Weekly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Scheduler.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SelectAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SelectEntities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SelectProfileAttribute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SelectProfileMetrics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SelectViewclusters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Select_key_format.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SemanticDataLayer.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridActions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridAddExport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridAddName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridEditExport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridSchedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridSelectEntities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridSetUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGridWindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGrid_Attributesexport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SendGrid_SelectAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SentimentModelDashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SentimentWordCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Service Account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ServicesandApps_Dataflows.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SessionSettings.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Setorderofentities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Settings.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifyConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifyDataflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifyDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifyOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifySetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ShopifyTableDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_APIcredentials.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_AdminAPIscope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Allowcustomapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Appcreatedoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Appsandsales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Createanapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Createanappopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Shopify_Installapppopup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignUp_Confirmation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignUp_EnterDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignUp_RequestDemo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SignUp_Verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Signup_Landing.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Signup_details.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SingleCustomModelsUpload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SingleCustomModelsUploadOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SkyPointGPT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SkyPointGPT_Chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeConfiguration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeConnectorDisplayName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeImportOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeSetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SnowflakeTableDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SourceCatalog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SourceFinish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_AddAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_Customize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_FilterProfile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_Indexing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SplitIndexer_Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SquareOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SquareSetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/SquareTableDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_Apppage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_FindAPIkey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_Myapplications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_OAuth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_Setdataflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Square_SettingsApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Status.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Step 2- Connect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Step 3- Required Data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Step 4- Attribute Mapping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Step 5- Review.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Step1- Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/StitchOverview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stitch_Overview.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_ChooseConnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_EntityDetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_Privacy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Stripe_SetDataflowName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tapin2_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tapin2_Connecttotapin2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tapin2_Tableoutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tapin2_setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TenantDetails.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TenantStream.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_ADLSform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_AzureCognitiveSearch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_AzureCognitiveSearchformpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_AzureDataLakeGen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_CosmosDBsettingshomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_Createtenant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_Createtenantnext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_DataVault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_TenantHomepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Tenants_TenantOperationsform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Addrelationshipformnext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Defaulttimelines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Definetimeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_DetailsIconcolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Edittimelinesinside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Findtimelineindatabases.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Runjourney.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_Timelinejourneyform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_TimelinejourneyinProfiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_clickaddtable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_clicktimelinejourney.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_selecttimelinedata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timeline_setactivitytypelist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_AddRelationship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_AddTimeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_ConfirmationMessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Define.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_DeleteConfirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Review.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_Run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_SetActivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Timelines_SetUpRelationsip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TimeoutSession.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TopicModelingPercentage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TopicModelingTotalVolume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Transformation_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Transformations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_CreateNewType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_EditType.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_Encryption.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/TypeManagement_Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UnifyAddRuleMatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UnifyMLmatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UnifyMerge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UnityCatalogOverview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UnlinkUsersConfirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/UpdateTemplate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Users.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultChoiceList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityDatas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityNewAttribute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityNewData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityNewKey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityNewRelationship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultEntityRelationships.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultNewChoice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VaultNewEntity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_AddNewDatavault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_AddNewEntity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_AddNewKey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_AddRecords.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Attributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_AttributesEditDelete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Choices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_ChoicesActions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_DataEditRemove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_DataOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EditAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EditChoices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EditDatavault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EditKey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Entities.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EntityEdit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_EntityEditDelete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_KeysEditDelete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_KeysOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_MoreSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_NewAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_NewChoices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsActions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsCreateNew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsEdit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsLookupAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsLookupAttributesOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsOneToMany.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_RelationshipsWindow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Vault_Windows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VerificationCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/VerifyPassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Viewcluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Visualizer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/WelcomeImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Zenoti_Chooseconnector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Zenoti_ConnecttoZenoti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Zenoti_Setdataflowname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Zenoti_Tabledetails.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/Zenoti_dataflowname1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/action.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/activitystream (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/add_Details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/assignrole.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/associations.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/attributes.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/audiences.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/audiences.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/audiences_for_rudys.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/automate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/azureblobconnect.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/azurelistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/billing-info.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/bot.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/bothelp.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/boulevardstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/campaignmonitorstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channel.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviaemail.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviamobile.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviawebsite.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviawebsite_step2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviawebsite_step3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/channelviawebsite_step4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/chooseconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/churnmodelstep9.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/clvmodelstep9.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/connect.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/connectdynamics.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/connecteddynamics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/connects3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/consent.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/consents.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/copiedfeatures.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/createtimelines.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/createuser.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/customerdatasampleguidepredictions.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/data-entity.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dataMap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/databaselistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/databases.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dataflow_status.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dataflow_status_v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dataflows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dbt_ConnectionTest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dbt_configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/deleteuser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/donotsellrequest.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dsr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dsr_bulkprocess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dsr_rejectionemail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/dynamics365.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/ecommercecontactsmapping.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/emails.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/emailsforverification.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/entities.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/entity-dash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/exportScheduler.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/exportcommon.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/facebookadsexportstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/fbappstep6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/filelistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/forgotpassword.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/genericlistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/getstarted.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/googleadsexportstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/instance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/inviteuser.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/klaviyostep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/likelihood.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loginstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loginviaazure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loginviaazure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loginviaemail.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loginviagoogle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/loyaltymapping.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/map_entities.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/map_selectentities.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/metrics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/mlmatch_result.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/mlmatch_viewresult.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/modelcreated.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/mostinfluencialfactors.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/mostinfluencialfactorssubscription.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/newassociation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/nosqllistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/notificationRecords.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/payment.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/permissions (2).PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/popup.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/popupforproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/previewfield.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/privacycenter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/profiles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/profilesOverview.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/purpose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/recordToKeep.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/redshiftstep6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/result.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/resultrulematchsampleguide.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/reviewmodel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/rulematchsampleguide.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/salesforceconnect.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/sampleguidemlmatch.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/sampleguideprofiles.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/serviceslistconnector.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/sessiondefaults.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/sessionview.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/sfmcstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/shopify_status.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/signedup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/signupwithazure.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/signupwithdetails.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/signupwithgoogle.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/signupwithskypoint.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/step1forproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/step2forproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/step3forproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/step4forproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/step5forproductrecommendation.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/stitch.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/stitch_mlmatch.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/storefront.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/subscriptionchurnstep7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/tableconnector.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/templates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/tenantactivity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/tenantdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/timbers_old.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/timelines.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/transactions.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/unlinkuser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/waitforresources.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/withoutskypoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/withskypoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/zenoti_connector.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/AllReleases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AllReleases.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Billinginfo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Billinginfo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CustomerchurnSubscription.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomerchurnSubscription.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CustomerchurnTransactional.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomerchurnTransactional.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DBeaverIntegration.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DBeaverIntegration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Empower-DataProcessingActivity.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Empower-DataProcessingActivity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/HightouchIntegration.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/HightouchIntegration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Permissions.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Permissions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PlatformApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PlatformApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Productrecommendationprocess.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Productrecommendationprocess.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ShopifyImport.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ShopifyImport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/activity-stream.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/activity-stream.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/amazonredshift.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/amazonredshift.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/audienceinsights.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/audienceinsights.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/audiences.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/audiences.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/automate.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/automate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/awscognito.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/awscognito.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bigQuery_enrichment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bigQuery_enrichment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bulkupload.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bulkupload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/clvprocesssteps.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/clvprocesssteps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/connectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/connectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/createdatavault.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/createdatavault.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/customerprofiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/customerprofiles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/datamaps.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/datamaps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/datasubjectrequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/datasubjectrequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dotdigital.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dotdigital.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dynamics365.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dynamics365.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/entities.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/entities.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/heretechnologies.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/heretechnologies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/importconnectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/importconnectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/instance.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/instance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/klaviyo.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/klaviyo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kwi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kwi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lakehouse.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lakehouse.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lakehousesql.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lakehousesql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/login.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/login.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/map.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/match.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/match.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/merge.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/merge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/metrics.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/metrics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mlmatch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mlmatch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/notifications.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/notifications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/privacycenter.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/privacycenter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/privacyoverview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/privacyoverview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/privacyreports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/privacyreports.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/privacytemplates.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/privacytemplates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/profiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/profiles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/relationships.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/relationships.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rulematch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rulematch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguide.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforclv.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforclv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforclvrulemethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforclvrulemethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforproductrecommendation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforproductrecommendation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforproductrecommendationrulemethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforproductrecommendationrulemethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforsubscriptionchurn.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforsubscriptionchurn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguideforsubscriptionchurnrulemethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguideforsubscriptionchurnrulemethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sampleguiderulemethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sampleguiderulemethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/schedule.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/schedule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sessiondefaults.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sessiondefaults.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sftp_enrichment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sftp_enrichment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/signup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/signup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/singleupload.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/singleupload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skypointpowerbi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/skypointpowerbi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skypointreleases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/skypointreleases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/square.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/square.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/stitch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/stitch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/stripe.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/stripe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tenant.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tenant.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/timelines.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/timelines.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/toc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/toc.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/types.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/types.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v4.4.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v4.4.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-attributes.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-attributes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-choices.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-choices.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-data.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-data.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-entities.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-entities.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-keys.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-keys.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault-relationships.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault-relationships.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vault.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vault.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/visualizing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/visualizing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/whats-new-skypoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/whats-new-skypoint.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,24 +1125,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/a/source/repos/restaurant",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a/source/repos/documentation_aryan&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\a\source\repos\documentation_aryan\blog" />
       <recent name="C:\Users\a\source\repos\documentation_aryan" />
+      <recent name="C:\Users\a\source\repos\documentation_aryan\blog" />
       <recent name="C:\Users\a\source\repos\documentation_aryan\docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a\source\repos\documentation_aryan\static" />
+      <recent name="C:\Users\a\source\repos\documentation_aryan\docs" />
       <recent name="C:\Users\a\source\repos\documentation_aryan\docs\actions" />
     </key>
   </component>
@@ -69,6 +1168,14 @@
       <workItem from="1669661034873" duration="607000" />
       <workItem from="1669800720456" duration="5140000" />
       <workItem from="1669908005781" duration="20000" />
+      <workItem from="1674231946528" duration="295000" />
+      <workItem from="1674446960772" duration="1000" />
+      <workItem from="1677242237855" duration="360000" />
+      <workItem from="1677242604986" duration="2452000" />
+      <workItem from="1677470926307" duration="616000" />
+      <workItem from="1677494718536" duration="17000" />
+      <workItem from="1677819711960" duration="11138000" />
+      <workItem from="1677914597053" duration="831000" />
     </task>
     <servers />
   </component>

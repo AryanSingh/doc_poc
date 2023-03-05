@@ -1,14 +1,35 @@
-# Templates
+# Email Template
+## Overview
+A key component of managing a best-practice privacy operation is communicating with your customers regarding their privacy requests. We have prepared some email templates for different types of privacy requirements that can manage the subject requests between the organization and its customers. Email templates contain some pre-build rules for some tables with their subject and it will be triggered automatically when a request occurs. These rules consist of names from different tables so that they can be marked when their usage is required.
 
-- Verification regarding different entities of the data present in respective fields. Every important entity (column value) present in any dataflow has a technicality binned with it that distinguishes it from other entities. Templates provide a similar feature here. They contain some pre-build rules for some entities with their subject as the rule with which they can be distinguished. These rules consist of names from different entities so that they can be marked when their usage is required. For customer reliability, there is an option to even update the template where the customer can simply click on the button present under the Action column and update the parameters in the template or even produce a new one.
+For customer reliability, there is an option to even update the template where the customer can simply click on the button present under the Action column and update the parameters in the template or even produce a new one.
 
-## Steps to update the template
-1. Navigate to the Templates section of the app.
+> [!TIP]
+> SkyPoint provides default templates, we encourage you to review them and make them your own. Adapting these templates in conjunction with your company's specific privacy requirements will ensure privacy management.  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/templates.png?raw=true)
+## Steps to update the Email Template
+Follow the below steps to view/update the Email Template:
 
-2. Choose which template/s you want to update.
-3. Click on the button provided under action to update the template.
-4. A new update Template window will appear.
-5. Make all the necessary changes you want and click on SAVE.
+1. In the left pane, go to **Empower** > **Email Templates**.  
 
+---
+
+![Alt text](/doc_snippets/EmailTemplates.png)  
+
+---
+
+2. Click the **Email Template** name (highlighted in blue) that you want to update.
+
+An **Update template** window appears.  
+
+---
+
+![Alt text](/doc_snippets/UpdateTemplate.png)  
+
+---
+
+3. Make all the necessary changes you want and click on **Update**.
+
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> You can modify the text inside the double curly braces "{{variable}}". These email template variables are available when you send emails to and from the data subject.

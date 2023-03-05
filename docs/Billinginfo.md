@@ -18,23 +18,26 @@ Follow the below steps to cancel the current billing plan:
 The Billing Settings page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Billing_Homepage.png?raw=true)  
+
+![Alt text](/doc_snippets/Billing_Homepage.png)  
 
 ---
+
 2. In the Subscriptions tab, click **Cancel plan** to cancel your current plan.
 
 The **Cancel plan** pop-up appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Billing_Cancelplan.png?raw=true)  
+
+![Alt text](/doc_snippets/Billing_Cancelplan.png)  
 
 ---
+
 3. Click **Ok**.
 
----
-:grey_exclamation: **Note**: Cancelling your current plan will cancel the plan in your upcoming billing cycle and post that, you would not be able to access the SkyPoint Cloud’s MDSP.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Cancelling your current plan will cancel the plan in your upcoming billing cycle and post that, you would not be able to access the SkyPoint Cloud’s MDSP.
 
 ## To apply Coupon
 In case, you have a promocode, follow the below steps to apply it:
@@ -43,9 +46,11 @@ In case, you have a promocode, follow the below steps to apply it:
 The **Apply Promocode** pop-up appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Billing_Promocode.png?raw=true)  
+
+![Alt text](/doc_snippets/Billing_Promocode.png)  
 
 ---
+
 2. Type the **Promocode** in the **Promo Code** text area.
 3. Click **Apply**.
 
@@ -59,21 +64,25 @@ Follow the below steps to change your ongoing base plan:
 |Monthly|Enables you to pay monthly through subscription-based pricing per storage capacity and reserved compute usage.|
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Billing_Baseplan.png?raw=true)  
+
+![Alt text](/doc_snippets/Billing_Baseplan.png)  
 
 ---
+
 2. Click **Contact us** for the new billing plan you want to select.
 
 The **Contact SkyPoint Cloud** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Billing_Contactus.png?raw=true)  
+
+![Alt text](/doc_snippets/Billing_Contactus.png)  
 
 ---
+
 3. Fill the **Contact us** form.
 4. Click **Submit**.
 
----
-:grey_exclamation: **Note**: Once you submit the Contact us form, SkyPoint Cloud’s team will get back to you within one working day. 
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> Once you submit the Contact us form, SkyPoint Cloud’s team will get back to you within one working day. 
 
----

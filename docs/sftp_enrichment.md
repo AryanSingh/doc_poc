@@ -20,7 +20,7 @@ To configure SFTP enrichment, the following prerequisites must be met:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Enrich.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Enrich.png)
 
 ---
 
@@ -28,7 +28,7 @@ To configure SFTP enrichment, the following prerequisites must be met:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Overview.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Overview.png)
 
 ---
 
@@ -49,13 +49,12 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Connect.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Connect.png)
 
 ---
 
 3. Enter a **Display name**.
 4. Enter your SFTP credentials for validation – **Username**, **Password**, **Host**, and **Port**. 
-
 
 |Item|Description|
 | :- | :- |
@@ -66,7 +65,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_SetUpConnections.png?raw=true)
+![Alt text](/doc_snippets/SFTP_SetUpConnections.png)
 
 ---
 
@@ -79,7 +78,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_RequiredData.png?raw=true)
+![Alt text](/doc_snippets/SFTP_RequiredData.png)
 
 ---
 
@@ -90,7 +89,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Location.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Location.png)
 
 ---
 
@@ -102,7 +101,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_DataMapping.png?raw=true)
+![Alt text](/doc_snippets/SFTP_DataMapping.png)
 
 ---
 
@@ -113,7 +112,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Name.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Name.png)
 
 ---
 
@@ -122,7 +121,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Run.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Run.png)
 
 ---
 
@@ -130,12 +129,11 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Output.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Output.png)
 
 ---
 
 6. If necessary, do the following:
-
 
 |To|Do|
 | :- | :- |
@@ -147,14 +145,13 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 |View the items in the List|Select **List**.|
 |View the items in a specific Group (For example, Name, Enrichment, status)|Select **Group by**.|
 
-
 7. After the enrichment process, you can view details in the Tables and the customer section as follows:
 - To view details in the Databases section, do the following:
    1. In the left pane, go to the **Lakehouse** and click **Databases** to find your table in the **Gold** > **Enrichment** list.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Entity.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Entity.png)
 
 ---
 
@@ -162,7 +159,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
    
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Entity_Attributes.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Entity_Attributes.png)
 
 ---
     
@@ -173,7 +170,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SFTP_Profile_Customers.png?raw=true)
+![Alt text](/doc_snippets/SFTP_Profile_Customers.png)
 
 ---
 

@@ -1,183 +1,118 @@
-# Viewing Customer Profiles
+# Exploring master data profiles
 
 ## Overview
 
-The SkyPoint Modern Data Stack Platform enables you to create a complete customer profile to gain more insights about your customers. The **Customers** page consists of features that enables you to choose certain attributes of your customers to create the Profiles. You can further, filter or sort the profiles based on selected attributes to ease your analysis.  
+SkyPoint Modern Data Stack Platform (MDSP) enables you to create a complete profile to gain more insights from the master data. The profiles page consists of features that enable you to choose certain attributes to create and define your profiles. You can further, filter or sort the profiles based on selected attributes to ease your analysis. The goal of the SkyPoint profile view page is to make it easy for you to access and manage the data you need, ensuring the data is accurate and consistent.
+
+On the profiles page, you can perform the following activities:
+
+- Select and view multiple master data profiles
+- Add attributes
+- Manage the split indexer
+- Filter and search for customers
+- Sort by a specific attribute
+
+### Prerequisite
+
+You have completed the [Master Data Management - Resolve](https://docs.skypointcloud.com/docs/stitch.html) ([map](https://docs.skypointcloud.com/docs/map.html) and [unify](https://docs.skypointcloud.com/docs/AddMasterData.html)) process.
+
+## View multiple master data profiles
+
+The master data profile page enables you to see a holistic view of each customer by combining data from various sources. You can build a meaningful relationship with your customer. Each profile allows you to gain personalized experiences of your customers such as preferences, interactions, and past events.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_CustomersHomePage.png?raw=true)  
-
----  
-
-## Prerequisite  
-You have completed the [Master Data Management - Stitch](stitch.md) process.  
-
-## To create Customer profile
-- Click the [Split indexer](https://skypointcdpdocs.z22.web.core.windows.net/docs/splitindexer.html) page to learn about creating **Split indexer and exploring Customer profiles**.
-## To view Customer details
-You may delve further into each of the individual customer profiles by clicking the respective profiles. Follow the below steps to check Customer details:
-1. Go to the **Customers > Profiles** page. Each customer profile is displayed in a Tile.
-2. In the **Profiles** page, click the desired **Customer** profile.
-
-The **Customer Details** page appears.  
+![Alt text](/doc_snippets/ProfilesHomePage.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Customerdetailsnew.png?raw=true)  
+Clicking the respective profiles, you can delve further into each of the individual profiles. Follow the below steps:
 
----  
+1. Navigate to **Master Data > Profiles** page.  
 
-- You can find all the personal details of the customer like, Email, Gender, Phone number, etc.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> SkyPoint MDM supports a profile view page for multiple master data that provides a centralized interface for viewing and managing different types of master data. On the profile view page, you will see a list of all the master data profiles that have been created in the system. When you open the profiles page, the **Default Profile** master data page appears. Each master data profile page displays the information that was entered and saved in the corresponding table during upstream processes, such as the creation of that specific master data.  
 
----
-> :grey_exclamation: **Note:** All the last updates on your customer profile are reflected on the right side of the Customer details page. 
+2. You can select your master data from the drop-down menu. Each profile is displayed on a tile. When you click on a profile, you navigate to the profile detail page where you can see all the information related to that profile. It displays information such as personal details, contact information, and activity history for each master data profile.  
+3. Click the **More** or **Less** option to expand or collapse the list of attributes on profile cards in a particular row. 
+4. On the **Profiles** page, click the desired profile.
 
----
-
-## To Search a Customer profile
-You can directly search a customer’s profile with a relevant customer information by using the Search feature. Follow the below steps:
-1. Go to **Customers > Profiles** page.
-2. In the **Profiles** page, type the **Customer** information in the **Search** text area. 
-
-The relevant **Customer** profiles appears.  
-
---- 
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Searchcustomerprofilenew.png?raw=true)  
-
----  
-
-## To add attributes to Customer profiles
-You can add the attributes you want to see on your **Customer** profiles. Follow the below steps:
-1. In **Customer > Profiles** page, click the **Add attributes** tab.  
+The **Profile details** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Addattributestabnew.PNG.png?raw=true)
+![Alt text](/doc_snippets/ProfileDetails.png)
 
 ---
 
-The **Add attributes** list appears.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> The Profile details page shows the different values from the unified master data. The sidebar menu enables you to access various profile perspectives. By default, SkyPoint Cloud includes important profile perspectives such as timeline journeys and profile metrics. Depending upon your tenant configuration, you may see a detailed view and graphical representation of the data. You can hover over the perspective icon to see more details of the data. If a field has no value for the selected profile, it shows only the address field. The tile is structured into sections:
+> - The first section displays a predefined set of fields followed by all fields that are part of the split indexer.
+> - Timeline shows data if you have configured timelines journey. The timeline view contains chronologically sorted activities of the selected customer.
+> - Metrics display if you have configured profile attributes.  
+
+## Search a profile
+
+You can directly search a customer’s profile with relevant customer information by using the search feature. Follow the below steps:
+
+1. On the **Profiles** page, enter the customer information in the **Search** text area.
+2. To search for exact information, activate the **Exact Search** toggle button.
+
+> [!TIP]  
+> The exact search feature allows you to search for a specific piece of information. To use the exact search feature, you typically need to type text in the search text area. For example, if you want to search for the exact customer's name, type "name of the customer". This would tell the search engine to only return results that match the exact information.
+
+## Filter profiles
+
+Using the **Show filter**, you can filter the profile attributes for specific searches related to your profiles. Follow the below steps to search your desired profile:
+
+1. On the **Profiles** page, click **Show filter**.
+
+The **Filter profile** pane appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Customers_Addattributeslist_new.png?raw=true) 
+![Alt text](/doc_snippets/FilterProfile.png)
 
 ---
 
-2. In the **Add attributes** list, select up to 20 attributes that you want to reflect on your **Customer profiles**.
-3. Click **Done**.  
-
-## To filter attributes
-You can filter the profile attributes for specific searches related to your customer profiles, using the Show filter.  
+2. Check the boxes that you want to filter. You can see the selected attributes on the **Profiles** page. You can select up to 20 attributes.
+3. If you want to remove all filters, select **Clear filter** on the menu bar or clear a checkbox for the selected attribute.
+4. If you want to customize the filter for your attributes, click **Customize**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Showfilternew.png?raw=true) 
+![Alt text](/doc_snippets/CustomizeFilter.png)
 
 ---
 
-Follow the below steps to search your desired customer profile:
-1. Go to **Customers > Profiles** page.
-2. Click **Show filter** tab.
-
-The **Filter profile** list appears.
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Customers_Filterprofileslist_new.png?raw=true)  
-
----
-
-3. Type the desired **Attribute** you want to search in the **Search attribute** text area.
-
-The relevant attribute will be filtered in the **Filter profile** list.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_FIlteringprofilenew.png?raw=true)  
-
----
-
-4. **Check** the attribute box to select the attribute.  
-
-The **Customer profiles** with the filter will reflect on the **Profiles** page.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Showfilterprofilesnew.png?raw=true)  
-
----
-
-## To customize the sorting option
-
-1. In the **Filter profile** list, Click **customize** on the attribute category.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Customizenew.png?raw=true)  
-
----
-The **Customize list** opens for the specific attribute category.  
-
-2. Select your preferred option from the **Sort options by**.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Sortbylistnew.png?raw=true)  
-
----
-
-| Items | Description |
+|Item|Description|
 | :- | :- |
-| Frequency: Highest to Lowest | Enables you to arrange the Customer profiles from Highest to Lowest order of frequency. |
-| Value: A to Z | Enables you to arrange the Customer profiles for the attribute category in alphabetically ascending order. |
-| Value: Z to A | Enables you to arrange the Customer profiles for the attribute category in alphabetically descending order. |
+|Frequency: Highest to Lowest|Enables you to arrange the profiles from highest to lowest order of frequency.|
+|Value: A to Z|Enables you to arrange the profiles for the attribute category in alphabetically ascending order.|
+|Value: Z to A|Enables you to arrange the profiles for the attribute category in alphabetically descending order.|
 
-3. Enter the number of profiles you want to view in the **Show up to** text box.
-4. Check the **Remove null value** box to filter the customer profiles without the attribute category.
-5. Click **Done**.
+5. Select your preferred option from the **Sort options by**.
+6. In the **Show up to** text box, enter the number of profiles you want to view.
+7. Check the **Remove null value** box. This can help prevent data inconsistencies and ensure that the attribute always has a valid value.
+8. Click **Done**.  
 
-## To clear filters
-- In the **Customers** page, click the **Clear filter** tab.  
+## Sort by profile attributes
 
-All the selected filters get removed on the **Customers** page.  
+You can use the **Sort by** feature on the **Profiles** page to filter your search further by selecting one of the data sorting options. For example, if you want to sort the user profiles by the user's last name, you can use a sorting function to sort the profiles alphabetically by the last name. This can make it easier to find a specific user or to view the user profiles in a specific order.
 
----  
+Follow the below steps to sort the profile attributes:
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_Clearfilter.png?raw=true)  
+1. On the **Profiles** page, click **Sort by**.
+2. Select your desired attribute from the **Sort by** dropdown list. The profiles get sorted according to the selected attribute.
 
----  
+## Refresh Azure Cognitive Search
 
-## To sort by profile attributes  
-You can use the **Sortby** feature on the **Customers** page to filter your search further by selecting one of the data sorting options. Follow the below steps to sort the customer attributes:  
-1. In the **Customers** page, click the **Sort by** tab.  
+Azure Cognitive Search (ACS) supports indexing of a wide range of data types. You can rebuild the search index to update it with the latest changes to your data. 
 
-The **Sort by** dropdown appears.  
+- To reactivate an ACS, click **Refresh ACS** on the profiles page.
 
----  
+## Select Master data  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Customers_Customerssortby_new.png?raw=true)  
-
----  
-
-2. Select your desired attribute on the **Sort by** dropdown.  
-
-The profiles get sorted according to selected attribute.  
-
-___
-> :grey_exclamation: **Note**: For example, if you select FirstName from the Sortby dropdown the profiles will be arranged alphabetically.
-___
-## To refresh Azure Cognitive Search  
-- In the Customers page, click **Refresh ACS** tab.  
-
-The Azure Cognitive Search (ACS) process gets reactivated.  
-
----  
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Customers_RefreshACS.png?raw=true)  
-
-___
-> :grey_exclamation: **Note**: For example, when the Add attribute process fails then Refresh ACS will be activated to trigger and rerun the process.
-___
+A dropdown list is added to select and view profiles for a particular master data. It is useful for organizations that have a large number of master data and corresponding profiles, as it allows users to easily filter the data based on their needs and view the relevant profiles in a more organized and efficient way.

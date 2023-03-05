@@ -18,7 +18,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/CreateWorkspace.png?raw=true)  
+![Alt text](/doc_snippets/CreateWorkspace.png)  
 
 ---
 
@@ -26,7 +26,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/NameWorkspace.png?raw=true)  
+![Alt text](/doc_snippets/NameWorkspace.png)  
 
 ---
 
@@ -34,7 +34,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/AddSource.png?raw=true)  
+![Alt text](/doc_snippets/AddSource.png)  
 
 ---
 
@@ -43,7 +43,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SourceCatalog.png?raw=true)  
+![Alt text](/doc_snippets/SourceCatalog.png)  
 
 ---
 
@@ -51,7 +51,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ConnectDatabricks.png?raw=true)  
+![Alt text](/doc_snippets/ConnectDatabricks.png)  
 
 ---
 
@@ -62,7 +62,7 @@ Follow the below steps to integrate Hightouch with Lakehouse SQL:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SourceFinish.png?raw=true)  
+![Alt text](/doc_snippets/SourceFinish.png)  
 
 ---
 
@@ -76,7 +76,7 @@ Follow the below steps to set your destination:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/AddDestination.png?raw=true)  
+![Alt text](/doc_snippets/AddDestination.png)  
 
 ---
 
@@ -84,7 +84,7 @@ Follow the below steps to set your destination:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/DestinationCatalog.png?raw=true)  
+![Alt text](/doc_snippets/DestinationCatalog.png)  
 
 ---
 
@@ -92,7 +92,7 @@ Follow the below steps to set your destination:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/AddNewDestination.png?raw=true)  
+![Alt text](/doc_snippets/AddNewDestination.png)  
 
 ---
 
@@ -100,7 +100,7 @@ Follow the below steps to set your destination:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/NameDestination.png?raw=true)  
+![Alt text](/doc_snippets/NameDestination.png)  
 
 ---
 

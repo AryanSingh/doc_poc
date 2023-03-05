@@ -8,7 +8,7 @@ Follow the below steps to create a customer prediction using transactional churn
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Predictionmodelhomepage.png?raw=true)
+![Alt text](/doc_snippets/CustomerChurn_Predictionmodelhomepage.png)
 
 ---
 
@@ -17,7 +17,8 @@ Follow the below steps to create a customer prediction using transactional churn
 The **Customer churn model** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalForm.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalForm.png)
 
 ---
 
@@ -26,7 +27,8 @@ The **Customer churn model** form appears.
 The **Transactional churn model** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalModelname.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalModelname.png)
 
 ---
 
@@ -38,7 +40,8 @@ The **Transactional churn model** page appears.
 The **Model preferences** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalModelpreferences.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalModelpreferences.png)
 
 ---
 
@@ -46,10 +49,9 @@ The **Model preferences** page appears.
 1. In the **Model preferences** page, enter a value in the **Prediction Window** text area.
 2. Enter a value in the **Churn Definition** text area.
 
----
-:grey_exclamation: **Note:** The value that you enter should be minimum 60.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> The value that you enter should be minimum 60.
 
 |Item|Description|
 |:-|:-|
@@ -61,7 +63,8 @@ The **Model preferences** page appears.
 The **Add required data** page opens.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalAddrequireddata.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalAddrequireddata.png)
 
 ---
 
@@ -72,7 +75,8 @@ Follow the below steps to customize the purchase history of your customers by as
 The **Add Customer Data** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalAddCustomerData.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalAddCustomerData.png)
 
 ---
 
@@ -87,7 +91,8 @@ The **Add Customer Data** form appears.
 The created purchase log gets created under the **Table** column. 
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalCreatedPurchaselog.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalCreatedPurchaselog.png)
 
 ---
 
@@ -96,7 +101,8 @@ The created purchase log gets created under the **Table** column.
 The **Additional data** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalAdditionaldata.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalAdditionaldata.png)
 
 ---
 
@@ -107,7 +113,8 @@ Follow the below steps to add additional data for the model to predict the custo
 The **Add Customer Data** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Customeractivitiescustomerdataform.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Customeractivitiescustomerdataform.png)
 
 ---
 1. Select a **Customer activity table** from the drop-down list.
@@ -124,15 +131,15 @@ The **Add Customer Data** form appears.
 
 7. Click **Save**.
 
----
-:grey_exclamation: **Note:** In case, you do not have any additional data to add, you can skip this step.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> In case, you do not have any additional data to add, you can skip this step.
 
 The **Additional data** gets created.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalAdditionaldatacreated.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalAdditionaldatacreated.png)
 
 ---
 
@@ -140,7 +147,8 @@ The **Additional data** gets created.
 9. The **Data update schedule** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_UpdateschedulehomepageTransactional.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_UpdateschedulehomepageTransactional.png)
 
 ---
 
@@ -158,7 +166,8 @@ Follow the below steps to update schedule to run the transactional churn model:
 The **Review your model details** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_TransactionalReviewandRunhomepage.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_TransactionalReviewandRunhomepage.png)
 
 ---
 

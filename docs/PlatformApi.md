@@ -5,7 +5,7 @@
 SkyPoint cloud provides APIs to build your own application based on the data available on the platform and perform a specialized operation. Users can enable API access to the Modern Data Stack Platform. Once access is enabled, the user can use API with the subscription key.
 
 > [!IMPORTANT]
-> Details of the APIs are listed on the [APIs reference page](https://developer.skypointcloud.com/apis). It includes information about parameters, operations, HTTP requests, and responses.
+> Details of the APIs are listed on the [APIs reference page](https://developer.skypointcloud.com/). It includes information about parameters, operations, HTTP requests, and responses.
 
 ## To get started with APIs
 
@@ -16,7 +16,7 @@ Follow these instructions to get started using the SkyPoint Cloud APIs for Lakeh
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformApis.png?raw=true)  
+![Alt text](/doc_snippets/PlatformApis.png)  
 
 ---
 
@@ -26,7 +26,7 @@ Follow these instructions to get started using the SkyPoint Cloud APIs for Lakeh
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/API-TryIt.png?raw=true)  
+![Alt text](/doc_snippets/API-TryIt.png)  
 
 ---
 

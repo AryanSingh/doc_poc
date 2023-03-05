@@ -11,7 +11,8 @@ Follow the below steps to create a customer prediction using subscription churn 
 The **Prediction** models appear.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Predictionmodelhomepage.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Predictionmodelhomepage.png)
 
 ---
 
@@ -21,7 +22,7 @@ The **Customer churn model** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Form.png?raw=true)
+![Alt text](/doc_snippets/CustomerChurn_Form.png)
 
 ---
 
@@ -31,7 +32,8 @@ The **Customer churn model** form appears.
 The **Subscription churn model** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Modelname.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Modelname.png)
 
 ---
 
@@ -43,7 +45,8 @@ The **Subscription churn model** page appears.
 The **Model preferences** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Modelpreferences.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Modelpreferences.png)
 
 ---
 
@@ -51,17 +54,17 @@ The **Model preferences** page appears.
 1. In the **Model preferences** page, enter the **Number of days** in the **Days since subscription ended** text area.
 2. Enter the **Number of days** in the **Days to look into future to predict churn** text area.
 
----
-:grey_exclamation: **Note:** The number of days that you enter should be minimum 60.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> The number of days that you enter should be minimum 60.
 
 3. Click **Save & Proceed**.
 
 The **Add required data** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Addrequireddata.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Addrequireddata.png)
 
 ---
 
@@ -70,7 +73,8 @@ The **Add required data** page appears.
 The **Add Customer Data** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Addcustomerdata.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Addcustomerdata.png)
 
 ---
 
@@ -90,7 +94,8 @@ Follow the below steps to fill the Add Customer Data form for adding Subscriptio
 The **Subscription history** is created.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Subscriptionhistorycreated.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Subscriptionhistorycreated.png)
 
 ---
 
@@ -101,7 +106,8 @@ Follow the below steps to customize customer activities by assigning fields from
 The **Add Customer Data** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Customeractivitiescustomerdataform.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Customeractivitiescustomerdataform.png)
 
 ---
 
@@ -122,7 +128,8 @@ The **Add Customer Data** form appears.
 The **Customer activity** gets created.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Customeractivitiescreated.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Customeractivitiescreated.png)
 
 ---
 
@@ -131,7 +138,8 @@ The **Customer activity** gets created.
 The **Data update schedule** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_Updateschedulehomepage.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_Updateschedulehomepage.png)
 
 ---
 
@@ -149,7 +157,8 @@ Follow the below steps to update schedule to run the subscription churn model:
 The **Review your model details** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CustomerChurn_ReviewandRunhomepage.png?raw=true)
+
+![Alt text](/doc_snippets/CustomerChurn_ReviewandRunhomepage.png)
 
 ---
 

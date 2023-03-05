@@ -6,7 +6,7 @@ A record contains one or more categories of information. It is a group of attrib
 
 ## Prerequisite
 
-- You have created tables and attributes in the Datavault to create a new record.
+You have created tables and attributes in the Datavault to create a new record.
 
 ## To create a new record
 
@@ -16,14 +16,16 @@ A record contains one or more categories of information. It is a group of attrib
 The **Data** tab displays records of your table.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_Data.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_Data.png)
 
 ---
 
 3. Click **New Record** to add data. In this example, add a record to group attributes (ID, Name, and Email) for the User table.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_AddRecords.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_AddRecords.png)
 
 ---
 
@@ -33,7 +35,8 @@ The **Data** tab displays records of your table.
 You can view a new record in the **Data** tab.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_DataOutput.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_DataOutput.png)
 
 ---
 
@@ -43,7 +46,8 @@ You can view a new record in the **Data** tab.
 2. Click the horizontal ellipsis in the **Actions** column of the record and do the following:  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_DataEditRemove.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_DataEditRemove.png)
 
 ---
 

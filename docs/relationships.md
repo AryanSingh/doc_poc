@@ -19,13 +19,13 @@ The cardinality of a join between two tables is the numerical relationship betwe
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Cardinality_OneToOne.png?raw=true)
+![Alt text](/doc_snippets/Cardinality_OneToOne.png)
 
 - **Many-to-One** – Many rows of the first table associated with a single row of the second table. For example, many orders created by a single customer. Therefore, there is a many-to-one relationship between orders and customer.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Cardinality_ManyToOne.png?raw=true)
+![Alt text](/doc_snippets/Cardinality_ManyToOne.png)
 
 ## To create a Custom Relationship
 
@@ -35,7 +35,7 @@ The relationship window appears. The default view of the page displays all the r
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Relationships_window.png?raw=true)
+![Alt text](/doc_snippets/Relationships_window.png)
 
 ---
 
@@ -59,7 +59,7 @@ The relationship window appears. The default view of the page displays all the r
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/NewRelationship.png?raw=true)
+![Alt text](/doc_snippets/NewRelationship.png)
 
 ---
 
@@ -85,6 +85,14 @@ The relationship window appears. The default view of the page displays all the r
 4. Click **Save** to apply your changes. 
 5. To cancel your changes, click **Cancel**.
 
+### Using Search feature in drop-down lists
+
+You can use the **Search** feature in drop-down lists to find your attributes quickly. This feature prevents unlimited scrolling while searching for correct attributes from the lists.
+
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The **Search** feature is only disabled for the drop-down lists in **Predictions**.
+
 ## Edit a Relationship
 
 You can update properties of custom relationships that are already created.
@@ -101,7 +109,7 @@ The visualizer navigates the relationship network to explore patterns of connect
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Visualizer.png?raw=true) 
+![Alt text](/doc_snippets/Visualizer.png) 
 
 ---
 

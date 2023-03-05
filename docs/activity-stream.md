@@ -15,7 +15,7 @@ The **Activity stream** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformActivityStream.png?raw=true)  
+![Alt text](/doc_snippets/PlatformActivityStream.png)  
 
 ---
 
@@ -35,7 +35,7 @@ It displays a tabular representation of the actions taken by any user on this pl
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/PlatformTenantActivityStream.png?raw=true)  
+![Alt text](/doc_snippets/PlatformTenantActivityStream.png)  
 
 ---
 

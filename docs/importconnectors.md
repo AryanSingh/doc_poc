@@ -1,16 +1,16 @@
-# Import Connectors
+# Import connectors
 
 ## Overview
 
-You can ingest data to SkyPoint Modern Data Stack Platform (MDSP) from any data source including pre-built connectors with popular applications such as Shopify, Salesforce, etc. SkyPoint ingests raw data and transforms it into a standardized, modular, and extensible collection of data schemas for further processing in downstream processes such as [Master Data Management (MDM) Stitch process](https://skypointcdpdocs.z22.web.core.windows.net/docs/stitch.html).  
+You can ingest data to SkyPoint Modern Data Stack Platform (MDSP) from any data source including pre-built connectors with popular applications such as Shopify, Salesforce, etc. SkyPoint ingests raw data and transforms it into a standardized, modular, and extensible collection of data schemas for further processing in downstream processes such as [Master Data Management (MDM) - Resolve process](https://docs.skypointcloud.com/docs/stitch.html).  
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ImportConnectors.png?raw=true)
+![Alt text](/doc_snippets/ImportConnectors.png)
 
 ---
 
-## Connectors Categorization
+## Connectors categorization
 
 You can filter the list of connectors concerning the following categories:
 
@@ -27,48 +27,31 @@ You can filter the list of connectors concerning the following categories:
 
 ## To get assistance for your connector
 
-In case, you are unable to find your desired import connector, you can perform one of the below actions in the **Looking for more** section:
-
-|To|Do|
-|:-|:-|
-|Use Databricks partner connector|Click [Click here](https://dev.skypointcloud.com/sqlaccess?instanceid=5726b9eb-139f-490b-af4d-6a64276f2763)|
-|Raise a support ticket for the SkyPoint team to look into your request|Click [Help + Supoort](https://dev.skypointcloud.com/connectors?instanceid=5726b9eb-139f-490b-af4d-6a64276f2763)|
+In case, you are unable to find your desired import connector, you can perform one of the action in the **Looking for more** section. You can raise a support ticket for the SkyPoint team to look into your request. Click [Help + Supoort](https://dev.skypointcloud.com/connectors?instanceid=5726b9eb-139f-490b-af4d-6a64276f2763).
 
 ### List of all import connectors
 
-- [AWS Cognito](https://skypointcdpdocs.z22.web.core.windows.net/docs/awscognito.html)
-- [Amazon Redshift](https://skypointcdpdocs.z22.web.core.windows.net/docs/amazonredshift.html)
-- [Amazon S3](https://skypointcdpdocs.z22.web.core.windows.net/docs/amazonsthree.html)
-- [Microsoft Azure Blob Storage](https://skypointcdpdocs.z22.web.core.windows.net/docs/azureblobstorage.html)
-- [Microsoft Azure Data Lake](https://skypointcdpdocs.z22.web.core.windows.net/docs/azuredatalakestoragegen2.html)
-- [Boulevard](https://skypointcdpdocs.z22.web.core.windows.net/docs/boulevard.html)
-- [Campaign Monitor](https://skypointcdpdocs.z22.web.core.windows.net/docs/campaignmonitor.html)
-- Clutch
-- Data Relay
-- Dataverse
-- [Dotdigital](https://skypointcdpdocs.z22.web.core.windows.net/docs/dotdigital.html)
-- [Microsoft Dynamics 365](https://skypointcdpdocs.z22.web.core.windows.net/docs/dynamics365.html)
-- Emarsys
-- FHIR
-- FTP
-- Google BigQuery
-- [Google Cloud](https://skypointcdpdocs.z22.web.core.windows.net/docs/googlecloudstorage.html)
-- InforHMS
-- [KWI](https://skypointcdpdocs.z22.web.core.windows.net/docs/kwi.html)
-- [Klaviyo](https://skypointcdpdocs.z22.web.core.windows.net/docs/klaviyo.html)
-- MongoDB
-- OpenTable
-- Optimove
-- PointClickCare
-- [SFTP](https://skypointcdpdocs.z22.web.core.windows.net/docs/sftp.html)
-- SQL Server
-- [Salesforce](https://skypointcdpdocs.z22.web.core.windows.net/docs/salesforce.html)
-- [Salesforce Marketing Cloud](https://skypointcdpdocs.z22.web.core.windows.net/docs/salesforcemarketingcloud.html)
-- [Shopify](https://skypointcdpdocs.z22.web.core.windows.net/docs/ShopifyImport.html)
-- [Square](https://skypointcdpdocs.z22.web.core.windows.net/docs/square.html)
-- [Stripe](https://skypointcdpdocs.z22.web.core.windows.net/docs/stripe.html)
-- Survey Monkey
-- Tapin2
-- UKG
-- [Zenoti](https://skypointcdpdocs.z22.web.core.windows.net/docs/zenoti.html)
+- [AWS Cognito](https://docs.skypointcloud.com/docs/awscognito.html?tabs=tabid-1)
+- [Amazon Redshift](https://docs.skypointcloud.com/docs/amazonredshift.html)
+- [Amazon S3](https://docs.skypointcloud.com/docs/amazonsthree.html)
+- [Microsoft Azure Blob Storage](https://docs.skypointcloud.com/docs/azureblobstorage.html)
+- [Microsoft Azure Data Lake](https://docs.skypointcloud.com/docs/azuredatalakestoragegen2.html?tabs=tabid-1)
+- [Boulevard](https://docs.skypointcloud.com/docs/boulevard.html)
+- [Campaign Monitor](https://docs.skypointcloud.com/docs/campaignmonitor.html)
+- [Dataverse](https://docs.skypointcloud.com/docs/Dataflow-Import-Dataverse.html)
+- [Dotdigital](https://docs.skypointcloud.com/docs/dotdigital.html)
+- [Microsoft Dynamics 365](https://docs.skypointcloud.com/docs/dynamics365.html)
+- [Google Cloud Storage](https://docs.skypointcloud.com/docs/googlecloudstorage.html?tabs=tabid-1)
+- [InforHMS](https://docs.skypointcloud.com/docs/InforHMSimportconnector.html?tabs=tabid-1)
+- [KWI](https://docs.skypointcloud.com/docs/kwi.html)
+- [Klaviyo](https://docs.skypointcloud.com/docs/klaviyo.html?tabs=tabid-1)
+- [PointClickCare](https://docs.skypointcloud.com/docs/PCC.html)
+- [SFTP](https://docs.skypointcloud.com/docs/sftp.html)
+- [Salesforce](https://docs.skypointcloud.com/docs/salesforce.html)
+- [Salesforce Marketing Cloud](https://docs.skypointcloud.com/docs/salesforcemarketingcloud.html)
+- [Shopify](https://docs.skypointcloud.com/docs/ShopifyImport.html?tabs=tabid-1)
+- [Snowflake](https://docs.skypointcloud.com/docs/SnowflakeConnector.html)
+- [Square](https://docs.skypointcloud.com/docs/square.html?tabs=tabid-1)
+- [Stripe](https://docs.skypointcloud.com/docs/stripe.html)
+- [Zenoti](https://docs.skypointcloud.com/docs/zenoti.html)
 

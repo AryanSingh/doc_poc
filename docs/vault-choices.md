@@ -10,23 +10,24 @@ Choices provide an exact list of values that the user can choose to ensure data 
 2. Select the **Datavault** that you want to view the tables and choices.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_Choices.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_Choices.png)
 
 ---
 
 3. Click the **Choices** tab.
 
----
-> :grey_exclamation: **Note**: SkyPoint Datavault includes many standard choices that are created each time by the system when you create a Datavault. By default, standard choices are created as global choices, allowing them to reuse across multiple tables.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> SkyPoint Datavault includes many standard choices that are created each time by the system when you create a Datavault. By default, standard choices are created as global choices, allowing them to reuse across multiple tables.
 
 4. Select **New Choice**.
 
 A new window appears to create the choice.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_NewChoices.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_NewChoices.png)
 
 ---
 
@@ -38,12 +39,12 @@ A new window appears to create the choice.
 
 ## Edit and delete a choice
 
-
 1. Go to **Datavaults** > **Table**.
 2. Open the **Choices** tab.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_ChoicesActions.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_ChoicesActions.png)
 
 ---
 
@@ -55,7 +56,8 @@ A new window appears to create the choice.
 |Delete the Choice|Select **Remove**.|
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_EditChoices.png?raw=true)  
+
+![Alt text](/doc_snippets/Vault_EditChoices.png)  
 
 ---
 

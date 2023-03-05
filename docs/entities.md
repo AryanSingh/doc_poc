@@ -1,16 +1,16 @@
-# **Exploring the Databases**
+# Exploring the Databases
 
-## **Overview**  
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/databases.png?raw=true)  
+## Overview  
 
 ---
 
+![Alt text](/doc_snippets/databases.png)  
+
+---
 
 A database is a collection of data or structured information. It consists of multiple rows and columns. Each row represents a record, and each column represents an attribute. A database may match the schema of an attribute that is a part of the Lakehouse, defining a common language for business data. Any data changes made through Lakehouse SQL will be synched to Lakehouse. The addition or deletion of records in a table through Lakehouse SQL updates the cosmos metadata.
 
-
-## **To select and explore a Database**
+## To select and explore a Database
 
 For every import, SkyPoint adds a database to its analytical store known as Lakehouse.
 
@@ -24,7 +24,7 @@ The **Databases** window appears. The storage is organized into three layers, na
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Entities_BronzeSilverGold.png?raw=true)
+![Alt text](/doc_snippets/Entities_BronzeSilverGold.png)
 
 ---
 
@@ -39,8 +39,6 @@ The **Databases** window appears. The storage is organized into three layers, na
 |Last Refresh Date|The date and time when the database was last updated.|
 |Actions|Rollback to bring the data to its previous state. Its purpose is to reverse a custom action that has made changes to the system.|
 
----
-
 2. Select a database to know more about the attributes and the data.
 3. The **Attributes** tab is opened by default and shows a table.
 
@@ -48,7 +46,7 @@ In the Attributes page, you will see a tabular representation of all the attribu
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Entity_Attributes.png?raw=true)
+![Alt text](/doc_snippets/Entity_Attributes.png)
 
 ---
 
@@ -67,15 +65,13 @@ In the Attributes page, you will see a tabular representation of all the attribu
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Entity_Data.png?raw=true)
+![Alt text](/doc_snippets/Entity_Data.png)
 
 ---
 
----
-
-:grey_exclamation: **Note** In the data tab, you will see a tabular representation of the data with its values. The Column option side panel drop-down fields have a search functionality with a search placeholder. The search functionality has been made easier for the user by adding a search feature on the Column Options drop-down fields. Users can type for any attributes in the Column Settings field. This avoids the scrolling required for the long list of attributes.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> In the data tab, you will see a tabular representation of the data with its values. The Column option side panel drop-down fields have a search functionality with a search placeholder. The search functionality has been made easier for the user by adding a search feature on the Column Options drop-down fields. Users can type for any attributes in the Column Settings field. This avoids the scrolling required for the long list of attributes.
 
 ### To sort your Databases
 
@@ -85,7 +81,7 @@ You can sort your items in groups at one click. Follow the below steps:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Databases_Groupbefore.png?raw=true)
+![Alt text](/doc_snippets/Databases_Groupbefore.png)
 
 ---
 
@@ -95,7 +91,7 @@ The **Groups** get sorted in ascending or descending order.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Databases_Groupsorted.png?raw=true)
+![Alt text](/doc_snippets/Databases_Groupsorted.png)
 
 ---
 

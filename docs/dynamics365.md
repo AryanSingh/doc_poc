@@ -8,7 +8,7 @@ Follow our setup guide to connect **Dynamics 365** to  **SkyPoint**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/dynamics365.PNG?raw=true)
+![Alt text](/doc_snippets/dynamics365.PNG)
 
 ---
 
@@ -16,7 +16,7 @@ Follow our setup guide to connect **Dynamics 365** to  **SkyPoint**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/connectdynamics.PNG?raw=true)
+![Alt text](/doc_snippets/connectdynamics.PNG)
 
 ---
 
@@ -28,6 +28,6 @@ Follow our setup guide to connect **Dynamics 365** to  **SkyPoint**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/connecteddynamics.jpg?raw=true)
+![Alt text](/doc_snippets/connecteddynamics.jpg)
 
 ---

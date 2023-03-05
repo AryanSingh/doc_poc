@@ -4,7 +4,9 @@
 
 A SkyPoint account gives you access to SkyPoint products and solutions with just one login. You can sign in to SkyPoint Studio using your credentials. SkyPoint account is appliable per tenant and includes multiple capabilities that let you manage everything all in one place.
 
-> :grey_exclamation: **Note**: If you are a new user and having issues regarding Signing up or Signing in, contact the [SkyPoint support team](https://skypointcloud.com/customer-support/). A SkyPoint representative will help you meet any special requirements and ensure you log in for the most efficient and cost-effective solutions.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> If you are a new user and having issues regarding Signing up or Signing in, contact the [SkyPoint support team](https://skypointcloud.com/customer-support/). A SkyPoint representative will help you meet any special requirements and ensure you log in for the most efficient and cost-effective solutions.
 
 ## To Sign in to your SkyPoint account 
 
@@ -12,7 +14,7 @@ A SkyPoint account gives you access to SkyPoint products and solutions with just
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/SignIn.png?raw=true)  
+![image](/doc_snippets/SignIn.png)  
 
 ---
 
@@ -25,11 +27,13 @@ A SkyPoint account gives you access to SkyPoint products and solutions with just
 |Log in with a Microsoft account|Click **Sign In with Microsoft**.|
 |Log in with a Google account|Click **Sign In with Google**.|
 
-> :grey_exclamation: **Note**: Based on your authentication process, the credentials will be verified from SkyPoint secured data resources.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> Based on your authentication process, the credentials will be verified from SkyPoint secured data resources.  
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CreateTenant.png?raw=true)  
+![image](/doc_snippets/CreateTenant.png)  
 
 ---
 
@@ -37,7 +41,7 @@ A SkyPoint account gives you access to SkyPoint products and solutions with just
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/PlanSetup.png?raw=true)  
+![image](/doc_snippets/PlanSetup.png)  
 
 ---
 
@@ -45,7 +49,7 @@ Wait for a while to map the resources to your account. After verification, your 
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LoginDashboard.png?raw=true)  
+![image](/doc_snippets/LoginDashboard.png)  
 
 ---
 
@@ -57,7 +61,7 @@ If the password you entered is incorrect, you will see an error message and you 
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/forgotpassword.PNG?raw=true)  
+![image](/doc_snippets/forgotpassword.PNG)  
 
 ---
 
@@ -67,7 +71,7 @@ The **Reset Password** window appears.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/ResetPassword.png?raw=true)  
+![image](/doc_snippets/ResetPassword.png)  
 
 ---
 
@@ -76,7 +80,7 @@ The **Reset Password** window appears.
 
 ---
 
-![image](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/VerificationCode.png?raw=true)  
+![image](/doc_snippets/VerificationCode.png)  
 
 ---
 

@@ -8,7 +8,11 @@ Follow the steps below to import customer data from eCommerce platform:
 2. Enter the credentials for the storage account where the csv files are stored and click on connect. Select the two eCommerce customer data and online purchase data in csv files.
 3. Then, first click on the file named **eCommerceContacts.csv** and you will see a preview field table pop up on the screen.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/previewfield.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/previewfield.PNG)
+
+---
 
 4. Update the datatype for the columns listed below:
     - **DateOfBirth** : Date
@@ -39,11 +43,19 @@ Follow the steps below to import the loyalty data from eCommerce platform:
 3. Select the eCommerce Contacts Data entity and eCommerce Loyalty Data entity.
 4. Click on contacts entity and complete the mapping for the various required fields.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/ecommercecontactsmapping.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/ecommercecontactsmapping.PNG)
+
+---
 
 5. Click on loyalty data entity and complete the mapping for the various required fields.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/loyaltymapping.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/loyaltymapping.PNG)
+
+---
 
 6. Click on Save and after the UI shows **Saved successfully**, click on Run to start the map process.
 
@@ -55,7 +67,11 @@ Follow the steps below to import the loyalty data from eCommerce platform:
 4. Then click on Save and after the UI shows **Saved successfully**, click on Run to start the ML Match process.
 5. Once the ML Match is done, you will be able to see the number of unique records and many other numerical representations of the output of the ML match.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/sampleguidemlmatch.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/sampleguidemlmatch.PNG)
+
+---
 
 ## Step 5 - Stitch Process : ML Merge
 
@@ -64,7 +80,11 @@ Follow the steps below to import the loyalty data from eCommerce platform:
 3. Once ML Merge is done, go to the home page and look at the dashboard. You will be able to see the profile count.
 4. To check the profiles, navigate to **Insights** > **Profiles**.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/sampleguideprofiles.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/sampleguideprofiles.PNG)
+
+---
 
 ## Step 6 - Create a Subscription Churn Prediction Model
 
@@ -72,42 +92,78 @@ With the stitch process done, we can run the Subscription churn prediction.
 Below are the necessary steps required to run the prediction.
 1. Go to **Insights** > **Predictions** and select to use the Customer Churn Model.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/churnmodelstep1.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/churnmodelstep1.PNG)
+
+---
 
 2. Select the **subscription** option and select **Get Started**
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep1.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep1.PNG)
+
+---
 
 3. Name the model and the output entity.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep2.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep2.PNG)
+
+---
 
 4. Define two conditions for the churn model:
     - Enter the number of **Days since subscription ended** that your business considers a customer to be in a churned state. This period is typically liked to business activities like offers or other marketing efforts trying to prevent losing the customer.
     - Enter the number of **Days to look into future to predict churn** to set a window to predict churn for. For example, to predict the risk of churn for your customers over the next 90 days to align to your marketing retention efforts. Predicting churn risk for longer or shorter periods of time can make it more difficult to address the factors in your churn risk profile, but this is highly dependent on your specific business requirements. Select Next to continue
 
-    ![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep3.PNG?raw=true)
+    ![Alt text](/doc_snippets/subscriptionchurnstep3.PNG)
 
 5. Select **Subscription history(required)** and select **Add Data** for subscription history.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep4.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep4.PNG)
+
+---
 
 6. Add the subscription history data entity and map the fields to the corresponding fields required by the model.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep5.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep5.PNG)
+
+---
 
 7. Add the customer activity data entity and map the fields to the corresponding fields required by the model.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep6.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep6.PNG)
+
+---
 
 8. Select Next to set the model schedule. The model needs to train regularly to learn new patterns when there is new data ingested.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/churnmodelstep8.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/churnmodelstep8.PNG)
+
+---
 
 9. After reviewing all the details, select **Save And Run**.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/subscriptionchurnstep7.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/subscriptionchurnstep7.PNG)
+
+---
 
 10. When the model is completely run, you will be able to see your model in the **My Predictions** section. Post completion, an entity will also be created with type **Intelligence** containing the predictions.
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/modelcreated.PNG?raw=true)
+---
+
+![Alt text](/doc_snippets/modelcreated.PNG)
+
+---

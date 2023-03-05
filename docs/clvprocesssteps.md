@@ -11,7 +11,7 @@ The **Predictions > Create** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Predictionshomepage.png?raw=true)
+![Alt text](/doc_snippets/CLV_Predictionshomepage.png)
 
 ---
 
@@ -21,7 +21,7 @@ The **Customer lifetime value** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_CLVform.png?raw=true)
+![Alt text](/doc_snippets/CLV_CLVform.png)
 
 ---
 
@@ -31,7 +31,7 @@ The **Model name** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Modelname.png?raw=true)
+![Alt text](/doc_snippets/CLV_Modelname.png)
 
 ---
 
@@ -45,7 +45,7 @@ The **Model preferences** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Modelpreferencespage.png?raw=true)
+![Alt text](/doc_snippets/CLV_Modelpreferencespage.png)
 
 ---
 
@@ -90,7 +90,7 @@ The **Required data** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Requireddatapage.png?raw=true)
+![Alt text](/doc_snippets/CLV_Requireddatapage.png)
 
 ---
 
@@ -104,7 +104,7 @@ The **Add Customer Data** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Addcustomerdataform.png?raw=true)
+![Alt text](/doc_snippets/CLV_Addcustomerdataform.png)
 
 ---
 
@@ -120,7 +120,7 @@ The table gets created.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Requireddataoutput.png?raw=true)
+![Alt text](/doc_snippets/CLV_Requireddataoutput.png)
 
 ---
 
@@ -141,7 +141,7 @@ The **Additional data** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Additionaldata.png?raw=true)
+![Alt text](/doc_snippets/CLV_Additionaldata.png)
 
 ---
 
@@ -155,7 +155,7 @@ The **Add Customer Data** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_additionaldataform.png?raw=true)
+![Alt text](/doc_snippets/CLV_additionaldataform.png)
 
 ---
   
@@ -173,17 +173,15 @@ The **Add Customer Data** form appears.
 
 8. Click **Save**.
 
----
-
-:grey_exclamation: **Note:** In case, you do not have any additional data to add, you can skip this step.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> In case, you do not have any additional data to add, you can skip this step.
 
 The **Additional data** gets created.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Additionaldataoutput.png?raw=true)
+![Alt text](/doc_snippets/CLV_Additionaldataoutput.png)
 
 ---
 
@@ -193,7 +191,7 @@ The **Data update schedule** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_DataSchedulepage.png?raw=true)
+![Alt text](/doc_snippets/CLV_DataSchedulepage.png)
 
 ---
 
@@ -210,11 +208,9 @@ Follow the below steps to schedule your data update:
 |Import your data automatically every three months|Select **Quarterly**.|
 |Choose not to import your data automatically|Select **Never**.|
 
----
-
-:grey_exclamation: **Note:** Although there is an option of choosing not to schedule your data imports, you are still not recommended to select that option.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Although there is an option of choosing not to schedule your data imports, you are still not recommended to select that option.
 
 2. Click **Save & Proceed**.
 
@@ -222,7 +218,7 @@ The **Review and run** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/CLV_Reviewandrunpage.png?raw=true)
+![Alt text](/doc_snippets/CLV_Reviewandrunpage.png)
 
 ---
 

@@ -16,7 +16,7 @@ The list of enrichments appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Enrichment_new.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_Enrichment_new.png)  
 
 ---
 
@@ -26,27 +26,27 @@ The **Overview** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Overview.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_Overview.png)  
 
 ---
+
 4. Click **Next**.  
 
 The **Select your HereLocation connection** page appears.  
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Connect_New.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_Connect_New.png)  
 
 ---   
 
 ### Add connection
 
-
 1. In the **Select your HereLocation connection**, click **Add connection**. The **Set up HERE connection** page appears.  
    
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Setup_new.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_Setup_new.png)  
 
 ---   
 
@@ -54,12 +54,11 @@ The **Select your HereLocation connection** page appears.
 3. Enter the **HERE Technologies API key** for validation.
 4. Click **Verify**.
 
-___
-> :grey_exclamation: **Note**: A Green tick verifies that you have entered the correct HERE Technologies API key.
-___
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+>
+> A Green tick verifies that you have entered the correct HERE Technologies API key.
    
 5. Click **Save**.  
-   
 6. In the **Select your HereLocation connection**, click **Next**.  
 
 ### Select an existing connection for enrichment
@@ -68,16 +67,17 @@ Follow the below steps to select an existing connection for enrichment:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_EnrichConnection_new.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_EnrichConnection_new.png)  
 
 ---
 
 2. Select your desired connection from the **Connection for enrichment** drop-down list.  
 3. Click **Next**.  
 
-___
-> :grey_exclamation: **Note**: You can also edit the existing connections by clicking on Edit that can be found in every connection.
-___
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> You can also edit the existing connections by clicking on Edit that can be found in every connection.
+
 ### Choose data set
 Once you complete selecting the connection, the **Customer table** page appears. Follow the below steps to choose the data set containing customer profiles that you want to enrich.
 
@@ -85,7 +85,7 @@ Once you complete selecting the connection, the **Customer table** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Requireddata_new.png?raw=true)
+![Alt text](/doc_snippets/HERETechnologies_Requireddata_new.png)
 
 ---
 
@@ -96,7 +96,7 @@ The **Data mapping** page appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_DataMapping1.png?raw=true)
+![Alt text](/doc_snippets/HERETechnologies_DataMapping1.png)
 
 ---
 
@@ -109,7 +109,7 @@ Follow the below steps to map your field names to the corresponding HERE Technol
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Datamapping_new.png?raw=true)
+![Alt text](/doc_snippets/HERETechnologies_Datamapping_new.png)
 
 ---
 
@@ -119,7 +119,7 @@ The **Name your enrichment** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_NameYourEnrichment.png?raw=true)  
+![Alt text](/doc_snippets/HERETechnologies_NameYourEnrichment.png)  
 
 ---  
 
@@ -132,9 +132,11 @@ Follow the below steps to name your enrichment.
 The **Success** dialog box appears.
 
 ---
-   ![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Runpage.png?raw=true)  
+
+![Alt text](/doc_snippets/HERETechnologies_Runpage.png)  
 
 ---
+
 4. In the **Success** page, perform one of the below actions:  
   
 |To|Do|
@@ -145,7 +147,8 @@ The **Success** dialog box appears.
  You can find the successfully saved Enrichment in the **Enrichment > My Enrichments** tab.
  
 ---
-   ![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/HERETechnologies_Myenrichments_new.png?raw=true)  
+
+![Alt text](/doc_snippets/HERETechnologies_Myenrichments_new.png)  
 
 ---
 

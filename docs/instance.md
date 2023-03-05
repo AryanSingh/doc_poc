@@ -6,41 +6,45 @@ All your customer profiles are created under a specific Instance. Creating an In
 Follow the steps below to Add instance under your Tenant:
 1. Go to **Settings > Instances**.
 2. In the **Instances** tab, click **Add instance**.
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_InstancesHomepage.png?raw=true)  
 
 ---
+
+![Alt text](/doc_snippets/Instances_InstancesHomepage.png)  
+
+---
+
 The **Create instance** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Createinstancescreen.png?raw=true)  
+
+![Alt text](/doc_snippets/Instances_Createinstancescreen.png)  
 
 ---
 
----
-:grey_exclamation: **Note:** The Skypoint platform enables you to copy information from the existing instances as well as create a new Instance. These two options of adding an instance allow you to do the following:
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The Skypoint platform enables you to copy information from the existing instances as well as create a new Instance. These two options of adding an instance allow you to do the following:
 
 |Item|Description|
 |:-|:-|
 |Copy from existing|Enables you to select the settings from an existing instance to save your effort of resetting a new instance.|
 |Create instance|Enables you to add a new instance by selecting new Instance properties.|
 
----
 ### To Copy from existing instance
 Follow the below steps to create an instance from existing instance:
 1. On the **Create instance** page, select **Copy from existing instance**.
 2. Type the desired Name of the new instance in the **Name** text area.
 3. Type the desired Display name in the **Display name** text area.
-4. Click the **Instances available** and select the desired **Instance** from the drop-down list. 
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Instancesdropdown.png?raw=true)  
+4. Click the **Instances available** and select the desired **Instance** from the drop-down list.
+5. Select the **Domain** that best describes your business.  
 
----
-5. Click **Create**.
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Createexistinginstancesbutton.png?raw=true)  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> You can add the domain to business at the instance level in SkyPoint Studio. Domain dropdown displays values - Retail, Senior living, Health care, Default, and Hospitality in ascending order. These options have been pre-defined and are included in the dropdown list as default values. However, you can request the SkyPoint support team to add new values to this list based on your specific requirements.  
 
----
+6. Click **Create**.
+
+
 ### To Create instance
 Follow the below instance to create an instance directly:
 1. On the **Create instance** screen, select **Create instance**.
@@ -48,7 +52,8 @@ Follow the below instance to create an instance directly:
 The **Create instance** form appears.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Createinstanceform.png?raw=true)  
+
+![Alt text](/doc_snippets/Instances_Createinstanceform.png)  
 
 ---
 
@@ -59,6 +64,7 @@ The **Create instance** form appears.
 |Name|Type a unique name for the Instance.|
 |Display name|Type a display name for the Instance.|
 |Type|Select the desired Tenant from the Type drop-down list.|
+|Domain|Select the domain that best describes your business.|
 |Time zone|Select the desired time zone from the **Time zone** drop-down list. The default time zone is **UTC -7:00 Pacific Time**.|
 |Language|Select the preferred language from the **Language** drop-down list. The default language is **English**.|
 |Date and number format|Select the preferred date and time format from the **Date and number format**. The default value is **United States**.|
@@ -75,9 +81,11 @@ You can perform a few actions on an existing Instance to change the properties a
 The **Action** list appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Actionlist.png?raw=true)  
+
+![Alt text](/doc_snippets/Instances_Actionlist.png)  
 
 ---
+
 3. If required, perform the actions below on the **Action** list.
 
 |To|Do|
@@ -98,9 +106,11 @@ You can specify the data that you want to reset while resetting the MDSP data fo
 The **Reset MDSP data** pop-up appears. 
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_ResetMDSPpopup.png?raw=true)  
+
+![Alt text](/doc_snippets/Instances_ResetMDSPpopup.png)  
 
 ---
+
 2. Perform one of the below actions:
 
 |If you want to|Then|
@@ -118,7 +128,8 @@ You can directly change the information of your instance, using the Settings fea
 The **Settings** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Instances_Settingshomepage.png?raw=true)  
+
+![Alt text](/doc_snippets/Instances_Settingshomepage.png)  
 
 ---
 

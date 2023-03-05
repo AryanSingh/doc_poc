@@ -1,193 +1,180 @@
-# Defining a Timeline
+# Add multiple Timeline journeys
 
 ## Overview
 
-A Timeline is related to the customer's activity or actions. SkyPoint Modern Data Stack Platform (MDSP) consolidates your customer’s activities from various data sources and associates them with a unified customer profile. It gives you a chronological overview of your customer’s activities. 
+A timeline refers to the transactional data involving any internal or external event, or activity taking place in an organization or business. Examples include purchase, feedback, value care, payments, and claim submission performed by the user/master data, for example, customers, partners, citizens, suppliers, sites, providers, patients, operators, locations, products, assets, etc.
 
 ## Prerequisite
 
-You have created tables in the Dataflow. A table must have at least one attribute of type Date. If you need help and support, click **Need help?** button in the right corner of the page. For more information regarding raising a new ticket, refer [Help+Support](https://skypointcdpdocs.z22.web.core.windows.net/docs/help%2Bsupport.html) section.
+You must at least have one Master Data profile set up in the SkyPoint studio and a transactional table imported in Dataflow > Imports.
 
-## To create a timeline
+## To create a Timeline journey
 
-1. In the left pane, go to **Profile** > **Timelines**.  
+Follow the below steps to create a new timeline journey:
 
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_AddTimeline.png?raw=true)  
-
----
-
-2. Click **Add timeline**.  
+1. Go to **Master Data > Timelines**.
+2. Click **Timelines journey**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_Overview.png?raw=true)  
+![Alt text](/doc_snippets/Timeline_clicktimelinejourney.png)
 
 ---
 
-To create and define a timeline you need to perform these steps in the following order:
-
-1. Select your timeline data
-2. Set up a relationship
-3. Define the timeline
-4. Set activity type
-5. Review and Run
-
-### Select your timeline data
-
-1. Select **Table** from the drop-down list that includes transactional data.
-2. Select the **Primary key** from the drop-down list that uniquely identifies the record.
-3. Select the attribute from the drop-down list that has a date or time value, for example, created\_at, or updated\_at.
+3. Enter **Name**, **Display Name**, and **Description** in the **New timeline journey** form.
 
 ---
 
-> :grey_exclamation: **Note**: This field displays attributes of date or time. Select an attribute that indicates when the records were last updated. It will be used to identify the records that fall within the incremental refresh time frame.
+![Alt text](/doc_snippets/Timeline_Timelinejourneyform.png)
 
 ---
 
-4. Click **Save & Next**.
+4. Click **Next**.
 
-### Set up a relationship
+## To add timelines 
 
-In the relationship setup, connect your activity data to the corresponding customer record.
+You can add multiple timelines under a timeline journey by following the below steps:
 
-1. Click **Add relationship**.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_SetUpRelationsip.png?raw=true)  
+1. In the created timeline journey page, click **Add table**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_AddRelationship.png?raw=true)  
+![Alt text](/doc_snippets/Timeline_clickaddtable.png)
 
 ---
 
-2. Select the foreign key **Field** to establish a relationship with another table.
-3. Choose the customer **Table** from the drop-down list to connect with the activity data.
-4. Select the primary key of the customer table from the **Field** drop-down list.
-5. Enter the relationship **Name** to identify the relationship between tables.
-6. Click **Apply** to establish the relationship.
-7. Click **Save & Next**. If you want to modify the preceding step, then click **Previous**.
-
-### Define the timeline
-
-Once you have set up a relationship, choose the activity event and the starting time of your activity.  
+2. Select a **Table** from the drop-down list in **Select your timeline data** form.
+3. Select **Primary key** from the drop-down list.
+4. Select **Last updated** field from the drop-down list.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timeline_DetailsIconcolor.png?raw=true)  
+![Alt text](/doc_snippets/Timeline_selecttimelinedata.png)
 
 ---
 
-1. Select **Timestamp** from the drop-down list. It represents the starting time of your activity.
-2. Choose the **Event** for the activity.
-3. Enter a **Web address** that contains a URL with information about this activity.
-4. Choose the relevant information in the **Details** field.
-5. Choose an **Icon** from the drop-down list that best represents the activity type.
-6. Enter a **Timeline display name** for your activity to define the timeline.
-7. You can select a preferred Color from the **Choose Icon color** dropdown list to display information in the timeline view on your customer profiles.
-8. Click **Save & Next**.
+5. Click **Next**.
 
-### Set activity type
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> You cannot create tables with the same name under one timeline journey.
 
-You can choose the type of activity that you want to monitor.  
+## To add relationship
+
+Follow below steps to connect your activity data to corresponding customer record in the **Add Relationship** form:
+
+1. Select the id which links Transactional table to Master data table from the **Field** drop-down list.
+2. Under the **Master data** section, select a **Table** from the drop-down list to connect with the transactional data.
+3. Select Primary key of customer table from **Field** drop-down list.
+4. Enter relationship **Name** in the text area.
+5. Click **Next**.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_SetActivity.png?raw=true)  
+![Alt text](/doc_snippets/Timeline_Addrelationshipformnext.png)
 
 ---
 
-1. Choose the activity type **Select from existing** or **Create new**. If an activity type is not relevant for the new activity, choose to **Create new**.
+## To define the timeline
+
+Follow below steps to select the fields that will appear in your timeline:
+
+1. Select **Timestamp** from the drop-down list.
+2. Select **Event** from the drop-down list.
+3. Select **Web address** from the drop-down list.
+4. Select **Details** from the drop-down list. You can select a maximum of three choices.
+5. Enter a **Timeline display name** for your activity to define the timeline.
+6. Select an **Icon** from the drop-down list.
+7. Select an **Icon colour** from the **Choose Icon color** drop-down list.
+
+---
+
+![Alt text](/doc_snippets/Timeline_Definetimeline.png)
+
+---
+
+8. Click **Next**.
+
+## To set activity type
+
+Follow below steps to choose the type of activity you want to monitor:
+
+1. Select activity type **Select from existing** or **Create new** in **Set activity type** form. If an activity type is not relevant for the new activity, choose **Create new**.
 2. Select the **Activity type** from the drop-down list.
 3. Click **Save & Next**.
 
-### Review and run the timeline
+---
 
-You can review and verify the new activity configuration.  
+![Alt text](/doc_snippets/Timeline_setactivitytypelist.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_Review.png?raw=true)  
+## To run Timeline journey
+
+Once the timeline journey is created, follow the below steps to run it:
+
+1. Go to **Master Data > Timelines**.
+2. Click the three horizontal ellipsis on your created Timeline journey.
+3. Click **Run**.
 
 ---
 
-1. Click **Save & Close** to apply your changes.
-2. To review and edit the previous step, click **Edit** or select the step on the vertical bar to update the information if necessary.
-3. Click **Go Back** to the Timeline page to view the created activity.  
+![Alt text](/doc_snippets/Timeline_Run.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_ConfirmationMessage.png?raw=true)  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> You can click Edit on your timeline journey to find the created timelines.
+
+- Click **Edit**, **Delete**, or **Preview** to manage the timeline.
 
 ---
 
-4. Click **Run** to process the timeline activity. You can click the **Run History** button to view the details such as Start time, End time, and any applicable errors.  
+![Alt text](/doc_snippets/Timeline_Edittimelinesinside.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_Run.png?raw=true)  
-
----  
-
-|Item|Description|
-|:---|:---|
-|Icon|Displays the Icon that represents the activity.|
-|Table|Displays the table name which is used in the timeline.|
-|Source|Displays the connector from which data was imported.|
-|Primary key|The uniquely identifiable attribute.|
-|Event|Indicates the event of the timeline.|
-|Timestamp|Displays the start time of the timeline.|
-|Details|Displays details of the timeline. Maximum 3 fields are allowed.|
-|Status|Indicates the status of the run command on the timeline.|
-|Action|Option to perform activities after completion of the configuration, for example, edit, or delete.|  
+4. A **Run journey** pop-up appears for your confirmation.
+5. Click **Run**.
 
 ---
 
-> :grey_exclamation: **Note**: You can go to the [Customers](https://skypointcdpdocs.z22.web.core.windows.net/docs/profiles.html) page and select a customer profile to view the customer’s activities. You can apply a filter to refine and include your selected activity type.
+![Alt text](/doc_snippets/Timeline_Runjourney.png)
 
 ---
 
-## Edit a timeline
+## Find created Timeline journey
 
-You can edit your timeline to change the configuration.
+Follow below steps to find the successfully created timeline:
 
-1. Go to the **Timelines** page.  
-
----
-
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_Edit.png?raw=true)  
+1. Go to **Lakehouse > Databases > Gold**.
+2. Select your timeline under the **Timeline** section.
+3. Select **Data** tab.
 
 ---
 
-2. Click on the **Edit** icon of the timeline that you want to modify.
-3. Open the review step and update the fields.
-4. Select **Save & Close** to apply your changes.
-5. Click the Run button to execute the process.
-
-## Delete a Timeline
-
-1. Go to the **Timeline** page.  
+![Alt text](/doc_snippets/Timeline_Findtimelineindatabases.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_Delete.png?raw=true)  
+4. Copy a customer **Skypoint id** and go to **Master Data > Profiles**.
+5. Search for the **Customer profile** using the **Skypoint id**.
+6. Select the **Timeline journey** from the drop-down list.
+   - You can view the respective data inside it below. 
 
 ---
 
-2. Click on the **Delete** icon of the timeline that you want to remove. A dialog box appears for confirmation.  
+![Alt text](/doc_snippets/Timeline_TimelinejourneyinProfiles.png)
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Timelines_DeleteConfirm.png?raw=true)  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+> 
+> The already existing timelines are grouped together under **Default journey**. You can rename the Default journey name to a corresponding journey.
 
 ---
 
-3. Click **Yes** to remove the timeline activity.
+![Alt text](/doc_snippets/Timeline_Defaulttimelines.png)
 
-
-
-
-
+---

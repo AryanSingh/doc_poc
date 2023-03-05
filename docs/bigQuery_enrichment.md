@@ -17,7 +17,7 @@ To configure BigQuery enrichment, the following prerequisites must be met:
 2. Choose **BigQuery**, click **Enrich my data**.
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Description.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Description.png)
 
 ---
 
@@ -25,7 +25,7 @@ To configure BigQuery enrichment, the following prerequisites must be met:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Overview.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Overview.png)
 
 ---
 
@@ -44,15 +44,13 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Connect.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Connect.png)
 
 ---
 
 3. Enter a **Display name**.
 4. Enter your BigQuery Service Account credentials for validation – **Email**, **Project Id**, **Password**.
 5. Click **Choose File** to upload a P12 file.
-
----
 
 |**Item**|**Description**|
 | :- | :- |
@@ -63,7 +61,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_SetUpConnection.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_SetUpConnection.png)
 
 ---
 
@@ -77,7 +75,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_RequiredData.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_RequiredData.png)
 
 ---
 
@@ -89,7 +87,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_AttributeMapping.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_AttributeMapping.png)
 
 ---
 
@@ -100,7 +98,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Review.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Review.png)
 
 ---
 
@@ -109,7 +107,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/BigQuery_Run.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Run.png)
 
 ---
 
@@ -117,13 +115,11 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Output.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Output.png)
 
 ---
 
 6. If necessary, do the following:
-
----
 
 |To|Do|
 | :- | :- |
@@ -135,8 +131,6 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 |View the items in the List|Select **List**.|
 |View the items in a specific Group (For example, Name, Enrichment, status)|Select **Group by**.|
 
----
-
 7. After the enrichment process, you can view details in the Tables and the customer section as follows:
 
 - To view details in the Tables section, do the following:  
@@ -144,7 +138,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
 
    ---
 
-   ![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Entity.png?raw=true)   
+   ![Alt text](/doc_snippets/BigQuery_Entity.png)   
    
    ---
    
@@ -152,7 +146,7 @@ You can create a connection that allows SkyPoint Cloud instance to share data wi
       
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/BigQuery_Entity_Attribute.png?raw=true)
+![Alt text](/doc_snippets/BigQuery_Entity_Attribute.png)
 
 ---
 

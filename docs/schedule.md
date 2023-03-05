@@ -9,90 +9,103 @@ Follow the below steps to set a time to refresh the data flows:
 2. On the **Schedule** page, click the **Toggle** button to enable editing.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Homepage.png?raw=true)  
+
+![Alt text](/doc_snippets/Schedule_Homepage.png)  
 
 ---
 3. Click the **Repeat** drop-down list.  
 
-The **Repeat** drop-down list appears.  
-
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Repeat.png?raw=true)  
-
----
 4. Select the following options from the **Repeat** drop-down list:  
 
 |To|Do|
 |:-|:-|
 |Refresh data flows daily|Select **Daily**.|
 |Refresh data flows weekly|Select **Weekly**.|
-|Refresh data flows monthly|Select **Monthly**.|
+|Refresh data flows monthly|Select **Monthly**.|  
 
-### To Schedule data flow Daily
+Select the appropriate tab and follow the instructions to schedule data:
+
+### [Daily](#tab/tabid-1)
+
 Follow the below steps to schedule the data flow daily:
-1. In the **Settings > Schedule** screen, select **Daily** from the **Repeat** drop-down list.  
+1. On the **Settings > Schedule** page, select **Daily** from the **Repeat** drop-down list.  
 
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Daily.png?raw=true) 
-
----
+![Alt text](/doc_snippets/Schedule_Daily.png) 
 
 2. Select the preferred **Time zone** in the **Time zone** drop-down list.
 3. In the **Time** drop-down list, select the preferred time.   
    - You can add another time to refresh data flows by clicking on **Add another time**.
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Time.png?raw=true) 
-
----
-
-4. In the **Stitch flow** drop-down list, select one of the following:
+4. Select **Master Data** from the dropdown list.
+5. In the **Stitch flow** drop-down list, select one of the following:
 
 |If you want to|Then|
 |:-|:-|
 |Refresh data for the Rule Match|Select **Rule Match**.|
 |Refresh data for the ML Match|Select **ML Flow**.|
 
-5. In the **Refresh type** dropdown list, select one of the following:
+6. In the **Refresh type** dropdown list, select one of the following:
 
 |If you want to|Then|
 |:-|:-|
 |Refresh the entire data flow|Select **Full**.|
 |Refresh only a subset of your total datasets that are changed recently|Select **Incremental**.|
 
-6. Click **Save**.
+7. Click **Save**.
 
-### To Schedule data flow Weekly
+### [Weekly](#tab/tabid-2)
+
 Follow the below steps to schedule the data flow weekly:
-1. In the **Settings > Schedule** screen, select **Weekly** from the **Repeat** drop-down list.
+1. On the **Settings > Schedule** page, select **Weekly** from the **Repeat** drop-down list.  
 
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Weekly.png?raw=true)  
+![Alt text](/doc_snippets/Schedule_Weekly.png)  
 
----
 2. Select the preferred **Time zone** in the **Time zone** drop-down list. 
 3. Check the **Days** under **Every** section.
+4. In the **Time** drop-down list, select the preferred time.   
+   - You can add another time to refresh data flows by clicking on **Add another time**.
+5. Select **Master Data** from the dropdown list.
+6. In the **Stitch flow** drop-down list, select one of the following:
 
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Every.png?raw=true)  
+|If you want to|Then|
+|:-|:-|
+|Refresh data for the Rule Match|Select **Rule Match**.|
+|Refresh data for the ML Match|Select **ML Flow**.|
 
----
-4. Follow from **Step 2 to Step 5** in **‘To Schedule data flow Daily’** to fill the other categories.
-5. Click **Save**.
+7. In the **Refresh type** dropdown list, select one of the following:
 
-### To Schedule data flow Monthly
+|If you want to|Then|
+|:-|:-|
+|Refresh the entire data flow|Select **Full**.|
+|Refresh only a subset of your total datasets that are changed recently|Select **Incremental**.|
+
+8. Click **Save**.
+
+### [Monthly](#tab/tabid-3) 
+
 Follow the below steps to schedule the data flow monthly:
-1. In the **Settings > Schedule** screen, select **Monthly** from the **Repeat** drop-down list.
+1. On the **Settings > Schedule** page, select **Monthly** from the **Repeat** drop-down list.  
 
----
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Monthly.png?raw=true)  
+![Alt text](/doc_snippets/Schedule_Monthly.png)  
 
----
 2. Select the preferred **Time zone** in the **Time zone** drop-down list. 
 3. Check the specific **Days of the month** for schedule run from the **Days of the month** drop-down list. 
+4. In the **Time** drop-down list, select the preferred time.   
+   - You can add another time to refresh data flows by clicking on **Add another time**.
+5. Select **Master Data** from the dropdown list.
+6. In the **Stitch flow** drop-down list, select one of the following:
+
+|If you want to|Then|
+|:-|:-|
+|Refresh data for the Rule Match|Select **Rule Match**.|
+|Refresh data for the ML Match|Select **ML Flow**.|
+
+7. In the **Refresh type** dropdown list, select one of the following:
+
+|If you want to|Then|
+|:-|:-|
+|Refresh the entire data flow|Select **Full**.|
+|Refresh only a subset of your total datasets that are changed recently|Select **Incremental**.|
+
+8. Click **Save**.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Schedule_Daysofthemonth.png?raw=true)  
-
----
-4. Follow from **Step 2 to Step 5** in **‘To Schedule data flow Daily’** to fill the other categories.
-5. Click **Save**.

@@ -16,7 +16,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Dataflow_window.png?raw=true)  
+![Alt text](/doc_snippets/Dataflow_window.png)  
 
 ---
 
@@ -24,17 +24,15 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SetDataflowName.png?raw=true)  
+![Alt text](/doc_snippets/SetDataflowName.png)  
 
 ---
 
 3. Enter a **Name** to identify your Dataflow.
 
----
-
-> :grey_exclamation: **Note**: Name starts with a letter.  Use letters and numbers only. No spaces between letters.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Name starts with a letter.  Use letters and numbers only. No spaces between letters.
 
 4. Click **Next**.
 
@@ -44,7 +42,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Stripe_ChooseConnector.png?raw=true)  
+![Alt text](/doc_snippets/Stripe_ChooseConnector.png)  
 
 ---
 
@@ -52,7 +50,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Stripe_SetDataflowName.png?raw=true)  
+![Alt text](/doc_snippets/Stripe_SetDataflowName.png)  
 
 ---
 
@@ -62,7 +60,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Stripe_Configuration.png?raw=true)  
+![Alt text](/doc_snippets/Stripe_Configuration.png)  
 
 ---
 
@@ -75,17 +73,15 @@ Follow the below steps to configure the connection to Stripe:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Stripe_EntityDetails.png?raw=true)  
+![Alt text](/doc_snippets/Stripe_EntityDetails.png)  
 
 ---
 
 3. You can enter the **Table Details** to process the data.
 
----
-
-> :grey_exclamation: **Note**: After configuration, it lists down all the tables in the **Table Details** that are part of the connector. For a single table, it displays by default (this information is client connector specific and what tables that given connector supports) on successful connection. However, for multiple tables, you can mark only those tables that you want to import and process the data. For example, to import customer data, you can check those tables which contain customer information, such as name, email, address, and contact details.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> After configuration, it lists down all the tables in the **Table Details** that are part of the connector. For a single table, it displays by default (this information is client connector specific and what tables that given connector supports) on successful connection. However, for multiple tables, you can mark only those tables that you want to import and process the data. For example, to import customer data, you can check those tables which contain customer information, such as name, email, address, and contact details.
 
 |Item|Description|
 | :--- | :--- |
@@ -103,7 +99,7 @@ Follow the below steps to configure the connection to Stripe:
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Stripe_Output.png?raw=true)  
+![Alt text](/doc_snippets/Stripe_Output.png)  
 
 ---
 
@@ -128,11 +124,9 @@ Follow the below steps to configure the connection to Stripe:
 |Delete the Dataflow|Select **Remove** and then click the **Delete** button. All tables in the data source get deleted.|
 |See the run history of the Dataflow|Select **Run History**.|  
 
----
-
-> :grey_exclamation: **Note:** You can see the error message corresponding to failure while importing data from a data source in the Dataflow under **Run history** > **Description**.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> You can see the error message corresponding to failure while importing data from a data source in the Dataflow under **Run history** > **Description**.
 
 ### Next step
 

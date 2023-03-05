@@ -2,10 +2,9 @@
 ## Overview
 You need a storage account to create various data flows for your customers. A Tenant in SkyPoint Modern Data Stack Platform (MDSP) provides you with the same for data storage and other purposes. Once your Tenant account gets created and registered in SkyPoint MDSP, a unique id is allotted to it to support mapping as well as other reference purposes in the database. 
 
----
-:grey_exclamation: **Note**: Once a Tenant is registered and assigned to you, it cannot be changed.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> Once a Tenant is registered and assigned to you, it cannot be changed.
 
 A Tenant is made available through Azure Data Lake Gen 2 that is by default bundled with Azure Cognitive Search service. The Tenant receives all the credentials for the storage account and cognitive search. 
 ## To create a Tenant 
@@ -16,7 +15,8 @@ You need to start with creating an app in order to give proper access to the sto
 The **Tenants** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_TenantHomepage.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_TenantHomepage.png)
 
 ---
 
@@ -25,7 +25,8 @@ The **Tenants** page appears.
 The **Create tenant** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_Createtenant.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_Createtenant.png)
 
 ---
 
@@ -35,14 +36,16 @@ The **Create tenant** page appears.
 6. Click **Next**.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_Createtenantnext.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_Createtenantnext.png)
 
 ---
 
 The **Azure Data Lake Gen2 settings** page appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_AzureDataLakeGen2.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_AzureDataLakeGen2.png)
 
 ---
 
@@ -61,7 +64,8 @@ You can configure the **Azure Data Lake Gen2** settings manually for the Tenant.
 The **Azure Data Lake Gen 2 Settings** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_ADLSform.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_ADLSform.png)
 
 ---
 
@@ -73,10 +77,9 @@ The **Azure Data Lake Gen 2 Settings** form appears.
 7. Type the valid **App Secret Key** in the **App Secret Key** text area.
 8. Click **Next**.  
 
----
-:grey_exclamation: **Note:** To view the procedures for registering a new app, move the pointer over the **App registration settings Information icon**.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> To view the procedures for registering a new app, move the pointer over the **App registration settings Information icon**.
 
 ### To configure Azure Cognitive Search Settings
 There are two ways to configure the **Azure Cognitive Search Settings**. You can choose between one of the following options:
@@ -86,9 +89,9 @@ There are two ways to configure the **Azure Cognitive Search Settings**. You can
 |Use Default Azure Cognitive Search Settings|Check the box.|
 |Configure Azure Cognitive Search Settings manually|Uncheck the box.|
 
-
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_AzureCognitiveSearch.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_AzureCognitiveSearch.png)
 
 ---
 
@@ -102,7 +105,8 @@ You can configure the **Azure Cognitive Search** settings manually for the Tenan
 The **Azure Cognitive Search Settings** form page opens.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_AzureCognitiveSearchformpage.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_AzureCognitiveSearchformpage.png)
 
 ---
 
@@ -116,7 +120,8 @@ You need to configure Cosmos DB Settings at two levels. They are:
 - Tenant Data Vault Cosmos DB Settings.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_CosmosDBsettingshomepage.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_CosmosDBsettingshomepage.png)
 
 ---
 
@@ -135,7 +140,8 @@ Follow the below steps to configure the **Tenant Operations Cosmos DB Settings**
 The **Tenant Operations Cosmos DB Settings** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_TenantOperationsform.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_TenantOperationsform.png)
 
 ---
 
@@ -156,7 +162,8 @@ Follow the below steps to configure the **Tenant Data Vault Cosmos DB Settings**
 The **Tenant Data Vault Cosmos DB Settings** form appears.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Tenants_DataVault.png?raw=true)
+
+![Alt text](/doc_snippets/Tenants_DataVault.png)
 
 ---
 

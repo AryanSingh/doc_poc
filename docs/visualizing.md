@@ -4,7 +4,6 @@
 
 SkyPoint Lakehouse SQL allows you to perform business intelligence operations on data through Power BI and Tableau. These dashboards provide meaningful insights into your data and easily build rich, visual analytic reports. You can simplify and scale your enterprise data strategy while supporting **Business Intelligence (BI)** and **Artificial Intelligence (AI)** use cases in one place utilizing Databricks as the primary computing engine.
 
-
 ## To visualize data in Power BI
 
 You can connect Power BI Desktop to SkyPoint Lakehouse SQL Endpoint. Download and open the connection file to start Power BI Desktop. 
@@ -18,7 +17,7 @@ You can connect Power BI Desktop to SkyPoint Lakehouse SQL Endpoint. Download an
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_ShowFields.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_ShowFields.png)  
 
 ---
 
@@ -26,7 +25,7 @@ You can connect Power BI Desktop to SkyPoint Lakehouse SQL Endpoint. Download an
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_ConnectToPowerBI.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_ConnectToPowerBI.png)  
 
 ---
 
@@ -37,7 +36,7 @@ The **Get started** screen appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_PowerBIgetstarted.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_PowerBIgetstarted.png)  
 
 ---
 
@@ -47,7 +46,7 @@ The **Get Data** screen appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_Getdatascreen.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_Getdatascreen.png)  
 
 ---
 
@@ -57,7 +56,7 @@ The **Azure** list appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_Azurelist.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_Azurelist.png)  
 
 ---
 
@@ -68,7 +67,7 @@ The **Azure Databricks** form appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_Databricksform.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_Databricksform.png)  
 
 ---
 
@@ -85,7 +84,7 @@ The **Azure Databricks** dialog box appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_AzureDatabricks.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_AzureDatabricks.png)  
 
 ---
 
@@ -104,7 +103,7 @@ The **Navigator** pane appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_ViewPowerBI.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_ViewPowerBI.png)  
 
 ---
 
@@ -123,11 +122,9 @@ You can connect Tableau Desktop to SkyPoint Lakehouse SQL endpoint. Download and
 - You have installed [Tableau Desktop](https://www.tableau.com/products/desktop) version 2019.3 or above. 
 - You have installed [Databricks ODBC driver](https://databricks.com/spark/odbc-drivers-download) 2.6.15 or above.  
 
----
-
-> :grey_exclamation: **Note**: After Tableau starts, it will prompt you for your SkyPoint Lakehouse credentials. You can provide your Lakehouse username and password, a Lakehouse personal access token, or sign in with Azure Active Directory.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> After Tableau starts, it will prompt you for your SkyPoint Lakehouse credentials. You can provide your Lakehouse username and password, a Lakehouse personal access token, or sign in with Azure Active Directory.
 
 1. Click the **Tableau** tile. 
 
@@ -135,7 +132,7 @@ The **Connect to partner** dialog box appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_ConnectToTableau.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_ConnectToTableau.png)  
 
 ---
 
@@ -144,7 +141,7 @@ The **Connect to partner** dialog box appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_TableauSignIn.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_TableauSignIn.png)  
 
 ---
 
@@ -162,7 +159,7 @@ After successfully connecting with Tableau Desktop, you can visualize and analyz
   
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/LakehouseSQL_ViewTableau.png?raw=true)  
+![Alt text](/doc_snippets/LakehouseSQL_ViewTableau.png)  
 
 ---
 

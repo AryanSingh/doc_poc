@@ -10,14 +10,17 @@ The SkyPoint Studio homepage is a dashboard showcasing various widgets that enab
 - Dataflow contribution index.
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Homepage.png?raw=true)
+
+![Alt text](/doc_snippets/Dashboard_Homepage.png)
 
 ---
 
 ## Prerequisite
+
 Log in to the **SkyPoint Studio** using your credentials. If you need help and support, click **Need help?** button in the right corner of the page. For more information regarding raising a new ticket, refer [Help+Support](https://skypointcdpdocs.z22.web.core.windows.net/docs/help%2Bsupport.html) section.  
 
 ## Scheduler widget
+
 The Scheduler widget displays the existing configured schedules.  
 
 In case, there are no configured schedules, the widget allows you to set a time to refresh all data flows and auto run platform processes for this instance.  
@@ -27,7 +30,7 @@ In case, there are no configured schedules, the widget allows you to set a time 
 - Go to the **Dashboard > Scheduler** widget, click the **Create Scheduler** button.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Scheduler.png?raw=true)
+![Alt text](/doc_snippets/Dashboard_Scheduler.png)
 
 ---
 
@@ -35,7 +38,7 @@ The **Schedule** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Schedulerpage.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Schedulerpage.png)  
 
 --- 
 
@@ -47,7 +50,7 @@ The **Profile** widget displays the profile count, according to the timeline of 
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Profile.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Profile.png)  
 
 ---  
 
@@ -59,9 +62,9 @@ You can create audience directly from the Profiles widget. Follow below steps:
 
 1. Select **Email approachable** or **Phone approachable** on **Filter by** drop-down list.
 
----
+---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Profilesfilter.png?raw=true)
+![Alt text](/doc_snippets/Dashboard_Profilesfilter.png)
 
 ---
 
@@ -75,7 +78,7 @@ The **Profiles** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Profilepage.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Profilepage.png)  
 
 ---  
 
@@ -87,7 +90,7 @@ View your top five audiences along with their contribution on the Audience widge
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Audience.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Audience.png)  
 
 ---  
 
@@ -99,7 +102,7 @@ The **Audiences** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dasboard_Audiencepage.png?raw=true)  
+![Alt text](/doc_snippets/Dasboard_Audiencepage.png)  
 
 ---  
 
@@ -111,7 +114,7 @@ The Business Metrics widget on the Dashboard displays an array of data consistin
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Businessmetrics.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Businessmetrics.png)  
 
 ---  
 
@@ -123,7 +126,7 @@ The **Metrics** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Metricspage.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Metricspage.png)  
 
 ---  
 
@@ -135,7 +138,7 @@ The Open DSR widget displays the Data Subject Requests with the risks involved a
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_OpenDSRs.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_OpenDSRs.png)  
 
 ---  
 
@@ -147,7 +150,7 @@ The **Data subject requests** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_DSRpage.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_DSRpage.png)  
 
 ---  
 
@@ -159,7 +162,7 @@ The Enrichment widget on the Dashboard allows you to know the number of customer
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Enrichment.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Enrichment.png)  
 
 ---  
 
@@ -171,7 +174,7 @@ The **Enrichment** page appears.
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Enrichmentpage.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Enrichmentpage.png)  
 
 ---  
 
@@ -186,7 +189,7 @@ The Dataflow contribution index allows you to view the Matched records details u
 
 ---  
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Dashboard_Dataflowindex.png?raw=true)  
+![Alt text](/doc_snippets/Dashboard_Dataflowindex.png)  
 
 ---  
 

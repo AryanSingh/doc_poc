@@ -18,7 +18,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/Dataflow_window.png?raw=true)
+![Alt text](/doc_snippets/Dataflow_window.png)
 
 ---
 
@@ -26,17 +26,15 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/master/docs/doc_snippets/SetDataflowName.png?raw=true)
+![Alt text](/doc_snippets/SetDataflowName.png)
 
 ---
 
 3. Enter a **Name** to identify your Dataflow.  
 
----
-
-> :grey_exclamation: **Note**: Name starts with a letter. Use letters and numbers only. No spaces between letters.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+> 
+> Name starts with a letter. Use letters and numbers only. No spaces between letters.
 
 4. Click **Next**.
 
@@ -46,7 +44,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/ChooseKWIConnector.png?raw=true) 
+![Alt text](/doc_snippets/ChooseKWIConnector.png) 
 
 ---
 
@@ -54,7 +52,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/KWI_SetDataflowName.png?raw=true)
+![Alt text](/doc_snippets/KWI_SetDataflowName.png)
 
 ---
 
@@ -64,7 +62,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/ConnectToKWI.png?raw=true)
+![Alt text](/doc_snippets/ConnectToKWI.png)
 
 ---  
 
@@ -75,7 +73,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/KWI_EntityDetails.png?raw=true)
+![Alt text](/doc_snippets/KWI_EntityDetails.png)
 
 ---
 
@@ -97,7 +95,7 @@ The Dataflow window appears.
 
 ---
 
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/KWI_Output.png?raw=true)
+![Alt text](/doc_snippets/KWI_Output.png)
 
 ---
 
@@ -123,10 +121,9 @@ The Dataflow window appears.
 |Delete the Dataflow|Select **Remove** and then click the **Delete** button. All tables in the data source get deleted.|
 |See the run history of the Dataflow|Select **Run History**.|
 
----
-> :grey_exclamation: **Note:** You can see the error message corresponding to failure while importing data from a data source in the Dataflow under **Run history** > **Description**.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note** 
+>
+> You can see the error message corresponding to failure while importing data from a data source in the Dataflow under **Run history** > **Description**.
 
 ### Next step 
 

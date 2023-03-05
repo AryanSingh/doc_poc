@@ -13,7 +13,8 @@ Attributes store a discrete piece of information for an table. Every database in
 2. Select the **Datavault** and **Table** that has the attributes you want to view.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_Attributes.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_Attributes.png)
 
 ---
 
@@ -29,23 +30,22 @@ Attributes store a discrete piece of information for an table. Every database in
 The New attributes panel appears.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_NewAttributes.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_NewAttributes.png)
 
 ---
 
 2. Enter the **Display name** and **Name**. 
 
----
-> :grey_exclamation: **Note**: The Name is the unique name across your environment. Based on the **Display name**, a **Name** will be auto-populated. You can edit it before creating the attribute. Once the attribute is created, the name cannot be changed as it may be referenced in your application or code.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The Name is the unique name across your environment. Based on the **Display name**, a **Name** will be auto-populated. You can edit it before creating the attribute. Once the attribute is created, the name cannot be changed as it may be referenced in your application or code.
 
 3. Choose data type from the drop-down list.
 
----
-> :grey_exclamation: **Note**: The data type of an attribute controls how values are stored as well as how they are formatted in some applications. For example, the currency is stored differently from a text or a URL. Depending on the data type, you will be prompted to specify the additional information for the data type. Once an attribute is saved, you cannot change the data type except for converting text attributes to auto number attributes.
-
----
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> The data type of an attribute controls how values are stored as well as how they are formatted in some applications. For example, the currency is stored differently from a text or a URL. Depending on the data type, you will be prompted to specify the additional information for the data type. Once an attribute is saved, you cannot change the data type except for converting text attributes to auto number attributes.
 
 |Data type|Description|
 | :--- | :--- |
@@ -84,7 +84,8 @@ The New attributes panel appears.
 7. If necessary, click **More settings** and do the following:  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_MoreSettings.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_MoreSettings.png)
 
 ---
 
@@ -105,16 +106,17 @@ The New attributes panel appears.
 1. Go to **Datavaults** > **Table**.
 2. Select an attribute you want to edit.
 
-> :grey_exclamation: **Note**: If you have applied changes to the table to add the attribute then you can not change the **Data type** and **Attribute type**.  
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> If you have applied changes to the table to add the attribute then you can not change the **Data type** and **Attribute type**.  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_AttributesEditDelete.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_AttributesEditDelete.png)
 
 ---
 
 3. Click the horizontal ellipsis in the **Actions** column of the attribute and do the following:
-
-
 
 |If you want to|Then|
 | :--- | :--- |
@@ -122,7 +124,8 @@ The New attributes panel appears.
 |Delete the attribute|Select **Remove**.|  
 
 ---
-![Alt text](https://github.com/skypointcloud/platform/blob/develop/docs/doc_snippets/Vault_EditAttributes.png?raw=true)
+
+![Alt text](/doc_snippets/Vault_EditAttributes.png)
 
 ---
 
@@ -134,9 +137,9 @@ The New attributes panel appears.
 |Delete the single attribute|In the **Actions** column, select **Remove**.|
 |Delete single or multiple attributes|Select the checkboxes for the attributes that you want to delete, the **Delete** command appears to enable. Click the **Delete** command to remove the attribute.|
 
----
-> :grey_exclamation: **Note**: You can delete any custom attributes that are not part of the managed solution. Before deleting a custom attribute, you must remove any dependencies that may exist in other solutions. When you delete an attribute, data stored in the attribute is lost.
+> ![image](/doc_snippets/Note_icon.png)**Note**
+>
+> You can delete any custom attributes that are not part of the managed solution. Before deleting a custom attribute, you must remove any dependencies that may exist in other solutions. When you delete an attribute, data stored in the attribute is lost.
 
----
 
 
