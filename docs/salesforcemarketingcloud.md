@@ -11,7 +11,7 @@ Below are needed to configure Salesforce Marketing Cloud Connector in SkyPoint C
 
 1.	Navigate to **Data** > **Dataflows** click on *+ Add Dataflows*
 
-<img width="940" alt="Image 1" src="https://user-images.githubusercontent.com/96232751/147830670-9de2e430-c748-4754-8eeb-3041fa4b3930.PNG">
+<img width="940" alt="Image 1" src="https://user-images.githubusercontent.com/96232751/147830670-9de2e430-c748-4754-8eeb-3041fa4b3930.PNG"/>
 
 2. Under *Select Dataflow name*, mention the connector name.
 

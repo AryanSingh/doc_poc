@@ -99,6 +99,77 @@ const sidebars = {
       ]
 
     },
+    {
+      type: "category",
+      label: "Get started",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "signup",
+          label: "Sign up"
+        },
+        {
+          type: "doc",
+          id: "login",
+          label: "Log in"
+        }
+      ]
+    },
+
+    {
+      type: "doc",
+      id: "home",
+      label: "Dashboard"
+    }, {
+      type: "doc",
+      id: "SkyPointGPT",
+      label: "SkyPointGPT"
+    },
+    {
+      type: "category",
+      label: "Dataflow",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "dataflows",
+          label: "Overview"
+        },
+        {
+          type: "doc",
+          id: "imports",
+          label: "Imports"
+        },
+        {
+          type: "doc",
+          id: "exports",
+          label: "Exports"
+        },
+        {
+          type: "category",
+
+          label: "Transformations",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "transformations",
+              label: "Overview"
+            },
+            {
+              type: "doc",
+              id: "Transformations-dbtCore",
+              label: "Transformation with dbt Core"
+            }
+          ]
+        }
+      ]
+    },
+
       "home",
       "export",
       "entities",

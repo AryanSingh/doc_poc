@@ -1,5 +1,5 @@
 ![Alt image](/doc_snippets/WelcomeImage.png)
-<br> 
+<br/> 
 
 ## Solution directory  
 

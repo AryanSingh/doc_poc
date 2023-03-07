@@ -16,7 +16,7 @@ SkyPoint Modern Data Stack Platform provides an intuitive experience that helps 
 - Metrics involve related tables; you can define any relationships that are needed for your metrics.  
 
 Select the appropriate tab and follow the instructions to create metrics:  
-<br>
+<br/>
 
 ## [Profile attribute](#tab/tabid-1)
 
