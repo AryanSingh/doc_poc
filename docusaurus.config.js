@@ -38,7 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          // routeBasePath: "/",
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           // beforeDefaultRemarkPlugins: [readingTime],
