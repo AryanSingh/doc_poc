@@ -40,22 +40,22 @@ The **New Support Request** window appears.
 
 ---
 
-|<div style="width:200px">Item</div>|Description|
-| :--- | :--- |
-|Title|This is the subject of the support case that provides the name of your request.|
-|Description|Describe your support request in as much detail as possible so that the team can investigate it properly.|
-|Instance|Option to select your instance where you have the issue/question/request.|
-|Priority|Defines the criticality of the request such as P1, P2, P3, and P4 as described below: |
-|<center>P1 - Critical</center>|These issues are usually business critical. They represent an issue for which no workarounds exist. |
-|<center>P2 - High</center>|This usually represents issues with degraded service. That could mean something like product issues or generally reduced quality of service. Usually, there is a workaround or temporary fix available.|
-|<center>P3 - Medium</center>|These are general issues. Usually, that means things like product questions, feature requests, and development issues.|
-|<center>P4 - Low</center>|These are the enhancement requests.|
-|Product|Option to select a particular product to raise a query such as Dataflow, Lakehouse.|
-|Type|Indicates different categories of cases as described below:|
-|<center>Issue</center>|Defines deviation in the functionality of the product, for example, a bug.|
-|<center>Question</center>|Ask for information or enquire. For example, what is the Stitch process?|
-|<center>Request</center>|Express the need or desire to get information about the product. For example, can you please provide a document for the Rule Match?|
-|<center>Enhancement</center>|Add functionality or upgrade the capabilities to an existing system. |  
+| <div style={{width:"200px"}}>Item</div> |Description|
+|:----------------------------------------| :--- |
+| Title                                   |This is the subject of the support case that provides the name of your request.|
+| Description                             |Describe your support request in as much detail as possible so that the team can investigate it properly.|
+| Instance                                |Option to select your instance where you have the issue/question/request.|
+| Priority                                |Defines the criticality of the request such as P1, P2, P3, and P4 as described below: |
+| P1 - Critical                           |These issues are usually business critical. They represent an issue for which no workarounds exist. |
+| P2 - High                               |This usually represents issues with degraded service. That could mean something like product issues or generally reduced quality of service. Usually, there is a workaround or temporary fix available.|
+| P3 - Medium                             |These are general issues. Usually, that means things like product questions, feature requests, and development issues.|
+| P4 - Low                                |These are the enhancement requests.|
+| Product                                 |Option to select a particular product to raise a query such as Dataflow, Lakehouse.|
+| Type                                    |Indicates different categories of cases as described below:|
+| Issue                                   |Defines deviation in the functionality of the product, for example, a bug.|
+| Question                                |Ask for information or enquire. For example, what is the Stitch process?|
+| Request                                 |Express the need or desire to get information about the product. For example, can you please provide a document for the Rule Match?|
+| Enhancement                             |Add functionality or upgrade the capabilities to an existing system. |  
 
 
 3. Enter a **Title** to identify your support request.

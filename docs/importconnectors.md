@@ -14,7 +14,7 @@ You can ingest data to SkyPoint Modern Data Stack Platform (MDSP) from any data 
 
 You can filter the list of connectors concerning the following categories:
 
-|<div style="width:150px">Connector type</div>|Description|
+|<div style={{width:"150px"}}>Connector type</div>|Description|
 | :- | :- |
 |Analytics |You can simplify big data and run parallel data transformation and processing programs. These connectors enable you to connect with analytics-based connectors.|
 |Cloud |The Cloud connector is used to integrate with cloud providers.|

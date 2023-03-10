@@ -233,7 +233,7 @@ Once you have saved the custom model, it will appear on the **Custom models** pa
 
 ---  
 
-|<div style="width:100px">Item</div>|Description|
+|<div style={{width:"100px"}}>Item</div>|Description|
 |:-|:-|
 |Name|Name of the custom model.|
 |Type|Type of the custom model such as Single Upload or Bulk Upload.|

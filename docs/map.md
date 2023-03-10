@@ -107,13 +107,13 @@ You can set up rules to eliminate duplicate records within the table. Defining y
 
 3. In the **Deduplicate preferences** pane, select the **Tables.**
 
-|<div style="width:200px">Deduplicate preference</div>|Description|
+|<div style={{width:"200px"}}>Deduplicate preference</div>|Description|
 | :- | :- |
 |Column Type|Option to select the column type to figure out the duplicated data.|
 |Record to keep|Allows you to identify and select the most populated attribute fields, most recent, and least recent records. You can choose one of three options to determine which record to keep if a duplicate is found.|
-|<center>Most recent</center>|Identifies the record based on the most recency.|
-|<center>Least recent</center>|Identifies the record based on the least recency.|
-|<center>Most filled</center>|Identifies the record with the most populated attribute fields.|
+|Most recent|Identifies the record based on the most recency.|
+|Least recent|Identifies the record based on the least recency.|
+|Most filled|Identifies the record with the most populated attribute fields.|
 |Based on field(s)|Allows you to select the most populated attribute fields.|  
 
 4. Choose the criteria for deduplicate preference from **Column Type > Record to Keep > Based on field (s).**

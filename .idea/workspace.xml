@@ -3,8 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AllReleases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AllReleases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/RFMmodel-explore.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/RFMmodel-explore.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bulkupload.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bulkupload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exports.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/help+support.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help+support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/importconnectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/importconnectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/imports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/imports.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/map.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/security.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/security.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v5.0.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v5.0.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v5.1.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v5.1.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v6.0.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v6.0.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v6.1.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v6.1.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v6.2.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v6.2.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v6.2.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v6.2.1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v6.3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v6.3.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v7.0.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v7.0.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/welcomedocs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/welcomedocs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +92,7 @@
       <workItem from="1677494718536" duration="17000" />
       <workItem from="1677819711960" duration="11138000" />
       <workItem from="1677914597053" duration="4868000" />
-      <workItem from="1678360826796" duration="3935000" />
+      <workItem from="1678360826796" duration="12477000" />
     </task>
     <servers />
   </component>

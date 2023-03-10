@@ -20,11 +20,11 @@ The Exports window appears. By default, the **Export Gallery** page opens.
 
 ---
 
-|<div style="width:100px">Item</div>|Description|
-|:---|:---|
-|Export Gallery|Displays all export destinations to build setup.|
-|Destinations|Displays the name, type, and status of all exported data. Also, you can add new Export.|
-|Run History|Displays the execution history of the Export process.|
+| <div style={{width:"100px"}}>Item</div> |Description|
+|:----------------------------------------|:---|
+| Export Gallery                          |Displays all export destinations to build setup.|
+| Destinations                            |Displays the name, type, and status of all exported data. Also, you can add new Export.|
+| Run History                             |Displays the execution history of the Export process.|
 
 
 ## Set up a new export
@@ -44,7 +44,7 @@ The Setup window appears.
 
 3. Enter **Name** and **Display name**.
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
+> ![image](/doc_snippets/Note_icon.png)**NOTE**
 >
 > Name start with a letter. Use letters and numbers only.
 
@@ -116,22 +116,14 @@ The Setup window appears.
 
 
 
-|<div style="width:100px">Item</div>|Description|
-
+|<div style={{width:"100px"}}>Item</div>|Description|
 | :- | :- |
-
 |Name|Name of the Export connection. |
-
 |Display Name|Displays the name of the exported data. It can be different from the Export connection name. Also, you can change this later.|
-
 |Type|Displays the connector type.|
-
 |Created|Displays date of creation.|
-
 |Last Exported|Displays last modified date.|
-
 |Status|Indicates whether the data is exported successfully.|
-
 |All|Option to view all export connections. Also, you can view the items in a specific Group (for example, name, type, status).|
 
 
@@ -143,19 +135,12 @@ The Setup window appears.
 
 
 |If you want to|Then|
-
 |:---|:---|
-
 |Modify the Export|Select **Edit**.|
-
 |Execute the Export process|Select **Run**.|
-
 |Cancel the execution of the data export|Select **Cancel Run**.|
-
 |Configure a refresh schedule to add new or updated data in the Export|Select **Schedule**.|
-
 |Delete the Export|Select **Remove**.|
-
 |See the history of the Export|Select **History**.|
 
 

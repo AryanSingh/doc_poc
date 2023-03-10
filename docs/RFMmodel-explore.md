@@ -19,7 +19,7 @@ The RFM model page displays total revenue, total orders, total customers, and a 
 RFM model analysis is a representation of behavior-based customer segmentation. Segmentation helps divide customers into various categories to identify customers who are more likely to respond to promotions and for future personalization services. RFM model view page displays as per the last updated date (RFM model's last run date).
 
 
-|<div style="width:150px">RFM segment</div>|Activity|Actionable tip|
+|<div style={{width:"150px"}}>RFM segment</div>|Activity|Actionable tip|
 | :- | :- | :- |
 |Champions|Bought recently, buy often, and spend the most. Extremely loyal to a brand and advocates for it to others.|Reward them. They can become early adopters of new products and will help promote your brand.|
 |Loyal customers|Spend a good amount of money often and have a high level of satisfaction with the products or services offered.|Upsell higher-value products. Ask for reviews and engage them.|

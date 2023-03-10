@@ -106,7 +106,7 @@ Allows you to anticipate customer needs with real-time data and deliver meaningf
     - [Sample guide for transactional churn model (using Rule match)](sampleguiderulemethod.md)
     - [Sample guide for transactional churn model (using ML match)](sampleguide.md)
     - [Configure subscription churn model](CustomerchurnSubscription.md)
-    - [Sample guide for subscription churn model (using Rule match)](ampleguideforsubscriptionchurnrulemethod.md)
+    - [Sample guide for subscription churn model (using Rule match)](sampleguideforsubscriptionchurnrulemethod.md)
     - [Sample guide for subscription churn model (using ML match)](sampleguideforsubscriptionchurn.md)
 - [Customer Lifetime Value (CLV) model](clvmodel.md)
     - [Configure CLV model](clvprocesssteps.md)

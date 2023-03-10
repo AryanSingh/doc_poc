@@ -33,7 +33,7 @@ The **Users** page appears.
 >
 > Every row in the Users list view corresponds to a single user and every column has some specific table related to that user. Some important column attributes are:
 
-|<div style="width:100px">Item</div>|Description|
+|<div style={{width:"100px"}}>Item</div>|Description|
 | :- | :- |
 |Email|Email of the user.|
 |Source|An account that was used for logging in.|

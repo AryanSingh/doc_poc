@@ -6,7 +6,7 @@ We're excited to announce our newest updates and releases! The release notes of 
 
 These release versions contain an overview of the new features, improvements, and fixes in the most recent releases of SkyPoint Cloud. For details about earlier releases, click [Previous releases](whats-new-skypoint.md).
 
-|Version|<div style="width:150px">Release date</div>|Description|
+|Version|<div style={{width:"150px"}}>Release date</div>|Description|
 | :- | :- | :- |
 |[7.0.0](v7.0.0.md)|22-FEB-2023|<ul><li> Added SkyPointGPT.</li> <li> Domain selection in instance.</li> <li> Allow the same priority for multiple attributes in ML match.</li> <li> Added exceptions in the ML match.</li></ul>|
 |[6.3.0](v6.3.0.md)|01-FEB-2023|<ul><li> Added Snowflake DLT integration.</li> <li> Added Type in master data.</li> <li> Autosuggestion in a SQL editor for Audience creation.</li></ul>|

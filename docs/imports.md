@@ -26,11 +26,11 @@ The Dataflow window appears.
 
 3. Enter a **Name** to identify your Dataflow.
 
+:::note
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
->
 > Name starts with a letter.  Use letters and numbers only. No spaces between letters.
 
+:::
 
 4. Click **Next**.
 
@@ -45,17 +45,17 @@ The Dataflow window appears.
 ---
 
 
-|<div style="width:150px">Connector type</div>|Description|
-|:---|:---|
-|All Categories|Displays all types of connectors that are available on the SkyPoint platform.|
-|Analytics|You can simplify big data and run parallel data transformation and processing programs. These connectors enable you to connect with analytics-based connectors.|
-|Cloud|The Cloud connector is used to integrate with cloud providers.|
-|Data Warehousing|You can connect to the data management system that is designed to enable and support Business Intelligence (BI) activities. These connectors enable you to import data from data warehouses.|
-|Developer Tools|This is a set of services and features that connect you to develop a software application.|
-|Ecommerce|These connectors allow you to integrate with various eCommerce platforms and marketplaces for data exchange.|
-|Healthcare|These connectors allow you to connect with a health organization or insurer. Also, you can exchange Electronic Health Records (EHR).|
-|Marketing|You can import marketing data into SkyPoint Lakehouse to gain new business insights. Marketing connectors synchronize data between a marketing environment and the SkyPoint platform.|
-|Sales|You can import data with Sales connectors to build relationships and increase your sales.|
+| <div style={{width:"150px"}}>Connector type</div> |Description|
+|:--------------------------------------------------|:---|
+| All Categories                                    |Displays all types of connectors that are available on the SkyPoint platform.|
+| Analytics                                         |You can simplify big data and run parallel data transformation and processing programs. These connectors enable you to connect with analytics-based connectors.|
+| Cloud                                             |The Cloud connector is used to integrate with cloud providers.|
+| Data Warehousing                                  |You can connect to the data management system that is designed to enable and support Business Intelligence (BI) activities. These connectors enable you to import data from data warehouses.|
+| Developer Tools                                   |This is a set of services and features that connect you to develop a software application.|
+| Ecommerce                                         |These connectors allow you to integrate with various eCommerce platforms and marketplaces for data exchange.|
+| Healthcare                                        |These connectors allow you to connect with a health organization or insurer. Also, you can exchange Electronic Health Records (EHR).|
+| Marketing                                         |You can import marketing data into SkyPoint Lakehouse to gain new business insights. Marketing connectors synchronize data between a marketing environment and the SkyPoint platform.|
+| Sales                                             |You can import data with Sales connectors to build relationships and increase your sales.|
 
 ---
 
@@ -81,8 +81,11 @@ The Dataflow window appears.
 
 <br/>
 
-> [!Tip]  
+:::tip
+
 > For each connector, credentials may differ. You need to enter the relevant information based on the connector to configure and import the data. In this example, we have selected the Azure Data Lake Storage Gen2 connector to import data. For the Azure Data Lake Storage Gen2 connector, you need to enter the **Storage account name**, **Account key**, and **Storage path** to import the data.  
+
+:::
 
 <br/>
 
@@ -104,31 +107,23 @@ The Dataflow window appears.
 
 
 | Item                      |Description|
-
 |:--------------------------|:---|
-
 | Purpose                   |Option to assign a purpose (Data or Metadata) for each table.|
-
-| <center>Data</center>     |Load customer data|
-
-| <center>Metadata</center> |Load Metadata|
-
+| Data     |Load customer data|
+| Metadata |Load Metadata|
 | File name                 |Indicates file extension and the name of the file that you imported.|
-
 | Table name                |Displays the imported table name. By default, it is an imported table name, but you can also change it.|
-
 | Datetime format           |Option to select the Datetime data in a different format.|
-
 | Delimiter                 |Indicates characters that separate text strings. |
-
 | First row as header       |Indicates the first row of data as a header.|
 
-
-> ![image](/doc_snippets/Note_icon.png)**Note**
+:::note
 
 >
 
 > You can select the Datetime in MM/DD/YYYY format, for example, 11/25/1979. It helps the system to understand the data format and apply further formatting if required during downstream processes. The same Datetime format as set in the [instance settings](https://skypointcdpdocs.z22.web.core.windows.net/docs/instance.html) can be seen for the Datetime fields in the profile card. If you wish to see the profile card with Datetime as imported from the source, you can unselect the option in **Stitch** > **Map** > **advanced settings**.
+
+:::
 
 
 9. If necessary, apply the **Advance settings** to modify the default settings.
@@ -151,17 +146,11 @@ The Dataflow window appears.
 
 
 |If you want to|Then|
-
 | :- | :- |
-
 |Modify data types such as fixed or variable data types.|Select from the **Compression type**. It allows you to reduce the size of data by removing the number of bits.|
-
 |Change the delimiter|Click **Row delimiter**. By default, a column delimiter is selected, and each row is separated with a comma.|
-
 |Change information or instruction|Choose from the **Encoding** list. By default, UTF-8 encoding is selected.|
-
 |Modify the escape character such as backslash (\\) or slash (/)|Select from the **Escape character**.|
-
 |Apply different quote characters such as Single quote (') or Double quote (").|Select from the **Quote character**.|
 
 
@@ -184,25 +173,15 @@ The Dataflow window appears.
 
 
 |Item|Description|
-
 | :- | :- |
-
 |Name|Displays the name of the imported Dataflow.|
-
 |Type|Displays connector type symbol.|
-
 |Status|Indicates whether the data is imported successfully.|
-
 |Tables Count|Displays the number of tables.|
-
 |Created Date|Displays date of creation.|
-
 |Last refresh type|Displays the refresh value. You can see the value is Full or Incremental after the last refresh of data.|
-
 |Updated Date|Displays last modified date.|
-
 |Last Refresh|Displays the latest refresh date. This date will get updated whenever you refresh the data.|
-
 |Group by|Option to view the items in a specific Group (For example, name, type, status).|
 
 
@@ -210,21 +189,15 @@ The Dataflow window appears.
 
 
 |If you want to|Then|
-
 | :- | :- |
-
 |Modify the Dataflow|Select **Edit** and modify the Dataflow. Click **Save** to apply your changes.|
-
 |Execute the Dataflow|Select **Run**.|
-
 |Bring the data to its previous state|Select **Rollback**.|
-
 |Delete the Dataflow|Select **Remove** and then click the **Delete** button. All tables in the data source get deleted.|
-
 |See the run history of the Dataflow|Select **Run history**. Run history for Dataflow imports is available for the last three runs.|
 
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
+:::note
 
 >
 
