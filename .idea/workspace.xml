@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/datalineage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/doc_snippets/DataLineage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
     </list>
@@ -27,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/a/source/repos/tenant_app",
+    "last_opened_file_path": "C:/Users/a/source/repos/documentation_aryan/static/doc_snippets",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib",
@@ -36,6 +38,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a\source\repos\documentation_aryan\static\doc_snippets" />
       <recent name="C:\Users\a\source\repos\documentation_aryan" />
       <recent name="C:\Users\a\source\repos\documentation_aryan\blog" />
       <recent name="C:\Users\a\source\repos\documentation_aryan\docs" />
@@ -73,7 +76,7 @@
       <workItem from="1677494718536" duration="17000" />
       <workItem from="1677819711960" duration="11138000" />
       <workItem from="1677914597053" duration="4868000" />
-      <workItem from="1678360826796" duration="17245000" />
+      <workItem from="1678360826796" duration="18325000" />
     </task>
     <servers />
   </component>

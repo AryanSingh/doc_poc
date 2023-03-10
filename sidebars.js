@@ -205,8 +205,8 @@ const sidebars = {
               label: "Transformation with dbt Core"
             }, {
               type: "doc",
-              id: "Data lineage",
-              label: "Transformation with dbt Core"
+              id: "datalineage",
+              label: "Data lineage"
             }
           ]
         },
@@ -241,14 +241,23 @@ const sidebars = {
                   type: "doc",
                   id: "awscognito",
                   label: "AWS Cognito"
+                }, {
+                  type: "doc",
+                  id: "amazonredshift",
+                  label: "Amazon Redshift"
+                },{
+                  type: "doc",
+                  id: "amazonsthree",
+                  label: "Amazon S3"
+                },{
+                  type: "doc",
+                  id: "azureblobstorage",
+                  label: "Azure Blob Storage"
                 },
 
               ]
-            }, {
-              type: "doc",
-              id: "Data lineage",
-              label: "Transformation with dbt Core"
-            }
+            },
+
           ]
         }
       ]
