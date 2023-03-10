@@ -253,6 +253,10 @@ const sidebars = {
                   type: "doc",
                   id: "azureblobstorage",
                   label: "Azure Blob Storage"
+                },{
+                  type: "doc",
+                  id: "azuredatalakestoragegen2",
+                  label: "Azure Data Lake Storage"
                 },
 
               ]
