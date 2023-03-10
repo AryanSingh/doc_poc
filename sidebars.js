@@ -51,6 +51,46 @@ const sidebars = {
           items: [
             {
               type: "doc",
+              id: "v7.0.0",
+              label: "7.0.0"
+            },
+            {
+              type: "doc",
+              id: "v6.3.0",
+              label: "6.3.0"
+            },
+            {
+              type: "doc",
+              id: "v6.2.1",
+              label: "6.2.1"
+            },
+            {
+              type: "doc",
+              id: "v6.2.0",
+              label: "6.2.0"
+            },
+            {
+              type: "doc",
+              id: "v6.1.0",
+              label: "6.1.0"
+            },
+            {
+              type: "doc",
+              id: "v6.0.0",
+              label: "6.0.0"
+            },
+            {
+              type: "doc",
+              id: "v5.1.0",
+              label: "5.1.0"
+            },
+            {
+              type: "doc",
+              id: "v5.0.0",
+              label: "5.0.0"
+            },
+            {
+              type: "doc",
               id: "v4.4.0",
               label: "4.4.0"
             }, {
@@ -150,7 +190,6 @@ const sidebars = {
         },
         {
           type: "category",
-
           label: "Transformations",
           collapsed: true,
           collapsible: true,
@@ -163,6 +202,51 @@ const sidebars = {
             {
               type: "doc",
               id: "Transformations-dbtCore",
+              label: "Transformation with dbt Core"
+            }, {
+              type: "doc",
+              id: "Data lineage",
+              label: "Transformation with dbt Core"
+            }
+          ]
+        },
+        {
+          type: "doc",
+          id: "types",
+          label: "Types"
+        },
+        {
+          type: "category",
+          label: "Connectors",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "connectors",
+              label: "Overview"
+            },
+            {
+              type: "category",
+              collapsed: true,
+              collapsible: true,
+              label: "Import connectors",
+              items: [
+                {
+                  type: "doc",
+                  id: "importconnectors",
+                  label: "Overview"
+                },
+                {
+                  type: "doc",
+                  id: "awscognito",
+                  label: "AWS Cognito"
+                },
+
+              ]
+            }, {
+              type: "doc",
+              id: "Data lineage",
               label: "Transformation with dbt Core"
             }
           ]
