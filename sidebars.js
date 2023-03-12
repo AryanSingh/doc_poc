@@ -257,31 +257,814 @@ const sidebars = {
                   type: "doc",
                   id: "azuredatalakestoragegen2",
                   label: "Azure Data Lake Storage"
+                },{
+                  type: "doc",
+                  id: "boulevard",
+                  label: "Boulevard"
+                },{
+                  type: "doc",
+                  id: "campaignmonitor",
+                  label: "Campaign Monitor"
+                },{
+                  type: "doc",
+                  id: "Dataflow-Import-Dataverse",
+                  label: "Dataverse"
+                },{
+                  type: "doc",
+                  id: "dotdigital",
+                  label: "Dotdigital"
+                },{
+                  type: "doc",
+                  id: "dynamics365",
+                  label: "Dynamics 365"
+                },{
+                  type: "doc",
+                  id: "googlecloudstorage",
+                  label: "Google Cloud Storage(S3 API)"
+                },{
+                  type: "doc",
+                  id: "InforHMSimportconnector",
+                  label: "InforHMS"
+                },{
+                  type: "doc",
+                  id: "kwi",
+                  label: "KWI"
+                },{
+                  type: "doc",
+                  id: "klaviyo",
+                  label: "Klaviyo"
+                },{
+                  type: "doc",
+                  id: "PCC",
+                  label: "PointClickCare"
+                },{
+                  type: "doc",
+                  id: "sftp",
+                  label: "SFTP(Simple File Transfer Protocol"
+                },{
+                  type: "doc",
+                  id: "salesforce",
+                  label: "Salesforce"
+                },{
+                  type: "doc",
+                  id: "salesforcemarketingcloud",
+                  label: "Salesforce Marketing Cloud"
+                },{
+                  type: "doc",
+                  id: "ShopifyImport",
+                  label: "Shopify"
+                },{
+                  type: "doc",
+                  id: "SnowflakeConnector",
+                  label: "Snowflake"
+                },{
+                  type: "doc",
+                  id: "square",
+                  label: "Square"
+                },{
+                  type: "doc",
+                  id: "stripe",
+                  label: "Stripe"
+                },{
+                  type: "doc",
+                  id: "zenoti",
+                  label: "Zenoti"
                 },
 
               ]
             },
+            {
+              type: "category",
+              collapsed: true,
+              collapsible: true,
+              label: "Export connectors",
+              items: [
+                {
+                  type: "doc",
+                  id: "exportconnectors",
+                  label: "Overview"
+                },
+                {
+                  type: "doc",
+                  id: "amazons3export",
+                  label: "Amazon S3"
+                },
+                {
+                  type: "doc",
+                  id: "azureblobstorage",
+                  label: "Azure Blob"
+                },
+                {
+                  type: "doc",
+                  id: "adlsgen2export",
+                  label: "Azure Data Lake Gen2"
+                },
+                {
+                  type: "doc",
+                  id: "campaignmonitorexport",
+                  label: "Campaign Monitor"
+                },
+                {
+                  type: "doc",
+                  id: "facebookadsexport",
+                  label: "Facebook Ads"
+                },
+                {
+                  type: "doc",
+                  id: "googleadsexport",
+                  label: "Google Ads"
+                },{
+                  type: "doc",
+                  id: "klaviyoexport",
+                  label: "Klaviyo"
+                },{
+                  type: "doc",
+                  id: "sendgridexport",
+                  label: "SendGrid"
+                },
+                {
+                  type: "category",
+                  collapsed: true,
+                  collapsible: true,
+                  label: "Power Platform Connector",
+                  items: [
+                    {
+                      type: "doc",
+                      id: "actions",
+                      label: "Actions"
+                    },{
+                      type: "doc",
+                      id: "triggers",
+                      label: "Triggers"
+                    },{
+                      type: "doc",
+                      id: "throttling",
+                      label: "Throttling Limits"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              type: "doc",
+              id: "sfmcexport",
+              label: "Salesforce Marketing Cloud"
+            }, {
+              type: "doc",
+              id: "skypointteamsbot",
+              label: "Skypoint Cloud Bot"
+            }
+
+
 
           ]
         }
       ]
     },
+    {
+      type: "category",
+      label: "Lakehouse",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "lakehouse",
+          label: "Overview"
+        },
+        {
+          type: "doc",
+          id: "UnityCatalog",
+          label: "Unity Catalog"
+        },
+        {
+          type: "doc",
+          id: "entities",
+          label: "Databases"
+        },
+        {
+          type: "doc",
+          id: "relationships",
+          label: "Relationships"
+        },
+        {
+          type: "category",
+          label: "SQL Access",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "lakehousesql",
+              label: "Getting started with Lakehouse SQL"
+            },
+            {
+              type: "doc",
+              id: "visualizing",
+              label: "Data Visualization"
+            },
+            {
+              type: "category",
+              label: "Data integration with Lakehouse SQL",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "DBeaverIntegration",
+                  label: "DBeaver"
+                },
+                {
+                  type: "doc",
+                  id: "HightouchIntegration",
+                  label: "Hightouch"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "category",
+      label: "Vault",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "vault",
+          label: "Overview"
+        },
+        {
+          type: "doc",
+          id: "createdatavault",
+          label: "Create Datavault"
+        },
+        {
+          type: "doc",
+          id: "vault-entities",
+          label: "Create Tables"
+        },
+        {
+          type: "doc",
+          id: "vault-choices",
+          label: "Create Choices"
+        },
+        {
+          type: "doc",
+          id: "vault-relationships",
+          label: "Create Relationships"
+        },
+        {
+          type: "doc",
+          id: "vault-attributes",
+          label: "Work with the Attributes"
+        },
+        {
+          type: "doc",
+          id: "vault-keys",
+          label: "Create Keys"
+        },
+        {
+          type: "doc",
+          id: "vault-data",
+          label: "Add Data"
+        },
+        {
+          type: "doc",
+          id: "compareskypointvault",
+          label: "Compare Skypoint Vault"
+        }
+      ]
+    },
+    {
+      type: "category",
+      label: "Resolve",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: "doc",
+          id: "stitch",
+          label: "Overview"
+        },
+        {
+          type: "doc",
+          id: "map",
+          label: "Map"
+        },
+        {
+          type: "category",
+          label: "Unify",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "unify",
+              label: "Overview"
+            },
+            {
+              type: "doc",
+              id: "AddMasterData",
+              label: "Add Master Data"
+            },
+            {
+              type: "doc",
+              id: "rulematch",
+              label: "Rule Match"
+            },
+            {
+              type: "doc",
+              id: "mlmatch",
+              label: "ML Match"
+            },
+            {
+              type: "doc",
+              id: "merge",
+              label: "Merge"
+            }
+          ]
+        },
 
-      "home",
-      "export",
-      "entities",
-      "actions",
-      "api",
-      "automate"
+      ]
+    },
+    {
+      type: "category",
+      label: "Master Data",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "profiles",
+          label: "Overview"
+        },
+        {
+          type: "category",
+          label: "MDM 360 views",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              type: "doc",
+              id: "Resident360",
+              label: "Resident 360"
+            }
+          ]
+        },
+        {
+          type: "category",
+          label: "Profiles",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "customerprofiles",
+              label: "Explore master data profiles"
+            },
+            {
+              type: "doc",
+              id: "splitindexer",
+              label: "Split indexer"
+            }
+          ]
+        },
+        {
+          type: "category",
+          label: "Enrichment",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              type: "doc",
+              label: "BigQuery",
+              id: "bigQuery_enrichment"
+            },
+            {
+              type: "doc",
+              label: "HERE Technologies",
+              id: "heretechnologies"
+            },
+            {
+              type: "doc",
+              label: "Secure File Transfer Protocol",
+              id: "sftp_enrichment"
+            }
+          ]
+        },
+        {
+          type: "doc",
+          id: "timelines",
+          label: "Timelines"
+        }
+      ]
+    },
+    {
+      type: "category",
+      label: "Predict",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: "doc",
+          id: "predict",
+          label: "Overview"
+        },
+        {
+          type: "category",
+          label: "Built-In",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "CustomerchurnOverview",
+              label: "Customer churn model"
+            },
+            {
+              type: "category",
+              label: "Transactional churn model",
+              collapsed: true,
+              collapsible: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "CustomerchurnTransactional",
+                  label: "Configure transactional churn model",
+                },
+                {
+                  type: "doc",
+                  id: "CustomerChurnModel-explore",
+                  label: "Explore customer churn model"
+                },
+                {
+                  type: "doc",
+                  label: "Sample guide for transactional churn prediction(using Rule match)",
+                  id: "sampleguiderulemethod"
+                },
+                {
+                  type: "doc",
+                  id: "sampleguide",
+                  label: "Sample guide for transactional churn prediction(using ML match)"
+                }
+              ]
+            },
+            {
+              type: "category",
+              label: "Subscription Churn model",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  id: "CustomerchurnSubscription",
+                  label: "Configure subscription churn model"
+                },
+                {
+                  type: "doc",
+                  id: "sampleguideforsubscriptionchurnrulemethod",
+                  label: "Sample guide for subscription churn prediction(using Rule match)"
+                },
+                {
+                  type: "doc",
+                  id: "sampleguideforsubscriptionchurn",
+                  label: "Sample guide for subscription churn prediction(using ML match)"
+                }
+              ]
+            },
+            {
+              type: "category",
+              label: "Customer Lifetime Value (CLV)",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  label: "Overview",
+                  id: "clvmodel"
+                },
+                {
+                  type: "doc",
+                  label: "Configure CLV model",
+                  id: "clvprocesssteps"
+                },
+                {
+                  type: "doc",
+                  label: "Explore CLV model",
+                  id: "CLVmodel-explore"
+                },
+                {
+                  type: "doc",
+                  label: "Sample guide for CLV prediction(using Rule match)",
+                  id: "sampleguideforclvrulemethod"
+                },
+                {
+                  type: "doc",
+                  label: "Sample guide for CLV prediction(using ML Match)",
+                  id: "sampleguideforclv"
+                }
+              ]
+            } ,
+            {
+              type: "category",
+              label: "Product recommendation model",
+              collapsible: true,
+              collapsed: true,
+              items: [
+                {
+                  type: "doc",
+                  label: "Overview",
+                  id: "productrecommendationmodel"
+                },
+                {
+                  type: "doc",
+                  id: "Productrecommendationprocess",
+                  label: "Configure product recommendation model"
+                },
+                {
+                  type: "doc",
+                  label: "Explore product recommendation model",
+                  id: "ProductRecommendationModel-explore"
+                },
+                {
+                  type: "doc",
+                  label: "Sample guide for product recommendation (using Rule match)",
+                  id: "sampleguideforproductrecommendationrulemethod"
+                },
+                {
+                  type: "doc",
+                  label: "Sample guide for product recommendation(using ML Match)",
+                  id: "sampleguideforproductrecommendation"
+                }
+              ]
+            },
+            {
+              type: "category",
+              label: "Customer sentiment analysis model",
+              collapsible: true,
+              collapsed: true,
+              items: [
 
+                {
+                  type: "doc",
+                  id: "CustomerSentimentanalysis",
+                  label: "Configure customer sentiment model"
+                },
+                {
+                  type: "doc",
+                  label: "Explore customer sentiment model",
+                  id: "CustomerSentimentModel-explore"
+                }
+              ]
+            },  {
+              type: "category",
+              label: "RFM model",
+              collapsible: true,
+              collapsed: true,
+              items: [
 
-    // 'welcomedocs',
-    // 'hello',
-    // {
-    //   type: 'category',
-    //   label: 'Tutorial',
-    //   items: ['tutorial-basics/create-a-document'],
-    // },
+                {
+                  type: "doc",
+                  id: "RFMmodel",
+                  label: "Configure RFM model"
+                },
+                {
+                  type: "doc",
+                  label: "Explore RFM model",
+                  id: "RFMmodel-explore"
+                }
+              ]
+            },
+          ]
+        },
+        {
+          type: "category",
+          label: "Custom",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              id: "singleupload",
+              label: "Single Upload"
+            },
+            {
+              type: "doc",
+              id: "bulkupload",
+              label: "Bulk Upload"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      type: "category",
+      label: "Activate",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "category",
+          label: "Audiences",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              type: "doc",
+              id: "audiences",
+              label: "Overview"
+            },
+            {
+              type: "doc",
+              id: "suggestedaudiences",
+              label: "Suggested"
+            },
+            {
+              type: "doc",
+              id: "audienceinsights",
+              label: "Insights"
+            }
+          ]
+        },
+        {
+          type: "doc",
+          id: "metrics",
+          label: "Metrics"
+        }
+      ]
+    },
+    {
+      type : "category",
+      label: "Empower",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: "doc",
+          label: "Overview",
+          id: "privacyoverview"
+        },
+        {
+          type: "doc",
+          label: "Privacy Center",
+          id: "privacycenter"
+        },
+        {
+          type: "doc",
+          label: "DSR",
+          id: "datasubjectrequest"
+        },
+        {
+          type: "doc",
+          label: "Email Templates",
+          id: "privacytemplates"
+        },
+        {
+          type: "doc",
+          label: "Data Maps",
+          id: "datamaps"
+        },
+        {
+          type: "doc",
+          label: "Data Processing Activities",
+          id: "Empower-DataProcessingActivity"
+        },
+        {
+          type: "doc",
+          label: "Reports",
+          id: "privacyreports"
+        }
+      ]
+    },
+    {
+      type: "category",
+      label: "Automate",
+      collapsed: true,
+      collapsible: true,
+      items: [
+        {
+          type: "doc",
+          id: "automate",
+          label: "Overview"
+        },
+        {
+          type: "doc",
+          id: "skypointpowerbi",
+          label: "Power BI"
+        }
+      ]
+    },
+    {
+      type: "doc",
+      id: "help+support",
+      label: "Help + Support"
+    },
+    {
+      type: "category",
+      label: "Settings",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          type: "doc",
+          id: "settings",
+          label: "Overview"
+        },
+        {
+          type: "category",
+          label: "Platform",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              label: "Status",
+              id: "notifications"
+            },
+            {
+              type: "doc",
+              label: "Logs",
+              id: "activity-stream"
+            },
+            {
+              type: "doc",
+              label: "Session",
+              id: "sessiondefaults"
+            },
+            {
+              type: "doc",
+              label: "Users",
+              id: "security"
+            },
+            {
+              type: "doc",
+              label: "Permissions",
+              id: "Permissions"
+            },
+            {
+              type: "doc",
+              label: "APIs",
+              id: "PlatformApi"
+            }
+          ]
+        },
+        {
+          type: "doc",
+          label: "Schedule",
+          id: "schedule"
+        } ,
+        {
+          type: "doc",
+          label: "Billing Info",
+          id: "Billinginfo"
+        },
+        {
+          type: "category",
+          label: "Instances",
+          collapsed: true,
+          collapsible: true,
+          items: [
+            {
+              type: "doc",
+              label: "Instances",
+              id: "instance"
+            },
+            {
+              type: "doc",
+              label: "Tenant Defaults",
+              id: "tenant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      type: "category",
+      collapsed: true,
+      collapsible: true,
+      label: "Application Development",
+      items: [
+        {
+          type: "doc",
+          id: "api",
+          label: "Developer portal"
+        },
+        {
+          type: "link",
+          label: "API references",
+          href: "https://developer.skypointcloud.com/"
+        }
+      ]
+    },
+    {
+      type: "doc",
+      label: "Glossary",
+      id: "glossary"
+    }
   ],
 
 };
