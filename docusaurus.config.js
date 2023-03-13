@@ -84,6 +84,10 @@ const config = {
 
         ],
       },
+      footer: {
+        copyright: `© ${new Date().getFullYear()} SkyPoint Cloud Inc. All rights reserved.`,
+        style: {textAlign: "left"}
+      },
     }),
 };
 
