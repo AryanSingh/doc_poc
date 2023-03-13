@@ -63,13 +63,22 @@ const config = {
     ({
       image: "/doc_snippets/Skypoint-logo.png",
       navbar: {
-
+        style: "dark",
+        logo: {
+          alt: 'Site Logo',
+          src: "/doc_snippets/Skypoint-logo.png",
+          href: 'https://docusaurus.io/',
+          target: '_self',
+          style: {height: "51px", width : "51px", position: "relative", marginTop: "-10px"},
+          // className: 'custom-navbar-logo-class'
+        },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'SkyPoint documentation',
+            style: {color: "#fff"}
           },
 
         ],
