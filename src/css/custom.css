@@ -34,7 +34,7 @@
 .footer__copyright{
   text-align: left;
 }
-footer{
+.footer{
   height: 48px;
   text-align: center;
   display: flex;
