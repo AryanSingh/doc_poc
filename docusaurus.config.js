@@ -9,7 +9,7 @@ const readingTime = require('reading-time');
 const config = {
   title: 'My Site',
   tagline: 'SkypointCloud',
-  url: 'https://dev.azure.com/skypointgroup/skypoint/_git/spc-documentation',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SkypointCloud', // Usually your GitHub org/user name.
-  projectName: 'SkypointCloudDoc', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -46,8 +46,8 @@ const config = {
           showLastUpdateAuthor: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
+          editUrl: 'https://dev.azure.com/skypointgroup/skypoint/_git/spc-documentation',
           // sidebarPath: 'sidebars.js',
         },
         blog: false,
@@ -85,8 +85,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `© ${new Date().getFullYear()} SkyPoint Cloud Inc. All rights reserved.`,
-        style: {textAlign: "left"}
+        copyright: `© ${new Date().getFullYear()} SkyPoint Cloud Inc. All rights reserved.`
       },
     }),
 };
