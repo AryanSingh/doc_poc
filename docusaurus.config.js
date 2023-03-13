@@ -38,7 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
+          // routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           // beforeDefaultRemarkPlugins: [readingTime],
@@ -61,15 +61,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: "/doc_snippets/Skypoint-logo.png",
       navbar: {
-        title: 'SkypointCloud',
 
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'docs',
+            label: 'SkyPoint documentation',
           },
 
         ],
