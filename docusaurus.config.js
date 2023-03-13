@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
 
-          editUrl: 'https://dev.azure.com/skypointgroup/skypoint/_git/spc-documentation',
+          editUrl: 'https://github.com/AryanSingh/doc_poc',
           // sidebarPath: 'sidebars.js',
         },
         blog: false,
