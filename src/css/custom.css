@@ -246,11 +246,11 @@ article h4 {
 /* ALERTS */
 
 .alert {
-  padding: 0px 0px 5px 0px;
-  color: inherit;
-  background-color: inherit;
-  border: none;
-  box-shadow: var(--custom-box-shadow);
+  /*padding: 0px 0px 5px 0px;*/
+  /*color: inherit;*/
+  /*background-color: inherit;*/
+  /*border: none;*/
+  /*box-shadow: var(--custom-box-shadow);*/
 }
 
 .alert > p {
