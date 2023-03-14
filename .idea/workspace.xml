@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/exports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exports.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/v4.3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v4.3.0.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/DocSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/DocSidebar/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1677819711960" duration="11138000" />
       <workItem from="1677914597053" duration="4868000" />
       <workItem from="1678360826796" duration="22412000" />
-      <workItem from="1678549353743" duration="33809000" />
+      <workItem from="1678549353743" duration="35927000" />
     </task>
     <servers />
   </component>
