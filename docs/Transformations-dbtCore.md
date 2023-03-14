@@ -11,9 +11,12 @@ You must fulfill the following prerequisites to proceed:
 
 Once you have defined your models, you can use the transformations in SkyPoint Studio to run the SQL queries and create tables in your data warehouse.
 
-> ![image](/doc_snippets/Note_icon.png)**Note** 
+:::note
+
 > 
 > If you don’t have an existing repository, SkyPoint will create a repository for you in Azure DevOps.
+
+:::
 
 ## To set up transformations
 
@@ -78,9 +81,13 @@ from source_data
 
 1. Enter your Git **Repository URL**. 
 
-> ![image](/doc_snippets/Note_icon.png)**Note** 
+:::note
+
+
 > 
 > The repository location you specify should contain a model's directory from where dbt will look for your models by default. Once you have specified the location of your repository, you can create and maintain your dbt models within it. When you run transformations from SkyPoint Studio, it will use the models in your repository to build your data model.
+
+:::
 
 2. Enter your **Git branch**.
 
@@ -99,9 +106,12 @@ The **Connection tests** pop-up appears.
 
 2. Click **Run** to execute the desired **Output model name**. 
 3. If you want to disable the dbt model, select your model and click **Disable** under the horizontal ellipsis in the **Actions** column.
-> ![image](/doc_snippets/Note_icon.png)**Note** 
-> 
-> Disabling a dbt model does not delete it from the system. It controls whether the record is available for use in transformations. You can always re-enable a disabled dbt model if needed.  
+
+:::note
+
+> Disabling a dbt model does not delete it from the system. It controls whether the record is available for use in transformations. You can always re-enable a disabled dbt model if needed. 
+
+:::
   
 4. Select **Run history** to view all the states for transformation and the operation duration for the pipeline completion.  
 5. Once the transformation is executed successfully, you can view the transformation tables in the **Bronze** tab under **Lakehouse > Databases**. 

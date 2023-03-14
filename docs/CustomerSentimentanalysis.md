@@ -82,9 +82,11 @@ For example, if you select the "Filter (Parent)" as "State", the filter will app
 3. Select a **Column** from the drop-down list that relates to the selected relationship. This refers to the column or attribute within the data set that is associated with the selected relationship. For example, if you select a relationship between a review and a customer, you can choose the email address column of the customer.
 4. If necessary, you can add **Filter (Child)** and the required details. It refers to a secondary filter that you can apply to further refine the data set based on specific criteria. 
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
+:::note
 >
 > You can configure the filter parameters in their sentiment analysis model to suit their specific data set, resulting in a more customized and effective analysis. The ability to add filter parameters and view them on the view page enhances the user's ability to extract insights from the data quickly and efficiently.
+
+:::
 
 5. Select the **Topic modeling** checkbox to identify key topics in reviews.
 6. If a relationship is present, select the checkbox, and then enter the **Relationship** **name**, **Field**, and **Matching field**.
@@ -120,9 +122,12 @@ Follow the below steps to set the data update schedule:
 |Import your data automatically every three months|Select **Quarterly**.|
 |Choose not to import your data automatically|Select **Never**.|  
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
+:::note
+
 >
 > Although there is an option of choosing not to schedule your data imports, you are still not recommended to select that option. That is because adding more data would provide your model with more behavioral patterns that would fuel predictions, and improve the accuracy of your results significantly.
+
+:::
 
 2. Click **Save & Proceed**.
 

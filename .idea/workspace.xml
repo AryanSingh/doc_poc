@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomerSentimentanalysis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exports.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/v4.3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v4.3.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +26,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a/source/repos/tenant_app&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/a/source/repos/documentation_aryan/docs",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a\source\repos\documentation_aryan\static\doc_snippets" />
@@ -75,7 +79,7 @@
       <workItem from="1677819711960" duration="11138000" />
       <workItem from="1677914597053" duration="4868000" />
       <workItem from="1678360826796" duration="22412000" />
-      <workItem from="1678549353743" duration="25918000" />
+      <workItem from="1678549353743" duration="33809000" />
     </task>
     <servers />
   </component>

@@ -44,9 +44,12 @@ The Setup window appears.
 
 3. Enter **Name** and **Display name**.
 
-> ![image](/doc_snippets/Note_icon.png)**NOTE**
+:::note
+
 >
 > Name start with a letter. Use letters and numbers only.
+
+:::
 
 4. Enter the credentials of the storage service for validation. If you have already created an export connection and you want to copy the credentials, then choose **Select from existing**.
 5. Click **Next**.
@@ -59,10 +62,12 @@ The Setup window appears.
 
 6. Select the tables that you want to export and click **Next**.
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
+:::note
+
 > 
 > You can export the Audiences created from Prediction models. This allows for having targeted audience with high value to the Organization or customers about to churn.
 
+:::
 ---
 
 
@@ -74,31 +79,31 @@ The Setup window appears.
 
 7. Select the attributes that you want to export and click **Create**.
 
-
 <br/>
 
 
-> [!Tip]  
+:::tip 
 
-> The Export setup consists of three steps, and you need to perform them in the following order:
+ The Export setup consists of three steps, and you need to perform them in the following order:
 
-> 1. Configure with the storage service.
+ 1. Configure with the storage service.
 
-> 1. Select the tables.
+ 1. Select the tables.
 
-> 1. Select the attributes.  
-
-> 
-
-> The above images are shown the SFTP set up to connect and export data from the SkyPoint platform. If you have already created an SFTP connection, then click **Select from exiting** to enter your credentials. However, for a new SFTP connection, enter SFTP credentials such as **Host**, **Port, Host Key Fingerprint, Username**, **Password**, and **Storage Path**. Similarly, based on the storage service (file-based or API-based), you need to enter the credentials to build the configuration. Then, select the tables and attributes to export data from the SkyPoint platform.
+1. Select the attributes.  
 
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
 
->
+ The above images are shown the SFTP set up to connect and export data from the SkyPoint platform. If you have already created an SFTP connection, then click **Select from exiting** to enter your credentials. However, for a new SFTP connection, enter SFTP credentials such as **Host**, **Port, Host Key Fingerprint, Username**, **Password**, and **Storage Path**. Similarly, based on the storage service (file-based or API-based), you need to enter the credentials to build the configuration. Then, select the tables and attributes to export data from the SkyPoint platform.
 
-> If you configure it with API-based connector, click **Save** after entering the valid API key. The system would not allow proceeding without providing the API key.
+:::
 
+
+:::note
+
+If you configure it with API-based connector, click **Save** after entering the valid API key. The system would not allow proceeding without providing the API key.
+
+:::
 
 ## Run, Cancel Run, and Remove the exported data
 
