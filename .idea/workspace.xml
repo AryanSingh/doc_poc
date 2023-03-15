@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/partials/_awscognito_tab1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/partials/_awscognito_tab2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/awscognito.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/awscognito.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/DocSidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/DocSidebar/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +81,7 @@
       <workItem from="1677819711960" duration="11138000" />
       <workItem from="1677914597053" duration="4868000" />
       <workItem from="1678360826796" duration="22412000" />
-      <workItem from="1678549353743" duration="35927000" />
+      <workItem from="1678549353743" duration="42374000" />
     </task>
     <servers />
   </component>
