@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  plugins: ['remark-docusaurus-tabs'],
+  plugins: [require.resolve('docusaurus-lunr-search')],
   favicon: '/doc_snippets/Skypoint-logo-large.png',
 
   // GitHub pages deployment config.

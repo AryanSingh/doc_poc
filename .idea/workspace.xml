@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/azuredatalakestoragegen2.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_azuredatalakestoragegen2_tab1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_azuredatalakestoragegen2_tab2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_googlecloudstorage_tab1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_googlecloudstorage_tab2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_inforhmsimportconnector_tab1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_inforhmsimportconnector_tab2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/InforHMSimportconnector.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/InforHMSimportconnector.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/azuredatalakestoragegen2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/googlecloudstorage.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/googlecloudstorage.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/a/source/repos/documentation_aryan/docs",
+    "last_opened_file_path": "C:/Users/a/source/repos/tenant_app",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "C:\\Users\\a\\source\\repos\\documentation_aryan\\node_modules\\typescript\\lib",
@@ -85,6 +78,7 @@
       <workItem from="1677914597053" duration="4868000" />
       <workItem from="1678360826796" duration="22412000" />
       <workItem from="1678549353743" duration="44585000" />
+      <workItem from="1678859627575" duration="886000" />
     </task>
     <servers />
   </component>
