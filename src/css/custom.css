@@ -28,6 +28,14 @@
   --ifm-navbar-search-input-color:#000 !important;
 
 }
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    padding-left: 0 !important;
+    margin-left: 10px;
+    padding-right: calc(50% - 884px);
+  }
+}
 .navbar-sidebar{
   background-color: #fff!important;
 }
@@ -52,7 +60,10 @@
 /*.navbar__link--active {*/
 /*  font-size: 24px !important;*/
 /*}*/
-
+.navbar-sidebar__back {
+  color: #000;
+  font-weight: 600
+}
 .menu__link--sublist-caret:before {
   content: '';
   /*margin-left: auto;*/
