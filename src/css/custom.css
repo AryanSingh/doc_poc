@@ -28,6 +28,9 @@
   --ifm-navbar-search-input-color:#000 !important;
 
 }
+.navbar__search-input{
+  background: #fff;
+}
 
 @media only screen and (min-width: 1800px) {
   .container {
