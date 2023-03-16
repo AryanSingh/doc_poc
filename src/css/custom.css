@@ -50,7 +50,7 @@
 }
 .navbar__search-input{
   background: #fff var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
-  width: 300px;
+  /*width: 300px;*/
   color: #000 !important;
 }
 .navbar__search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
