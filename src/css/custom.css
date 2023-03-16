@@ -28,6 +28,9 @@
   --ifm-navbar-search-input-color:#000 !important;
 
 }
+.navbar-sidebar{
+  background-color: #fff!important;
+}
 .menu__link, .menu__link--sublist, .menu__link--sublist-caret{
   color: #000!important;
 }
@@ -56,7 +59,7 @@
   margin-right: 5px;
   min-width: 1.25rem;
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.2rem 1.2rem;
-  filter: var(--ifm-menu-link-sublist-icon-filter);
+  /*filter: var(--ifm-menu-link-sublist-icon-filter);*/
   height: 1.25rem;
   transform: rotate(180deg);
   width: 1.25rem;
