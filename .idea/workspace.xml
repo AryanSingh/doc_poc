@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f7e712-4b4b-4c94-bf72-bc2d8ba43fae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/partials/_7.0.0_tab1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_7.0.0_tab2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/partials/_7.0.0_tab3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/v7.0.0.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Transformations-dbtCore.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/v7.0.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,7 @@
       <workItem from="1678549353743" duration="44585000" />
       <workItem from="1678859627575" duration="20177000" />
       <workItem from="1679032864084" duration="2753000" />
-      <workItem from="1679065784960" duration="521000" />
+      <workItem from="1679065784960" duration="1011000" />
     </task>
     <servers />
   </component>
