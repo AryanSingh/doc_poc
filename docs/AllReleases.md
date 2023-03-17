@@ -8,7 +8,7 @@ These release versions contain an overview of the new features, improvements, an
 
 |Version|<div style={{width:"150px"}}>Release date</div>|Description|
 | :- | :- | :- |
-|[7.0.0](v7.0.0.md)|22-FEB-2023|<ul><li> Added SkyPointGPT.</li> <li> Domain selection in instance.</li> <li> Allow the same priority for multiple attributes in ML match.</li> <li> Added exceptions in the ML match.</li></ul>|
+|[7.0.0](v7.0.0.mdx)|22-FEB-2023|<ul><li> Added SkyPointGPT.</li> <li> Domain selection in instance.</li> <li> Allow the same priority for multiple attributes in ML match.</li> <li> Added exceptions in the ML match.</li></ul>|
 |[6.3.0](v6.3.0.md)|01-FEB-2023|<ul><li> Added Snowflake DLT integration.</li> <li> Added Type in master data.</li> <li> Autosuggestion in a SQL editor for Audience creation.</li></ul>|
 |[6.2.1](v6.2.1.md)|18-JAN-2023|<ul><li> Data is available to the user for newly ingested tables or inherited tables.</li> <li> Deletion of the instance/tenant will delete respective storage, Cosmos, Unity Catalog/Schema/Tables, and SQL warehouse.</li></ul> |
 |[6.2.0](v6.2.0.md)|11-JAN-2023|<ul><li> Create audience from the prediction models.</li> <li> Added topic modeling and filter on sentiment model view page.</li> <li> View multiple master profiles. </li></ul>|
