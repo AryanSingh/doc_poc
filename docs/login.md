@@ -4,9 +4,11 @@
 
 A SkyPoint account gives you access to SkyPoint products and solutions with just one login. You can sign in to SkyPoint Studio using your credentials. SkyPoint account is appliable per tenant and includes multiple capabilities that let you manage everything all in one place.
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
->
-> If you are a new user and having issues regarding Signing up or Signing in, contact the [SkyPoint support team](https://skypointcloud.com/customer-support/). A SkyPoint representative will help you meet any special requirements and ensure you log in for the most efficient and cost-effective solutions.
+:::note
+
+If you are a new user and having issues regarding Signing up or Signing in, contact the [SkyPoint support team](https://skypointcloud.com/customer-support/). A SkyPoint representative will help you meet any special requirements and ensure you log in for the most efficient and cost-effective solutions.
+
+:::
 
 ## To Sign in to your SkyPoint account 
 
@@ -27,10 +29,11 @@ A SkyPoint account gives you access to SkyPoint products and solutions with just
 |Log in with a Microsoft account|Click **Sign In with Microsoft**.|
 |Log in with a Google account|Click **Sign In with Google**.|
 
-> ![image](/doc_snippets/Note_icon.png)**Note**
-> 
-> Based on your authentication process, the credentials will be verified from SkyPoint secured data resources.  
+:::note
 
+Based on your authentication process, the credentials will be verified from SkyPoint secured data resources.  
+
+:::
 ---
 
 ![image](/doc_snippets/CreateTenant.png)  
