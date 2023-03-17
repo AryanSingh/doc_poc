@@ -13,8 +13,8 @@ Once you have defined your models, you can use the transformations in SkyPoint S
 
 :::note
 
-> 
-> If you don’t have an existing repository, SkyPoint will create a repository for you in Azure DevOps.
+
+If you don’t have an existing repository, SkyPoint will create a repository for you in Azure DevOps.
 
 :::
 
@@ -83,9 +83,7 @@ from source_data
 
 :::note
 
-
-> 
-> The repository location you specify should contain a model's directory from where dbt will look for your models by default. Once you have specified the location of your repository, you can create and maintain your dbt models within it. When you run transformations from SkyPoint Studio, it will use the models in your repository to build your data model.
+The repository location you specify should contain a model's directory from where dbt will look for your models by default. Once you have specified the location of your repository, you can create and maintain your dbt models within it. When you run transformations from SkyPoint Studio, it will use the models in your repository to build your data model.
 
 :::
 
@@ -109,7 +107,7 @@ The **Connection tests** pop-up appears.
 
 :::note
 
-> Disabling a dbt model does not delete it from the system. It controls whether the record is available for use in transformations. You can always re-enable a disabled dbt model if needed. 
+Disabling a dbt model does not delete it from the system. It controls whether the record is available for use in transformations. You can always re-enable a disabled dbt model if needed. 
 
 :::
   
