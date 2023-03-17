@@ -67,7 +67,7 @@ const config = {
         style: "dark",
         logo: {
           alt: 'Site Logo',
-          src: "/doc_snippets/Skypoint-logo.png",
+          src: "/doc_snippets/new_log.png",
           href: '/',
           target: '_self',
           style: {height: "51px", width : "51px", position: "relative", marginTop: "-10px"},
