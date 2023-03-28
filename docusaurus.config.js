@@ -38,7 +38,7 @@ const config = {
       'classic',
       ({
         docs: {
-          // routeBasePath: "/",
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
           // beforeDefaultRemarkPlugins: [readingTime],

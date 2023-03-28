@@ -82,8 +82,15 @@
 /*  font-size: 24px !important;*/
 /*}*/
 .navbar-sidebar__back {
-  color: #000;
-  font-weight: 600
+  display: none;
+}
+.footer__copyright{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pagination-nav{
+  grid-gap: 10rem;
 }
 .menu__link--sublist-caret:before {
   content: '';
@@ -493,6 +500,7 @@ pre {
 .theme-doc-sidebar-item-link > .menu__link{
   padding-left: 35px;
 }
+
 .menu{
   font-weight: normal;
 }
