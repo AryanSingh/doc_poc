@@ -499,6 +499,9 @@ pre {
 .menu__link--active{
   font-weight: 600;
 }
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
 
 @media only screen and (max-width: 768px) {
   .article.grid-right {
